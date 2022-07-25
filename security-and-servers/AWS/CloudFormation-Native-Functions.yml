@@ -1,0 +1,21 @@
+# Predefined Functions in CloudFormation and how it works 
+
+# Fn::GetAZs: This function returns an array that lists Availability Zones for a specified region in alphabetical order. 
+# For example, we learned the following code in the last lesson where we are fetching the list of AZs.
+# PublicSubnet1:
+# Example following: 
+
+     Type: AWS::EC2::Subnet
+     Properties:
+         VpcId: !Ref VPC
+         AvailabilityZone: !Select [ 0, !GetAZs '' ]
+         CidrBlock: !Ref PublicSubnet1CIDR
+         MapPublicIpOnLaunch: true
+         Tags: 
+             - Key: Name 
+               Value: !Sub ${EnvironmentName} Public Subnet (AZ1)
+               
+# Another is Function "!Sub"
+# Fn::Sub: This function substitutes value to a property at runtime. 
+# You can use this function as !Sub "$Value". 
+# For example, the !Sub "${EnvironmentName}-VPCID" will substitute the value of EnvironmentName parameter during runtime.
