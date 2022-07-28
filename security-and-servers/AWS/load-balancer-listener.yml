@@ -1,0 +1,11 @@
+Listener:
+    Type: AWS::ElasticLoadBalancingV2::Listener
+    Properties:
+      DefaultActions:
+      - Type: forward
+        TargetGroupArn:
+          Ref: WebAppTargetGroup
+      LoadBalancerArn:
+        Ref: WebAppLB
+      Port: '80'
+      Protocol: HTTP
