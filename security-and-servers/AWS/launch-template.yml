@@ -1,3 +1,5 @@
+# Either a launch config or a launch template is needed to set up auto-scaling
+
 myWebAppLaunchTemplate:
  Type: AWS::EC2::LaunchTemplate
  Properties: 
