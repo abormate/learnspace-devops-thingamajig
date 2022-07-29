@@ -1,3 +1,6 @@
+# Health checks are done a certain number of times if a server response "200" is received another health check is done and if again the same response is received
+# then the server is declared healthy. Otherwise, after 4 more times that another server code is received, then the server is declared unhealthy. 
+
 WebAppTargetGroup:
     Type: AWS::ElasticLoadBalancingV2::TargetGroup
     Properties:
