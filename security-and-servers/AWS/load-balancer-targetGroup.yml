@@ -1,4 +1,6 @@
-  WebAppTargetGroup:
+# Don't forget to add a target group for the load balancer 
+
+WebAppTargetGroup:
     Type: AWS::ElasticLoadBalancingV2::TargetGroup
     Properties:
       HealthCheckIntervalSeconds: 10
