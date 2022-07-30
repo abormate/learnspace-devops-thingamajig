@@ -1,3 +1,5 @@
+# For AWS Cloud Formation Autoscaling group creation
+
 WebAppGroup:
     Type: AWS::AutoScaling::AutoScalingGroup
     Properties:
