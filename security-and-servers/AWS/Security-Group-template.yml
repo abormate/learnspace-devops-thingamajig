@@ -1,3 +1,5 @@
+# Security group creation template for AWS Cloud Formation 
+
 Type: AWS::EC2::SecurityGroup
 Properties: 
 GroupDescription: String
