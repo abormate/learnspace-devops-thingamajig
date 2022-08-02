@@ -3,6 +3,7 @@ Description: >
 
 # Output URL: http://http://proje-webap-12tu6zpmou27u-437653526.us-east-1.elb.amazonaws.com/
 # Couldn't find Udagram app files anywhere. So I had just attempted to install an apache server. 
+# Server provisioning IaC codes for Amazon CloudFormation for DevOps project 
 
 Parameters:
   EnvironmentName:
