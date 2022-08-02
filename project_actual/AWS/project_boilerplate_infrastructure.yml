@@ -3,6 +3,10 @@ Parameters:
   # but using them will make your cloudformation templates more reusable
   # use them for things that may change over time, such as instance type,
   # VPCs and so on.
+  
+  # Infrastructure-network provision for DevOps servers through CloudFormation IaC
+  
+  
     EnvironmentName:
         Description: An environment name that will be prefixed to resource names
         Type: String
