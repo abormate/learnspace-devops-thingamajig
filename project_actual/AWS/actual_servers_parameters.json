@@ -1,3 +1,5 @@
+# Server parameters for CloudFormation
+
 [
 	{
 		"ParameterKey": "EnvironmentName",
