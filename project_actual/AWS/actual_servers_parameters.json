@@ -1,4 +1,5 @@
 # Server parameters for CloudFormation
+# Parameter scope for actual servers from IaC code
 
 [
 	{
