@@ -1,3 +1,6 @@
+# A listener is required for spinning up a Load Balancer cluster
+# Following code is sample for CloudFormation
+
 Listener:
     Type: AWS::ElasticLoadBalancingV2::Listener
     Properties:
