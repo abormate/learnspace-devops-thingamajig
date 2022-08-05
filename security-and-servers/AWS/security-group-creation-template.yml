@@ -1,3 +1,5 @@
+# Overview sample of Security Group (localized WAF) creation with CloudFormation
+
 WebServerSecGroup:
  Type: AWS::EC2::SecurityGroup
  Properties:
