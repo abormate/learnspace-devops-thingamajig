@@ -1,3 +1,5 @@
+#Sample config for CloudFormation Launch Config for autoscaling
+
 Resources:
   WebAppLaunchConfig:
     Type: AWS::AutoScaling::LaunchConfiguration
