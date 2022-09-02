@@ -1,0 +1,17 @@
+version: 2.1
+
+jobs:
+  return-error:
+    docker: 
+      - image: circleci/node:13.8.0
+    steps:
+      - run: return 1
+      - run:
+          name: Fail Message
+          command: echo "Test Fail Error Message!"
+          when: on_fail
+         
+workflows:
+  build-output:
+    jobs:
+      - return-error
