@@ -9,5 +9,6 @@
 
       - name: "find module"
         find:
-          path: ~/Users/abraham-bormate/documents/DevOps/ansible
+          path: ~/Users/a/documents/DevOps/ansible
           file_type: file
+
