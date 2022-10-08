@@ -11,4 +11,6 @@
         find:
           path: ~/Users/a/documents/DevOps/ansible
           file_type: file
+          
+ # YAML playbook for Ansible that has 2 tasks -- initially, Ansible is instructed to test reachability by pinging the localhost and then secondly it finds 2 files inside a folder
 
