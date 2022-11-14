@@ -4,7 +4,7 @@ resource "aws_dynamodb_table" "project_sapphire_user_data" {
   hash_key       = "UserId"
 
   attribute {
-    name = "Name"
-    type = "S"
+    name = "UserId"
+    type = "N"
   }
 }
