@@ -5,6 +5,6 @@ provider "aws" {
   skip_requesting_account_id  = true
 
   endpoints {
-    dynamodb                       = "http://aws:4566"
+    dynamodb                       = "http://aws:4507"
   }
 }
