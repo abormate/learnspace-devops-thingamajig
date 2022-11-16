@@ -10,8 +10,13 @@ public class MyClass {
 }
 
 
-// compile build stage
+// compile build stage (outside source code) -- we can compile from the terminal space
 javac MyClass.java
+
+// compilation finishes outputting another file, executable as "MyClass.class"
 
 // documentation generation
 javadoc -d doc MyClass.java
+
+// finally run executable with java JRE -- notice we didn't include the file extension for the run 
+java MyClass
