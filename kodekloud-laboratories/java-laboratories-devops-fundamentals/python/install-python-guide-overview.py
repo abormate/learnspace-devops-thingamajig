@@ -31,3 +31,10 @@ pip install flask --upgrade
 
 // to uninstall, do the following
 pip uninstall flask
+
+// app.egg or eggs in Python are much like Java jar files. download an egg file and then install with python (for example, app.egg) you don't need to unpack an egg file
+easy_install install app 
+                                                                                                              
+// wheels are like eggs, but they must be unpacked first before installing (for example for app.whl)
+pip install app.whl 
+
