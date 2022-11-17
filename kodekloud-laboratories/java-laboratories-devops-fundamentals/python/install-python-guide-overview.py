@@ -11,3 +11,5 @@ yum install python3 -y
 // to show where something installed by pip was installed -- for this example, for flask
 pip show flask
 
+// if you need to trouble where something was installed you can run -- these are the paths where python would look for packages
+python2 -c "import sys; print(sys.path)"
