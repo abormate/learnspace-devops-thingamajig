@@ -9,3 +9,6 @@ npm install file -g
 
 // to look at what paths node will look at when searching for an npm dependency
 node -e "console.log(module.paths)"
+
+// built-in modules or packages for nodejs -- look for
+ls /usr/lib/node_modules/npm/node_modules/
