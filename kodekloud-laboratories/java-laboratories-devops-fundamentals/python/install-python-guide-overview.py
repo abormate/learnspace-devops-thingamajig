@@ -23,5 +23,11 @@ Werkzeug==0.9.6
 requests==2.3.0
 gunicorn==18.0
 
-// and then you can install the above mentioned set of dependencies with pip as a batch install
+// chain02 -- and then you can install the above mentioned set of dependencies with pip as a batch install
 pip3 install -r requirements.txt
+
+// if you need to uninstall to upgrade an older version of a software package dependency you can with the following
+pip install flask --upgrade
+
+// to uninstall, do the following
+pip uninstall flask
