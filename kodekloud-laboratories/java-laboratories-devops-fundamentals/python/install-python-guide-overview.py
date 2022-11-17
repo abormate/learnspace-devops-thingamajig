@@ -13,3 +13,15 @@ pip show flask
 
 // if you need to trouble where something was installed you can run -- these are the paths where python would look for packages
 python2 -c "import sys; print(sys.path)"
+
+// chain01 -- if you need to install several dependencies with pip -- you can write the names of the software packages along with the versions needed in a text file
+// requirements.txt -- example
+Flask==0.10.1
+Jinja2==2.7.3
+MarkupSafe==0.23
+Werkzeug==0.9.6
+requests==2.3.0
+gunicorn==18.0
+
+// and then you can install the above mentioned set of dependencies with pip as a batch install
+pip3 install -r requirements.txt
