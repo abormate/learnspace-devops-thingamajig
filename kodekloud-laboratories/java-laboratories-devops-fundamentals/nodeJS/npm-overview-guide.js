@@ -12,3 +12,6 @@ node -e "console.log(module.paths)"
 
 // built-in modules or packages for nodejs -- look for
 ls /usr/lib/node_modules/npm/node_modules/
+  
+// how to look for external modules or packages on nodejs
+ls /usr/lib/node_modules/
