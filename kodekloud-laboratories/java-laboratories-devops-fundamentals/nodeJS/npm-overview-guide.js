@@ -15,3 +15,5 @@ ls /usr/lib/node_modules/npm/node_modules/
   
 // how to look for external modules or packages on nodejs
 ls /usr/lib/node_modules/
+
+  // the file called package.json that is included with an npm install, inside its npm directory which could be inside the pwd when you installed the package hosts the important meta data for that package -- such as author name, author email address, main git repo for the npm, guides, dependency versions and what other packages that particular npm needs
