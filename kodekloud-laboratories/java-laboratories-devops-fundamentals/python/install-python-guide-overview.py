@@ -5,3 +5,9 @@ yum install python3 -y
 
 // you can install python2 and python 3 simultaneously on a system
 
+// pip package managers for python install dependencies for python apps/systems. However, for python2 -- a specific pip version exists called "pip2". 
+// For python3, pip version 3 exists called "pip3". pip2 and pip3 do not intermix, and install their dependencies on different folders.
+
+// to show where something installed by pip was installed -- for this example, for flask
+pip show flask
+
