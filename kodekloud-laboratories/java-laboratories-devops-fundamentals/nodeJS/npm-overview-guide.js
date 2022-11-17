@@ -1,3 +1,6 @@
+// to look for what file npm from the public node repo
+npm search file
+
 // to install an NPM file or package 
 npm install file
 
