@@ -5,4 +5,5 @@ git clone <url of remote repo like on github>
 git pull
 
 # command to push changes you've made from local repo and into a remote repo where code is centralized
-git push
+git push <name of repo> <branch name>
+
