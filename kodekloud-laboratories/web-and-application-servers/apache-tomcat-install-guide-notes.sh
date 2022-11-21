@@ -7,3 +7,5 @@ service httpd start
 # After starting service, verify status of httpd service
 service httpd status
 
+# if firewall is present, add rule to allow httpd traffic
+firewall-cmd --permanent --add-service=httpd
