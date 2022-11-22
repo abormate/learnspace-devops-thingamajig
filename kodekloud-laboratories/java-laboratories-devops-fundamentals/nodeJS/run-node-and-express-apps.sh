@@ -15,3 +15,10 @@ npm run start:production
 
 # to install latest pm2 or "process manager 2" with npm
 sudo npm install pm2@latest -g
+
+# start pm2
+pm2 start app.js
+
+#stop pm2 running and run with 4 instances of app
+# Run
+pm2 delete app.js ; pm2 start app.js -i 4
