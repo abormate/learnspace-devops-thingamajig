@@ -8,4 +8,10 @@ node sample_app.js
 npm run start
 
 # the "start" at the bash command above this line, is a fragment of the package.json file inside the app directory that initilizes a specific number of other scripts to run
+# other example found below
 
+npm run start:dev
+npm run start:production
+
+# to install latest pm2 with npm
+sudo npm install pm2@latest -g
