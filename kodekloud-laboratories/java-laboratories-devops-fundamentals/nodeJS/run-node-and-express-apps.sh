@@ -13,5 +13,5 @@ npm run start
 npm run start:dev
 npm run start:production
 
-# to install latest pm2 with npm
+# to install latest pm2 or "process manager 2" with npm
 sudo npm install pm2@latest -g
