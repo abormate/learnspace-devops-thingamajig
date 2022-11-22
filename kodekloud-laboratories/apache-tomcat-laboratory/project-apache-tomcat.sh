@@ -12,3 +12,5 @@ cd /opt/
 # step 2 -- change port 8080 listening instead to port 9090 in config file for tomcat
 sudo sed -i 's/8080/9090/g' apache-tomcat-8.5.53/conf/server.xml 
 
+# step 3 -- run tomcat with startup sh
+sudo ./apache-tomcat-8.5.53/bin/startup.sh
