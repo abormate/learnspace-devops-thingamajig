@@ -16,4 +16,7 @@ cat /var/log/mongodb/mongod.log
 
 # default listening port and IP addr for Mongo DB community edition (freeware)
 # default port = 27017
-# default listening on = 127.0.0.1 (loopback localhost)
+# default listening on = 127.0.0.1 (loopback localhost -- defaults on listening to just the self-host system for the community edition, not for prod)
+
+# config file for mongo db
+/etc/mongod.conf
