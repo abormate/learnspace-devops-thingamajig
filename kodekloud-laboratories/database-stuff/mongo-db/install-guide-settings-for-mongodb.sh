@@ -20,3 +20,5 @@ cat /var/log/mongodb/mongod.log
 
 # config file for mongo db
 /etc/mongod.conf
+
+
