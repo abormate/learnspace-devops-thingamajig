@@ -29,3 +29,24 @@ sudo openssl req -new -newkey rsa:2048 -nodes -keyout app01.key -out app01.csr
 
 # step 3 -- verify entries to create CSR
 open ssl req -noout -text -in app01.csr
+
+# step 4 -- once we have a CSR - we'll need to send it a CA -- or we can create our own self-signed certificate ------------------
+: '
+On app01 create a self signed certificate /etc/httpd/certs/app01.crt (key name should app01.key)
+'
+# go to certs directory
+cd /etc/httpd/certs
+
+# step 5
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout app01.key -out app01.crt
+
+# optional --- test if server is using correct certificate
+echo | openssl s_client -showcerts -servername app01.com -connect app01:443 2>/dev/null | openssl x509 -inform pem
+
+# configure apache to use proper certificate
+: '
+Modify the settings in the file /etc/httpd/conf.d/ssl.conf to point to the self signed cert and key you created. 
+Then restart httpd service using the command sudo service httpd restart.
+'
+
+
