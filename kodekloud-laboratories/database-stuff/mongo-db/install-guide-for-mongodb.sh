@@ -10,3 +10,10 @@ systemctl start mongod
 
 #check status to make sure it's running 
 systemctl status mongod
+
+# logs for monitoring system
+cat /var/log/mongodb/mongod.log
+
+# default listening port and IP addr for Mongo DB community edition (freeware)
+# default port = 27017
+# default listening on = 127.0.0.1 (loopback localhost)
