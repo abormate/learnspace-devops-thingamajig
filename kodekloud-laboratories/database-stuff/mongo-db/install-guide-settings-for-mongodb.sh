@@ -3,7 +3,8 @@
 
 yum install mongodb-org -y
 
-# documentation for Mongo DB -- https://docs.mongodb.com/manual/tutorial/install-mongodb-on-red-hat/
+# documentation for Mongo DB --> https://docs.mongodb.com/manual/tutorial/install-mongodb-on-red-hat/
+# installation guide for CentOS7 --> https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-centos-7
 
 # start mongo-db service
 systemctl start mongod
