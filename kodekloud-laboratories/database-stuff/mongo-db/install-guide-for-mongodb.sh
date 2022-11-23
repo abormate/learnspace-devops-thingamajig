@@ -3,4 +3,10 @@
 
 yum install mongodb-org -y
 
+# documentation for Mongo DB -- https://docs.mongodb.com/manual/tutorial/install-mongodb-on-red-hat/
 
+# start mongo-db service
+systemctl start mongod
+
+#check status to make sure it's running 
+systemctl status mongod
