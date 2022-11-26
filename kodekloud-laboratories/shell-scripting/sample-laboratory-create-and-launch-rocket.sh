@@ -9,3 +9,6 @@ rocket status lunar-mission
 
 # don't forget to modify the file permissions for this to become executable when run
 # chmod +x
+
+# if not yet exported on $PATH, run the following in order to run the executable script
+bash create-and-launch-rocket
