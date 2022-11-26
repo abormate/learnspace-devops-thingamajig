@@ -58,7 +58,25 @@ What's the status of your launch?
 rocket-status lunar-mission
 
 :' step 10
+Great job! You have successfully completed your first mission. Want to go again? Why not launch another rocket - this time to mars? Follow the same steps as before to launch a mars-mission. Below are the commands for your convenience.
 
+First create a directory mars-mission.
+
+Then run the below commands. Remember to provide the mission name on each command.
+
+rocket-add
+
+rocket-start-power
+
+rocket-internal-power
+
+rocket-start-sequence
+
+rocket-start-engine
+
+rocket-lift-off
+
+rocket-status
 '
 
 
