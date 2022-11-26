@@ -8,6 +8,17 @@ create-and-launch-rocket
 echo $PATH
 
 # echo command above, outputs the PATH directories 
-# which could look like this as an output --> /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+# which could look like this as an output --> /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin 
+# --> this is the paths defined for variable "$PATH" for this Linux instance
 
+# export the new shell script's path/directory to $PATH
+export PATH=$PATH:/home/username-linux
+
+# when you run the shell script again as a command, it now then works fine
+create-and-launch-rocket
+
+# to find the path/directory of the shell script, if it's already defined in the $PATH
+which create-and-launch-rocket
+
+# above which command --> outputs --> /home/username-linux/create-and-launch-rocket 
 
