@@ -22,3 +22,6 @@ which create-and-launch-rocket
 
 # above which command --> outputs --> /home/username-linux/create-and-launch-rocket 
 
+# final reminders -- if shell script doesn't run, check the permissions if it's executable -- if not modify it's permissions with "chmod" 
+# additionally, if you do plan to make a shell script executable, then when you name the file, leave out the "*.sh" file extension.
+# and if you do not plan to make it an executable, then include the "*.sh" file extension
