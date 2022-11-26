@@ -1,10 +1,12 @@
-:'
+# Rocket (customized Linux commands) -- launch sequence and checklist
+ 
+:' step 1
 Rocket commands have been configured on your system. Let's test it out. Run the rocket-ls command to list all rockets.
 '
 
 rocket-ls
 
-:'
+:' step 2
 Let's create a new directory for our new mission. Every mission requires a new directory created by the mission name. Create a new directory at /home/bob named lunar-mission.
 Note that all future rocket commands must be run from the parent directory of this mission directory. That is /home/bob in your case
 '
@@ -22,4 +24,11 @@ Next step is to start auxiliary power. Run the rocket-start-power lunar-mission 
 '
 
 rocket-start-power lunar-mission
+
+:'
+Great job! Next step is to switch to internal power. Run the rocket-internal-power lunar-mission command
+'
+
+rocket-internal-power lunar-mission
+
 
