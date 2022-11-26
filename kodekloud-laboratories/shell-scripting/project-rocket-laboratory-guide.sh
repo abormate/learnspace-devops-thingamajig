@@ -10,3 +10,10 @@ Note that all future rocket commands must be run from the parent directory of th
 '
 
 mkdir lunar-mission
+
+:'
+Now let's create a rocket. Make sure your current working directory is at /home/bob and run the rocket-add lunar-mission command.
+'
+
+rocket-add lunar-mission
+
