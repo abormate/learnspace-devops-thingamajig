@@ -13,22 +13,44 @@ Note that all future rocket commands must be run from the parent directory of th
 
 mkdir lunar-mission
 
-:'
+:' step 3
 Now let's create a rocket. Make sure your current working directory is at /home/bob and run the rocket-add lunar-mission command.
 '
 
 rocket-add lunar-mission
 
-:'
+:' step 4
 Next step is to start auxiliary power. Run the rocket-start-power lunar-mission command
 '
 
 rocket-start-power lunar-mission
 
-:'
+:' step 5
 Great job! Next step is to switch to internal power. Run the rocket-internal-power lunar-mission command
 '
 
 rocket-internal-power lunar-mission
 
+:' step 6
+Awesome! Next step is to initiate auto sequence. Run the rocket-start-sequence lunar-mission command.
+'
+
+rocket-start-sequence lunar-mission
+
+:' step 7
+Perfect! Just 2 more steps. Next, start the main engine. Run the rocket-start-engine lunar-mission command.
+'
+
+rocket-start-engine lunar-mission
+
+:' step 8
+Finally! Let's now initiate Lift off!!! Run the rocket-lift-off lunar-mission command.
+Once done, wait for the status to be success. Give it a few seconds.
+'
+
+rocket-lift-off lunar-mission
+
+:' step 9
+
+'
 
