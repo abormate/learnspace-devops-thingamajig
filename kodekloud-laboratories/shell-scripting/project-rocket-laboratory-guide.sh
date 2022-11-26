@@ -17,3 +17,9 @@ Now let's create a rocket. Make sure your current working directory is at /home/
 
 rocket-add lunar-mission
 
+:'
+Next step is to start auxiliary power. Run the rocket-start-power lunar-mission command
+'
+
+rocket-start-power lunar-mission
+
