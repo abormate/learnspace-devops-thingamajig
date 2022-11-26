@@ -51,6 +51,16 @@ Once done, wait for the status to be success. Give it a few seconds.
 rocket-lift-off lunar-mission
 
 :' step 9
+Let's check the status of the launch. Run the rocket-status lunar-mission command to check the status of the launch.
+What's the status of your launch?
+'
+
+rocket-status lunar-mission
+
+:' step 10
 
 '
+
+
+
 
