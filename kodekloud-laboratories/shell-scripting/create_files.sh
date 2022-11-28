@@ -1,6 +1,6 @@
-FILE01="Japan"
-FILE02="Egypt"
-FILEO3="Canada"
+FILE01=Japan
+FILE02=Egypt
+FILEO3=Canada
 
 cd /home/bob
 
