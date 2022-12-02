@@ -12,5 +12,34 @@ Once the Debian VM is up and running make the following changes to the /etc/apt/
 Comment the line starting deb cdrom
 Uncomment the bottom two lines starting deb and deb-src
 Add the below two lines:
+
 deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main
 deb http://ftp.de.debian.org/debian sid main
+
+Final file:
+
+#
+# deb cdrom:[Debian GNU/Linux 8.9.0 _Jessie_ - Official amd64 DVD Binary-1 20170723-11:49]/ jessie contrib main
+#deb cdrom:[Debian GNU/Linux 8.9.0 _Jessie_ - Official amd64 DVD Binary-1 20170723-11:49]/ jessie contrib main
+#deb http://deb/debian.org/debian jessie main
+#deb-src http://deb.debian.org/debian stretch main
+deb http://security.debian.org/ jessie/updates main contrib
+deb-src http://security.debian.org/ jessie/updates main contrib
+# jessie-updates, previously known as 'volatile'
+# A network mirror was not selected during install.  The following entries
+# are provided as examples, but you should amend them as appropriate
+# for your mirror of choice.
+#
+deb http://ftp.debian.org/debian/ jessie-updates main contrib
+deb-src http://ftp.debian.org/debian/ jessie-updates main contrib
+deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main
+deb http://ftp.de.debian.org/debian sid main
+Once file is updated, run apt-get update and then run apt-get install ansible
+
+Enabling SSH on the VM
+If you need SSH enabled on the system, follow the below steps:
+
+Ensure the /etc/apt/sources.list file has been updated as per above
+Run the command: apt-get update
+Run the command: apt-get install openssh-server
+Run the command: service sshd start
