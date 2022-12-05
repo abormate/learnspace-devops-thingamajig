@@ -6,3 +6,8 @@ name: apple
 color: red
 weight: 90g
 
+# A dictionary employee is given. Add the remaining properties to it using information from the table below.
+employee:
+    name: john
+    gender: male
+    age: 24
