@@ -11,3 +11,15 @@ employee:
     name: john
     gender: male
     age: 24
+    
+# Now try adding the address information. Note the address is a dictionary
+employee:
+    name: john
+    gender: male
+    age: 24
+    address:
+        city: edison
+        state: new jersey
+        country: united states
+        
+
