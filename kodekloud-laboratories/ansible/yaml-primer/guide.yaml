@@ -22,4 +22,9 @@ employee:
         state: new jersey
         country: united states
         
+# Given an list/array of apples. Add a new apple to the list to make it a total of 4.
+- apple
+- apple
+- apple
+- apple
 
