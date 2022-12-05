@@ -1,6 +1,8 @@
 property1: value1
 property2: value2
 
+# Given a dictionary with the property name and value apple. additional properties to the dictionary.
 name: apple
 color: red
 weight: 90g
+
