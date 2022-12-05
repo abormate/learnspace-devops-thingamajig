@@ -1,2 +1,6 @@
 property1: value1
 property2: value2
+
+name: apple
+color: red
+weight: 90g
