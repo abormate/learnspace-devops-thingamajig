@@ -37,4 +37,18 @@ employee:
 - mango
 - mango
 
-#
+# List of dictionaries -- We would like to add additional details for each item, such as color, weight etc. We have updated the first one for you. Similarly modify the remaining items to match the below data.
+-
+    name: apple
+    color: red
+    weight: 100g
+- 
+    name: apple
+    color: red
+    weight: 90g
+- 
+    name: mango
+    color: yellow
+    weight: 150g
+    
+# 
