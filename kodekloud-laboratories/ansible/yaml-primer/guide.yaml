@@ -66,5 +66,24 @@ employees:
         age: 28
  
  
- # 
+# List of Dictionary in Dictionary
+# Now try adding the pay information. Remember while address is a dictionary, payslips is an array of month and amount
+employee:
+    name: john
+    gender: male
+    age: 24
+    address:
+        city: edison
+        state: 'new jersey'
+        country: 'united states'
+    payslips:
+        -
+            month: june
+            amount: 1400
+        -
+            month: july
+            amount: 2400
+        -
+            month: august
+            amount: 3400
 
