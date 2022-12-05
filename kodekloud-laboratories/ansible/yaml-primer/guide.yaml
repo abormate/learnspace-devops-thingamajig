@@ -1,3 +1,5 @@
+# Reminder -- bear in mind, that lists or arrays are ordered (order matters to lists). Whereas, dictionaries are not ordered or unordered. 
+
 property1: value1
 property2: value2
 
