@@ -51,4 +51,13 @@ employee:
     color: yellow
     weight: 150g
     
-# 
+# List of Dictionary
+# We would like to record information about multiple employees. Convert the dictionary employee to an array employees.
+employees:
+    -
+        name: john
+        gender: male
+        age: 24
+ 
+ # 
+
