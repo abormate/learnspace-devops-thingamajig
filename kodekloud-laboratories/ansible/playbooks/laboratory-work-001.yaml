@@ -6,3 +6,14 @@
         -
             name: 'Execute a date command'
             command: date
+
+# Update task to display hosts file
+-
+    name: 'Execute a command to display hosts file on localhost'
+    hosts: localhost
+    tasks:
+        -
+            name: 'Execute a command to display hosts file'
+            command: cat /etc/hosts
+            
+            
