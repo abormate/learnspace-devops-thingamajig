@@ -5,3 +5,9 @@
 # -- Run a script
 # -- Install a package
 # -- Shutdown or restart
+
+# Execute Ansible playbook command
+ansible-playbook playbook.yaml
+
+# Find help with
+ansible-playbook --help
