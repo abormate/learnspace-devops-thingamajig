@@ -1,3 +1,7 @@
 # Playbook - a single YAML file
 # a Play - defines a set of activities or tasks to be run on target computers or servers
 # a Task is an action to be performed on a server or a host
+# -- Execute a command
+# -- Run a script
+# -- Install a package
+# -- Shutdown or restart
