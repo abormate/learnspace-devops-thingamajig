@@ -41,4 +41,13 @@
             command: 'cat /etc/hosts'
 
 # Refer to the attached inventory file. We would like to run the tasks defined in the play on all servers in boston.
-
+-
+    name: 'Execute two commands on web_node1'
+    hosts: web_node1, sql_db1
+    tasks:
+        -
+            name: 'Execute a date command'
+            command: date
+        -
+            name: 'Execute a command to display hosts file'
+            command: 'cat /etc/hosts'
