@@ -39,3 +39,6 @@
         -
             name: 'Execute a command to display hosts file'
             command: 'cat /etc/hosts'
+
+# Refer to the attached inventory file. We would like to run the tasks defined in the play on all servers in boston.
+
