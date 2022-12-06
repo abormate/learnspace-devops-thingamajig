@@ -1,6 +1,6 @@
 # Playbook - a single YAML file
 # a Play - defines a set of activities or tasks to be run on target computers or servers
-# a Task is an action to be performed on a server or a host
+# a Task is an action to be performed on a server or a host -- some examples are the following tasks for Ansible
 # -- Execute a command
 # -- Run a script
 # -- Install a package
