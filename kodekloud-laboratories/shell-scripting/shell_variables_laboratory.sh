@@ -48,3 +48,5 @@ touch $FILE02
 
 echo "Creating file called $FILE03"
 touch $FILE03
+
+# file had a non-numerical character
