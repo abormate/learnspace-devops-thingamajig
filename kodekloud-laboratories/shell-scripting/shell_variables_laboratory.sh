@@ -23,3 +23,28 @@ This script creates a backup of a file by creating a copy of the same file and a
 file_name="create-and-launch-rocket"
 
 cp $file_name ${file_name}_bkp
+
+
+# 3rd lab task
+:'
+Another script by the name create_files.sh is placed in your home directory at /home/bob.
+
+This script creates files by making use of variables. However, there is something wrong with the script, and not all the files have been created. Please fix it.
+'
+
+# actual script -- following lines
+
+FILE01="Japan"
+FILE02="Egypt"
+FILE03="Canada"
+
+cd /home/bob
+
+echo "Creating file called $FILE01"
+touch $FILE01
+
+echo "Creating file called $FILE02"
+touch $FILE02
+
+echo "Creating file called $FILE03"
+touch $FILE03
