@@ -9,3 +9,12 @@ rocket-start-power $mission_name
 rocket-internal-power $mission_name
 rocket-crew-ready $mission_name
 rocket-start-sequence $mission_name
+
+# you can also store program output values into a variable
+rocket_status $mission_name #outputs rocket status for a mission name
+
+# you can do this to assign a program output value into a variable
+rocket_status=$(rocket-status $mission_name)
+
+# and then print out the variable with a string to describe it
+echo "Status of launch: $rocket_status"
