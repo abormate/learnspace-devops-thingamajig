@@ -5,6 +5,7 @@ It must print the uptime of the system as expected. However it's not working'. P
 '
 
 up_time=$(uptime)
+
 echo "The uptime of the system is $up_time"
 
 # shell script above prints the Linux server uptime
@@ -14,3 +15,11 @@ echo "The uptime of the system is $up_time"
 Another script by the name backup-file.sh is placed in your home directory at /home/bob.
 This script creates a backup of a file by creating a copy of the same file and apending _bkp to it's name. However it's not working'. Please inspect and fix the problem with the script.
 '
+
+# the following lines -- actual script
+# This script creates a backup of a given file by creating a copy as bkp
+# For example some-file is backed up as some-file_bkp
+
+file_name="create-and-launch-rocket"
+
+cp $file_name ${file_name}_bkp
