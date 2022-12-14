@@ -18,4 +18,4 @@
 # module category -- Windows --> help you ansible in a windows environment
 # win_copy, win_command, win_domain, win_iis_website, win_msg, win_msi, win_package, win_ping, win_path, win_robocopy, win_regedit, win_shell, win_service, win_user
 
-
+# there's more ansible modules in a few categories -- consult the documentation for more details and for guidance 
