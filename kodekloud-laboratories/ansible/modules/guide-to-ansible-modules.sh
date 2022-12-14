@@ -15,4 +15,7 @@
 # module category -- Cloud --> used for cloud vendors 
 # amazon, atomic, azure, centrylink, cloudscale, cloudstack, digital ocean, docker, google, linode, openstack, rackspace, smartos, softlayer, VMware
 
+# module category -- Windows --> help you ansible in a windows environment
+# win_copy, win_command, win_domain, win_iis_website, win_msg, win_msi, win_package, win_ping, win_path, win_robocopy, win_regedit, win_shell, win_service, win_user
+
 
