@@ -5,3 +5,8 @@
 
 # module category -- Commands --> used to execute commands or scripts on a host
 # command, expect, raw, script, shell
+
+# module category -- Files --> used to work with files
+# acl, archive, copy, file, find, lineinfile, replace, stat, template, unarchive
+
+# 
