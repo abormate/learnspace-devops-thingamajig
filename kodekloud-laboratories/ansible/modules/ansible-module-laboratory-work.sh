@@ -1,3 +1,4 @@
+# task 1
 :'
 Update the playbook with a play to Execute a script on all web server nodes. The script is located at /tmp/install_script.sh
 Use the Script module
@@ -14,3 +15,11 @@ Use the Script module
             script: /tmp/install_script.sh
             
 # end ansible script on this line for question/task 1
+#
+#
+#
+# task 2
+:'
+Update the playbook to add a new task to start httpd services on all web nodes
+Use the Service module
+'
