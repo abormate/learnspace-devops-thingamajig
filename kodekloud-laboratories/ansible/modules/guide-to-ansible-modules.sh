@@ -9,4 +9,7 @@
 # module category -- Files --> used to work with files
 # acl, archive, copy, file, find, lineinfile, replace, stat, template, unarchive
 
-# 
+# module category -- Database --> used to work with databases
+# mongodb, mssql, mysql, postgresql, proxysql, vertica
+
+
