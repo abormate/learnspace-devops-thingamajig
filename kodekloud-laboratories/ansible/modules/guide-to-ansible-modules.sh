@@ -12,4 +12,7 @@
 # module category -- Database --> used to work with databases
 # mongodb, mssql, mysql, postgresql, proxysql, vertica
 
+# module category -- Cloud --> used for cloud vendors 
+# amazon, atomic, azure, centrylink, cloudscale, cloudstack, digital ocean, docker, google, linode, openstack, rackspace, smartos, softlayer, VMware
+
 
