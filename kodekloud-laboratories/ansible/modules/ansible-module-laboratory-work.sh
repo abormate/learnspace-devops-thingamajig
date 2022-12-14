@@ -23,3 +23,23 @@ Use the Script module
 Update the playbook to add a new task to start httpd services on all web nodes
 Use the Service module
 '
+#
+#
+# following line is actual ansible script shell
+
+-
+    name: 'Execute a script on all web server nodes'
+    hosts: web_nodes
+    tasks:
+        -
+            name: 'Execute a script on all web server nodes'
+            script: /tmp/install_script.sh
+        -
+            name: 'Start httpd services'
+            service: 'name=httpd state=started'
+
+# end of shell script for ansible task 2
+#
+#
+#
+#
