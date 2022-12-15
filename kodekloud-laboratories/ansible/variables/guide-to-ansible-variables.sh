@@ -27,4 +27,5 @@ web2  ansible_host=server3.company.com    ansible_connection=ssh    ansible_ssh_
 # For the following, an example content of an external or separate "variables" file
 
 variable1: value1
+variable2: value2
 
