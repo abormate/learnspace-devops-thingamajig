@@ -54,5 +54,34 @@ Remember to use curly braces around the variable name.
 
 #
 #
+# Task 3
+#
+:'
+We are printing some personal information to the screen. 
+We would like to move the car_model, country_name and title to a variable defined at the play level.
+
+
+Create three new variables (car_model, country_name and title) under the play and move the values over. Use the variables in the task.
+'
+#
+#
+#
+
+-
+    hosts: localhost
+    vars:
+        car_model: 'BMW M3'
+        country_name: USA
+        title: 'Systems Engineer'
+    tasks:
+        -
+            command: 'echo "My car''s model is {{ car_model }}"'
+        -
+            command: 'echo "I live in the {{ country_name }}"'
+        -
+            command: 'echo "I work as a {{ title }}"'
+
+#
+#
 #
 #
