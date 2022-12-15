@@ -13,11 +13,11 @@ so that in the future if you had to make any changes you simply have to update t
 # Playbook is following this line
 #
 -
-  name: 'Update nameserver entry into resolv.conf file on localhost'
-  hosts: localhost
+    name: 'Update nameserver entry into resolv.conf file on localhost'
+    hosts: localhost
     tasks:
         -
             name: 'Update nameserver entry into resolv.conf file'
             lineinfile:
                 path: /etc/resolv.conf
-                line: 'nameserver 10.1.250.10'
+                line: 'nameserver {{ nameserver_ip}}'
