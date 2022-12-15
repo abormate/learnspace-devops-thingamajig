@@ -46,6 +46,31 @@ variable2: value2
 #
 # Another example that is more organized is to use an external or separate variables file for a specific host, using "Jinja2" templating or the double-curly braces notation
 # The following is an example of a playbook with a separate or external variables file
+#
 
-
-
+-
+  name: Set Firewall Configurations
+  hosts: web
+  tasks:
+  - firewalld:
+      service: https
+      permanent: true
+      state: enabled
+  - firewalld:
+      port: '{{ http_port }}'/tcp
+      permanent: true
+      state: disabled
+  - firewalld:
+      port: '{{ snmp_port }}'/udp
+      permanent: true
+      state: disabled
+  - firewalld:
+      source: '{{ inter_ip_range }}'/24
+      zone: internal
+      state: enabled
+ 
+ #
+ # And the separate variables file defining the invoked variables from the above playbook is the following
+ #
+    
+ 
