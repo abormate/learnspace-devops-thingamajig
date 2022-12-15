@@ -1,6 +1,7 @@
 # 
 # Task 1
 #
+#
 :'
 The playbook is used to update name server entry into resolv.conf file on localhost. 
 The name server information is also updated in the inventory file as a variable nameserver_ip. Refer to the inventory file.
@@ -11,3 +12,12 @@ so that in the future if you had to make any changes you simply have to update t
 #
 # Playbook is following this line
 #
+-
+  name: 'Update nameserver entry into resolv.conf file on localhost'
+  hosts: localhost
+    tasks:
+        -
+            name: 'Update nameserver entry into resolv.conf file'
+            lineinfile:
+                path: /etc/resolv.conf
+                line: 'nameserver 10.1.250.10'
