@@ -73,4 +73,8 @@ variable2: value2
  # And the separate variables file defining the invoked variables from the above playbook is the following
  #
     
+ # file named --> web.yml --> variables definitions
  
+ http_port: 8081
+ snmp_port: 161-162
+ inter_ip_range: 192.0.2.0
