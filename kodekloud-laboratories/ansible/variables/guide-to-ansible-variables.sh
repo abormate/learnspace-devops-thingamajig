@@ -44,5 +44,8 @@ variable2: value2
       line: 'nameserver {{ dns_server }}'
       
 #
-#
-#
+# Another example that is more organized is to use an external or separate variables file for a specific host, using "Jinja2" templating or the double-curly braces notation
+# The following is an example of a playbook with a separate or external variables file
+
+
+
