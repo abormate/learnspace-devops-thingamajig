@@ -21,3 +21,10 @@ web2  ansible_host=server3.company.com    ansible_connection=ssh    ansible_ssh_
     - lineinfile
       path: /etc/resolv.conf
       line: 'nameserver 10.1.250.10'
+   
+#
+# Finally, one more example is that you can define variables in a separate "variables" file through a key-value pair.
+# For the following, an example content of an external or separate "variables" file
+
+variable1: value1
+
