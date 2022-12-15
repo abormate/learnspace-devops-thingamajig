@@ -78,3 +78,14 @@ variable2: value2
  http_port: 8081
  snmp_port: 161-162
  inter_ip_range: 192.0.2.0
+ 
+#
+# Short guide to Jinja 2 templating syntax
+# When the variable is inside a string sentence -- you don't need to add quote marks anymore
+# However, if the variable is standalone or without any sentences appended or prepended to it, you need to add quotes to call it.
+# Examples on the following
+
+source: {{ inter_ip_range }}   # this is the wrong way of calling a variable, you need to add quotes to the variable invoker when it is on itself
+source: '{{ inter_ip_range }}'   # this is the correct way 
+
+source: something words {{ inter_ip_range }} something in words   # also another correct way, no need for quote marks, when the variable is inbetween a string sentence
