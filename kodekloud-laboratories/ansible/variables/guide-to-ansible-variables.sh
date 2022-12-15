@@ -29,3 +29,20 @@ web2  ansible_host=server3.company.com    ansible_connection=ssh    ansible_ssh_
 variable1: value1
 variable2: value2
 
+#
+# How to invoke or use a variable? We call it for example, from inside a Playbook, using double-curly braces {{ }} 
+# The following is a playbook example with a variable define also within the playbook and later on, the same dns_server variable is invoked.
+
+-
+  name: Add DNS server to resolv.conf
+  hosts: localhost
+  vars:
+    dns_server: 10.1.250.10
+  tasks:
+    - lineinfile
+      path: /etc/resolv.conf
+      line: 'nameserver {{ dns_server }}'
+      
+#
+#
+#
