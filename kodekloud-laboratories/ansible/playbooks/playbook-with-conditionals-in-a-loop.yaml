@@ -1,0 +1,7 @@
+# Example list of packages that need to be installed
+
+---
+- name: Install softwares
+  hosts: all
+  vars:
+    
