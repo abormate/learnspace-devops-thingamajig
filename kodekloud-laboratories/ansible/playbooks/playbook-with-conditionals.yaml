@@ -12,3 +12,7 @@
          ansible_distribution_version == "16.04"
          
 - name: Install NGINX on Redhat
+  yum:
+    name: nginx
+    state: present
+  when: ansible_os_family == "RedHat" or
