@@ -1,0 +1,7 @@
+# this playbook tells Ansible to send an email alert if the httpd service is down. We work with "register" module to take in an output from another module.
+---
+  - name: Check status of a service and email if its down
+    hosts: localhost
+    tasks:
+      - command: service httpd status
+        register: result
