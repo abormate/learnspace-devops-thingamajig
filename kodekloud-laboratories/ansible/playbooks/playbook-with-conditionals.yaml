@@ -1,0 +1,6 @@
+# installs nginx depending on the type of Linux distro the client is on
+
+---
+- name: Install NGINX
+  hosts: all
+  tasks:
