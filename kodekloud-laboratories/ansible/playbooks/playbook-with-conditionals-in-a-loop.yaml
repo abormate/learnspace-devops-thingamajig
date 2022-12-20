@@ -4,4 +4,6 @@
 - name: Install softwares
   hosts: all
   vars:
-    
+    packages:
+      - name: nginx
+        required: True
