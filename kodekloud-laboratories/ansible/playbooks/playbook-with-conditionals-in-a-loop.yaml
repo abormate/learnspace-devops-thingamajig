@@ -16,5 +16,5 @@
     apt:
       name: "{{ item.name }}"
       state: present
-    
+    when: item.required == True
     loop: "{{ packages }}"
