@@ -1,0 +1,8 @@
+# Print a message depending on another variable value
+:'
+The playbook has a variable defined - age. The two tasks attempt to print if I am a child or an Adult. 
+Use the when conditional to print if I am a child or an Adult based on weather my age is < 18 (child) or >= 18 (Adult).
+'
+#
+#
+#
