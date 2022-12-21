@@ -6,3 +6,15 @@ Use the when conditional to print if I am a child or an Adult based on weather m
 #
 #
 #
+-
+    name: 'Adult or a Child?'
+    hosts: localhost
+    vars:
+        age: 25
+    tasks:
+        -
+            command: 'echo "I am a Child"'
+            when: 'age < 18'
+        -
+            command: 'echo "I am an Adult"'
+            when: 'age >= 18'
