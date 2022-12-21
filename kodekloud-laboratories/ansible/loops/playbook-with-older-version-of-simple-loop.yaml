@@ -1,0 +1,13 @@
+# Instead of the module "loop" the older version of Ansible only supported "with_items" as shown below
+#
+#
+- 
+  name: create multiple users
+  hosts: localhost
+  tasks:
+    - user: name='{{ item }}' state=present
+      with_items:
+        - joe
+        - george
+        - ravi
+        - mani
