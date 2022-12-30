@@ -52,9 +52,20 @@ sudo systemctl start jenkins
 systemctl status jenkins
 
 #
+# Tell or configure firewall to allow traffic to and from port 8080
+#
+#
+
+sudo ufw allow 8080
+
 #
 #
 #
+#
+
+
+
+
 
 
 
