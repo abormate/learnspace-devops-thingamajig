@@ -33,3 +33,25 @@ sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable/ /etc/apt/sources.list.
 
 sudo apt update -y
 
+#
+# After the 2nd update, we can install Jenkins actually 
+#
+
+#
+# Start Jenkins service after installation
+#
+#
+
+sudo systemctl start jenkins
+
+#
+#
+#
+#
+
+
+
+
+
+
+
