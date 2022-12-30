@@ -21,6 +21,9 @@ wget -q -O - https://pkg.jenkins.io/debian-stable/
 sudo apt-key add -
 
 #
+# Next add Jenkins repo into aptitude package manager
+# This means, we append the package repo to the server source list
 #
-#
+
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable/ /etc/apt/sources.list.d/jenkins.list'
 
