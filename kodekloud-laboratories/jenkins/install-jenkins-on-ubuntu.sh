@@ -45,6 +45,13 @@ sudo apt update -y
 sudo systemctl start jenkins
 
 #
+# Check status of Jenkins
+#
+#
+
+systemctl status jenkins
+
+#
 #
 #
 #
