@@ -27,3 +27,9 @@ sudo apt-key add -
 
 sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable/ /etc/apt/sources.list.d/jenkins.list'
 
+#
+# Update the system once again
+#
+
+sudo apt update -y
+
