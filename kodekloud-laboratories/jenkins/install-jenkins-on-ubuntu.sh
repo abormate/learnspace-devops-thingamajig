@@ -13,6 +13,13 @@ sudo apt update -y
 sudo apt install openjdk-11-jdk
 
 #
+# Next add repository key to the system
+#
+#
+
+wget -q -O - https://pkg.jenkins.io/debian-stable/
+sudo apt-key add -
+
 #
 #
 #
