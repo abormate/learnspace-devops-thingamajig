@@ -59,12 +59,16 @@ systemctl status jenkins
 sudo ufw allow 8080
 
 #
-#
+# Configure your network to allow traffic to and from port 8080
 #
 #
 
+#
+# After you've verified that you can access Jenkins' UI from the web. You'll need a password to start working with it. 
+# You can find this password written on the server
+#
 
-
+sudo cat var/lib/jenkins/secrets/initialAdminPassword
 
 
 
