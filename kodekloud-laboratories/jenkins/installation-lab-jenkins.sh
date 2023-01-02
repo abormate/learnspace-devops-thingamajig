@@ -44,4 +44,21 @@ Terminal 1
 
 ssh -i /home/mike/.ssh/jenkins_key -l mike -p 8022 jenkins-server help
 
+#
+#
+#
+#
+
+ssh -i /home/mike/.ssh/jenkins_key -l mike -p 8022 jenkins-server  safe-restart
+mike@jenkins-server:~$ 
+
+menu
+open_in_new
+wb_sunny
+settings_backup_restore
+stop
+fullscreen
+Terminal 1
+
+
 
