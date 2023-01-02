@@ -38,4 +38,10 @@ settings_input_hdmi Jenkins
 language Jenkins CLI Docs
 Terminal 1
 
+#
+#
+#
+
+ssh -i /home/mike/.ssh/jenkins_key -l mike -p 8022 jenkins-server help
+
 
