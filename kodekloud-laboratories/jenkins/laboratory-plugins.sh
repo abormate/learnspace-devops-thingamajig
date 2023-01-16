@@ -5,5 +5,5 @@ java -jar jenkins-cli.jar -s http://localhost:8085 -auth 'admin:Adm!n321'
 java -jar jenkins-cli.jar -s http://localhost:8085 -auth 'admin:Adm!n321' list-plugins
 
 
----
+------
 -------
