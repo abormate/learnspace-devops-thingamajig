@@ -26,3 +26,7 @@ git add myfile.txt
 
 # commit to local repo
 git commit -m "First file using Cloud Source Repo" myfile.txt
+
+# add contents from local to remote at Cloud Source Repositories with the following
+git push origin master
+
