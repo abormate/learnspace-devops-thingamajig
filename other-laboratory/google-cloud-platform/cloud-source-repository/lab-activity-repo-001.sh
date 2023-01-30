@@ -16,4 +16,12 @@ cd REPO_DEMO
 # append string "Hello World" to a txt file
 echo 'Hello World!' > myfile.txt
 
+# commit the file in local directory of shell session with following
+git config --global user.email "you@example.com"
+
+git config --global user.name "Your Name"
+
+# add to staging
+git add myfile.txt
+
 
