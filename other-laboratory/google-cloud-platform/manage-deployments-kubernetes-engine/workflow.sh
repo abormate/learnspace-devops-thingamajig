@@ -42,6 +42,14 @@ Kubernetes and other infrastructure resources to accomplish them.
 #
 #
 #
-#
+# Once shell is activated. List active account name with
+gcloud auth list
+
+# Authorize
+
+# List project ID with...
+gcloud config list project
+
+
 
 
