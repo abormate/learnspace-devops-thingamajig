@@ -7,3 +7,6 @@ gcloud config list project
 # Create new cloud source repo with name "REPO_DEMO"
 gcloud source repos create REPO_DEMO
 
+# Clone remote repo to your local Linux workspace / Cloud shell session from GCP
+gcloud source repos clone REPO_DEMO
+
