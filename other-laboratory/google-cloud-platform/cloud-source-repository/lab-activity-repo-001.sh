@@ -24,4 +24,5 @@ git config --global user.name "Your Name"
 # add to staging
 git add myfile.txt
 
-
+# commit to local repo
+git commit -m "First file using Cloud Source Repo" myfile.txt
