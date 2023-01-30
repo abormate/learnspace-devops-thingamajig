@@ -38,3 +38,10 @@ continuous integration/continuous delivery (CI/CD) processes.
 The following exercises practice some common use cases for heterogeneous deployments, along with well-architected approaches using 
 Kubernetes and other infrastructure resources to accomplish them.
 '
+#
+#
+#
+#
+#
+
+
