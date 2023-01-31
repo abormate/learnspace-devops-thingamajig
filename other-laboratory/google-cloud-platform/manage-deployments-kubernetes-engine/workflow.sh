@@ -54,3 +54,19 @@ gcloud config list project
 # Set the Zone
 gcloud config set compute/zone
 
+# Obtain sample code for creating and running containers and deployments
+gsutil -m cp -r gs://spls/gsp053/orchestrate-with-kubernetes .
+cd orchestrate-with-kubernetes/kubernetes
+
+
+
+
+
+
+
+
+
+
+
+
+
