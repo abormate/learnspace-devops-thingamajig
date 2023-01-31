@@ -109,10 +109,10 @@ This means we can scale the number of Pods by changing the number specified in t
 #
 #
 #
-#
+# Create your deployment object with kubectl create
 #
 
-
+kubectl create -f deployments/auth.yaml
 
 
 
