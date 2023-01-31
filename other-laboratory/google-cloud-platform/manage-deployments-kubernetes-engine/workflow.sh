@@ -74,6 +74,11 @@ gcloud container clusters create bootcamp \
 #
 kubectl explain deployment
 
+# We can also see all of the fields using the --recursive option
+kubectl explain deployment --recursive
+
+# As an example, you can also work with the explain command to understand what individual fields do 
+kubectl explain deployment.metadata.name
 
 
 
