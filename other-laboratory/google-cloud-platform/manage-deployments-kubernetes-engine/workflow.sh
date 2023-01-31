@@ -80,7 +80,23 @@ kubectl explain deployment --recursive
 # As an example, you can also work with the explain command to understand what individual fields do 
 kubectl explain deployment.metadata.name
 
+#
+#
+# Create a deployment
+#
+#
+# Update the "deployments/auth.yaml" configurations file
+#
+vi deployments/auth.yaml
 
+# modify with the following values the "auth" configurations file -- then save the file
+...
+containers:
+- name: auth
+  image: "kelseyhightower/auth:1.0.0"
+...
+
+#
 
 
 
