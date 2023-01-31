@@ -64,9 +64,15 @@ gcloud container clusters create bootcamp \
   --num-nodes 3 \
   --scopes "https://www.googleapis.com/auth/projecthosting,storage-rw"
   
-
-
-
+#
+#
+# Learn about the deployment object
+# First let's take a look at the deployment object
+#
+#
+# The "explain" command with kubectl tells us about the deployment object
+#
+kubectl explain deployment
 
 
 
