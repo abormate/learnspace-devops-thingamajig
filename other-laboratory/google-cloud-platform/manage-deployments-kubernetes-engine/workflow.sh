@@ -58,6 +58,14 @@ gcloud config set compute/zone
 gsutil -m cp -r gs://spls/gsp053/orchestrate-with-kubernetes .
 cd orchestrate-with-kubernetes/kubernetes
 
+# Create a cluster with 3 nodes
+gcloud container clusters create bootcamp \
+  --machine-type e2-small \
+  --num-nodes 3 \
+  --scopes "https://www.googleapis.com/auth/projecthosting,storage-rw"
+  
+
+
 
 
 
