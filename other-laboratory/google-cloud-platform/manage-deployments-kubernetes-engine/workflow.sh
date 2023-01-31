@@ -65,7 +65,7 @@ gcloud container clusters create bootcamp \
   --scopes "https://www.googleapis.com/auth/projecthosting,storage-rw"
   
 #
-#
+# Task
 # Learn about the deployment object
 # First let's take a look at the deployment object
 #
@@ -108,11 +108,29 @@ This means we can scale the number of Pods by changing the number specified in t
 
 #
 #
-#
+# Task
 # Create your deployment object with kubectl create
 #
-
 kubectl create -f deployments/auth.yaml
+
+# Verify if deployment was created
+kubectl get deployments
+
+# Kubernetes will create a replica set for the deployment, after deployment is created. Verify that a replica-set was created
+kubectl get replicasets
+
+# Finally we can view the Pods that were created with our deployment. There is a single pod when the replica-set was created.
+kubectl get pods
+
+# Next we create a service for our auth deployment
+# with kubectl create to create the auth service
+kubectl create -f services/auth.yaml
+
+# Do the same thing to create and make available the hello deployment
+kubectl create -f deployments/hello.yaml
+kubectl create -f services/hello.yaml
+
+
 
 
 
