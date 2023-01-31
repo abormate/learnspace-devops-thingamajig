@@ -130,7 +130,19 @@ kubectl create -f services/auth.yaml
 kubectl create -f deployments/hello.yaml
 kubectl create -f services/hello.yaml
 
+# And once again to create and make available the frontend element/deployment
+kubectl create secret generic tls-certs --from-file tls/
+kubectl create configmap nginx-frontend-conf --from-file=nginx/frontend.conf
+kubectl create -f deployments/frontend.yaml
+kubectl create -f services/frontend.yaml
 
+# Interact with the frontend. Obtain the external IP and then curl to it. It may take a while to generate an external IP
+kubectl get services frontend
+
+# curl to the external IP
+curl -ks https://<external IP>
+
+curl -ks https://`kubectl get svc frontend -o=jsonpath="{.status.loadBalancer.ingress[0].ip}"`
 
 
 
