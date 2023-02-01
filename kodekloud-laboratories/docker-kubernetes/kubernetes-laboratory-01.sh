@@ -5,4 +5,4 @@ kubectl get nodes
 kubectl version --short
 
 # What is the Linux distro and version from which Kubernetes instance is running from?
-
+kubectl get nodes -o wide
