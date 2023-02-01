@@ -4,3 +4,5 @@ gsutil -m cp -r gs://spls/gsp233/* .
 # Go to directory --> /tf-gke-k8s-service (load balancer)
 cd tf-gke-k8s-service-lb
 
+# Analyze and understand code base main terraform manifest
+cat main.tf
