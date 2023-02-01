@@ -6,3 +6,6 @@ cd tf-gke-k8s-service-lb
 
 # Analyze and understand code base main terraform manifest
 cat main.tf
+
+# Review K8s terraform file 
+cat k8s.tf
