@@ -13,4 +13,5 @@ cat k8s.tf
 # Initialize terraform with declarative manifest
 terraform init
 
-# 
+# Apply terraform plan made from declarative main manifest and variables
+terraform apply
