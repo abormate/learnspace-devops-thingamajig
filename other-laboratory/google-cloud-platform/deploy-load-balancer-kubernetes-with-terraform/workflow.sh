@@ -9,3 +9,8 @@ cat main.tf
 
 # Review K8s terraform file 
 cat k8s.tf
+
+# Initialize terraform with declarative manifest
+terraform init
+
+# 
