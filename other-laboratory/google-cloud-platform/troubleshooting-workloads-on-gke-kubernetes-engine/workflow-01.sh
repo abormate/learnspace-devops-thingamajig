@@ -48,5 +48,9 @@ cd cloud-ops-sandbox/sre-recipes
 resource.labels.cluster_name="cloud-ops-sandbox" AND resource.labels.namespace_name="default" AND resource.type="k8s_container" AND labels.k8s-pod/app="recommendationservice" AND severity>=ERROR
 
 :'
-In this lab, you explored the Cloud Operations suite, which allows Site Reliability Engineers (SRE) to investigate and diagnose issues experienced with workloads deployed. In order to increase the reliability of workloads, you explored how to navigate resource pages or GKE, view operational data from GKE dashboards, create logs-based metrics to capture specific issues and proactively respond to incidents by setting service level objectives and alerts to proactively notify the SRE team about issues experienced before they cause outages.
+In this lab, you explored the Cloud Operations suite, which allows Site Reliability Engineers (SRE) to investigate and 
+diagnose issues experienced with workloads deployed. In order to increase the reliability of workloads, you explored how to navigate 
+resource pages or GKE, view operational data from GKE dashboards, create logs-based metrics to capture specific issues and proactively 
+respond to incidents by setting service level objectives and alerts to proactively notify the SRE team about issues experienced before 
+they cause outages.
 '
