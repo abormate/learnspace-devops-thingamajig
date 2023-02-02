@@ -15,3 +15,22 @@ gcloud auth list
 
 # list the project ID
 gcloud config list project
+
+# -------------------------- #
+# SCENARIO (SRE)
+#
+#
+:'
+Your organization has deployed a multi-tier microservices application. It is a web-based e-commerce application called "Hipster Shop", 
+where users can browse for vintage items, add them to their cart and purchase them. Hipster Shop is composed of many microservices, 
+written in different languages, that communicate via gRPC and REST APIs. The architecture of the deployment is optimized for learning purposes 
+and includes modern technologies as part of the stack: Kubernetes, Istio, Cloud Operations, App Engine, gRPC, OpenTelemetry, and similar 
+cloud-native technologies.
+
+As a member of the Site Reliability Engineering (SRE) team, you are contacted when end users report issues viewing products and adding them to their 
+cart. You will explore the various services deployed to determine the root cause of the issue and set up a Service Level Objective (SLO) to 
+prevent similar incidents from occurring in the future.
+'
+#
+#
+# -------------------------- #
