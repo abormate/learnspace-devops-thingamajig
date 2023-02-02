@@ -34,3 +34,8 @@ prevent similar incidents from occurring in the future.
 #
 #
 # -------------------------- #
+
+# Step 11
+git clone --depth 1 --branch csb_1220 https://github.com/GoogleCloudPlatform/cloud-ops-sandbox.git
+
+
