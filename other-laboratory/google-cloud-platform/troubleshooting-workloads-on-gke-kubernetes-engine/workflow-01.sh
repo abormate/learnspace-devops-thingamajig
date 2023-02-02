@@ -35,7 +35,12 @@ prevent similar incidents from occurring in the future.
 #
 # -------------------------- #
 
-# Step 11
+# step 11
 git clone --depth 1 --branch csb_1220 https://github.com/GoogleCloudPlatform/cloud-ops-sandbox.git
 
+# step 12 - run
+cd cloud-ops-sandbox/sre-recipes
+
+# step 15
+./sandboxctl sre-recipes restore "recipe3"
 
