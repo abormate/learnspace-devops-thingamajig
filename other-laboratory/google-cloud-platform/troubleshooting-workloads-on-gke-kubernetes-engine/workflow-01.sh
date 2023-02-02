@@ -44,3 +44,5 @@ cd cloud-ops-sandbox/sre-recipes
 # step 15
 ./sandboxctl sre-recipes restore "recipe3"
 
+# create logs metric
+resource.labels.cluster_name="cloud-ops-sandbox" AND resource.labels.namespace_name="default" AND resource.type="k8s_container" AND labels.k8s-pod/app="recommendationservice" AND severity>=ERROR
