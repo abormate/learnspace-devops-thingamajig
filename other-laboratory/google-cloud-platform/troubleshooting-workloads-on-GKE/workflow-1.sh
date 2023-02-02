@@ -8,5 +8,10 @@ then filter, search, and navigate through large volumes of telemetry data collec
 If a hypothesis is invalid, SREs will form another hypothesis and perform another iteration until they can isolate a root cause.
 '
 
-# Activate Cloud shell -- the following shell code lists the active account name
+# activate Cloud shell -- the following shell code lists the active account name
 gcloud auth list
+
+# authorize
+
+# list the project ID
+gcloud config list project
