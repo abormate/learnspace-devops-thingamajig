@@ -13,4 +13,8 @@ unzip continuous-deployment-on-kubernetes.zip
 #
 cd continuous-deployment-on-kubernetes
 
+#
+# Task 2
+# Provision Jenkins
+#
 
