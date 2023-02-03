@@ -22,4 +22,5 @@ gcloud container clusters create jenkins-cd \
 --machine-type n1-standard-2 \
 --scopes "https://www.googleapis.com/auth/source.read_write,cloud-platform"
 
-
+# verify cluster is running
+gcloud container cluster list
