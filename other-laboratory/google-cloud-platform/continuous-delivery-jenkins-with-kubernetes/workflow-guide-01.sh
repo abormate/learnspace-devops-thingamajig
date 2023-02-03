@@ -9,5 +9,8 @@ gsutil cp gs://spls/gsp051/continuous-deployment-on-kubernetes.zip .
 unzip continuous-deployment-on-kubernetes.zip
 
 #
+# cd to correct directory
 #
-#
+cd continuous-deployment-on-kubernetes
+
+
