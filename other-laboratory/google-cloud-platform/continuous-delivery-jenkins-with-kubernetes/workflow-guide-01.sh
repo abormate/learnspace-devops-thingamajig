@@ -27,3 +27,12 @@ gcloud container cluster list
 
 # get credentials for your cluster
 gcloud container clusters get-credentials jenkins-cd
+
+Kubernetes Engine uses these credentials to access your newly provisioned cluster—confirm that you can connect to it by running the following command:
+kubectl cluster-info
+
+#
+# Task 3
+# Setup Helm
+#
+
