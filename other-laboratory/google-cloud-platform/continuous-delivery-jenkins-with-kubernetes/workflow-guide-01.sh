@@ -47,4 +47,11 @@ helm repo add jenkins https://charts.jenkins.io
 help repo update
 
 
+#
+# Task 4 - Configure and install Jenkins
+#
+# work with Helm CLI to deploy the chart with your configuration settings
 
+helm install cd jenkins/jenkins -f jenkins/values.yaml --wait
+
+#
