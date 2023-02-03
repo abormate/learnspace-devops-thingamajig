@@ -24,3 +24,6 @@ gcloud container clusters create jenkins-cd \
 
 # verify cluster is running
 gcloud container cluster list
+
+# get credentials for your cluster
+gcloud container clusters get-credentials jenkins-cd
