@@ -39,6 +39,12 @@ kubectl cluster-info
 Helm is a package manager that makes it easy to configure and deploy Kubernetes applications. Once you have Jenkins installed, 
 you'll be able to set up your CI/CD pipeline.
 '
+
 # add Helm stable chart repo
 helm repo add jenkins https://charts.jenkins.io
+
+# update Helm
+help repo update
+
+
 
