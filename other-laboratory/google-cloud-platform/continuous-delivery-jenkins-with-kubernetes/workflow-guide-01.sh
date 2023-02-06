@@ -84,6 +84,19 @@ help repo update
 #
 # Task 4 - Configure and install Jenkins
 #
+#
+:'
+You will use a custom values file to automatically configure your Kubernetes Cloud and add the following necessary plugins:
+
+Kubernetes:latest
+Workflow-multibranch:latest
+Git:latest
+Configuration-as-code:latest
+Google-oauth-plugin:latest
+Google-source-plugin:latest
+Google-storage-plugin:latest
+'
+#
 # work with Helm CLI to deploy the chart with your configuration settings
 
 helm install cd jenkins/jenkins -f jenkins/values.yaml --wait
