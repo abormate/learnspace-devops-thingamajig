@@ -9,7 +9,11 @@ and quick to deploy—an ideal framework for cloud developers.
 '
 #
 #
-
+:'
+Jenkins is an open-source automation server that lets you flexibly orchestrate your build, test, and deployment pipelines. Jenkins 
+allows developers to iterate quickly on projects without worrying about overhead issues that can stem from continuous delivery.
+'
+#
 #
 # Download source code -- Task 1
 #
