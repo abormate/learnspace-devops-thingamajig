@@ -106,6 +106,9 @@ helm install cd jenkins/jenkins -f jenkins/values.yaml --wait
 # After command finishes. Ensure Jenkins pod goes to the running state and container is in ready state.
 kubectl get pods
 
+# output of prior command --> NAME                          READY     STATUS    RESTARTS   AGE
+#                             cd-jenkins-7c786475dd-vbhg4   2/2       Running   0          1m
+
 #
 #
 #
