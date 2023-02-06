@@ -1,4 +1,14 @@
 #
+#
+:'
+Kubernetes Engine is Google Cloud's hosted version of Kubernetes - a powerful cluster manager and orchestration system for containers. 
+Kubernetes is an open source project that can run on many different environments—from laptops to high-availability multi-node clusters; 
+from virtual machines to bare metal. As mentioned before, Kubernetes apps are built on containers - these are lightweight applications bundled 
+with all the necessary dependencies and libraries to run them. This underlying structure makes Kubernetes applications highly available, secure, 
+and quick to deploy—an ideal framework for cloud developers.
+'
+
+#
 # Download source code -- Task 1
 #
 gcloud config set compute/zone
