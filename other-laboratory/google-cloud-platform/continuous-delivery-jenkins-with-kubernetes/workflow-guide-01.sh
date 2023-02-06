@@ -7,6 +7,8 @@ from virtual machines to bare metal. As mentioned before, Kubernetes apps are bu
 with all the necessary dependencies and libraries to run them. This underlying structure makes Kubernetes applications highly available, secure, 
 and quick to deploy—an ideal framework for cloud developers.
 '
+#
+#
 
 #
 # Download source code -- Task 1
