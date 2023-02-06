@@ -102,3 +102,11 @@ Google-storage-plugin:latest
 helm install cd jenkins/jenkins -f jenkins/values.yaml --wait
 
 #
+#
+# After command finishes. Ensure Jenkins pod goes to the running state and container is in ready state.
+kubectl get pods
+
+#
+#
+#
+#
