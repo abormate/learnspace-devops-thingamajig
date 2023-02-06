@@ -24,6 +24,10 @@ VM-based deployment.
 When your build process uses containers, one virtual host can run jobs on multiple operating systems. Kubernetes Engine provides ephemeral 
 build executors—these are only utilized when builds are actively running, which leaves resources for other cluster tasks such as batch processing 
 jobs. Another benefit of ephemeral build executors is speed—they launch in a matter of seconds.
+
+Kubernetes Engine also comes pre-equipped with Google's global load balancer, which you can use to automate web traffic routing to your instance(s). 
+The load balancer handles SSL termination and utilizes a global IP address that's configured with Google's backbone network—coupled with your web front,
+this load balancer will always set your users on the fastest possible path to an application instance.
 '
 
 #
