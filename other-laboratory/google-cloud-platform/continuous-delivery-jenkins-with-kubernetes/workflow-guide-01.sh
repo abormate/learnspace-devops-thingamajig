@@ -109,4 +109,10 @@ kubectl get pods
 #
 #
 #
+# Configure Jenkins service account to be able to deploy to the cluster
 #
+
+kubectl create clusterrolebinding jenkins-deploy --clusterrole=cluster-admin --serviceaccount=default:cd-jenkins
+
+# Output of prior command should be
+# output --> clusterrolebinding.rbac.authorization.k8s.io/jenkins-deploy created
