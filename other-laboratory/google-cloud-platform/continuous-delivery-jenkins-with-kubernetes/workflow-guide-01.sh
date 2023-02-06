@@ -119,3 +119,14 @@ kubectl create clusterrolebinding jenkins-deploy --clusterrole=cluster-admin --s
 
 # Output of prior command should be
 # output --> clusterrolebinding.rbac.authorization.k8s.io/jenkins-deploy created
+#
+#
+# Run following to setup port forwarding to the Jenkins UI from the Cloud shell
+export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/component=jenkins-master" -l "app.kubernetes.io/instance=cd" -o jsonpath="{.items[0].metadata.name}")
+kubectl port-forward $POD_NAME 8080:8080 >> /dev/null &
+
+#
+#
+#
+#
+
