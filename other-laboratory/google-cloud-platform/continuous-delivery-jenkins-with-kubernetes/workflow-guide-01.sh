@@ -16,6 +16,19 @@ allows developers to iterate quickly on projects without worrying about overhead
 '
 #
 #
+# What is Continuous Delivery / Continuous Deployment?
+:'
+When you need to set up a continuous delivery (CD) pipeline, deploying Jenkins on Kubernetes Engine provides important benefits over a standard 
+VM-based deployment.
+
+When your build process uses containers, one virtual host can run jobs on multiple operating systems. Kubernetes Engine provides ephemeral 
+build executors—these are only utilized when builds are actively running, which leaves resources for other cluster tasks such as batch processing 
+jobs. Another benefit of ephemeral build executors is speed—they launch in a matter of seconds.
+'
+
+#
+#
+#
 # Download source code -- Task 1
 #
 gcloud config set compute/zone
