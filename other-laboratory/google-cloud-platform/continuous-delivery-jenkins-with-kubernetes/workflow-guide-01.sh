@@ -128,5 +128,14 @@ kubectl port-forward $POD_NAME 8080:8080 >> /dev/null &
 #
 #
 #
+# Check if Jenkins service was properly created
+kubectl get svc
+
+# output --> NAME               CLUSTER-IP             EXTERNAL-IP   PORT(S)     AGE
+#            cd-jenkins         10.35.249.67           8080/TCP    3h
+#            cd-jenkins-agent   10.35.248.1            50000/TCP   3h
+#            kubernetes         10.35.240.1            443/TCP     9h
+#
+#
 #
 
