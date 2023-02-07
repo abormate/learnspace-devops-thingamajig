@@ -7,4 +7,12 @@ Container + Orchestration (Docker and Kubernetes)
 
 Why you need Docker? 
 --------------------------------------------------
+- Consider, you have an application running on top of resources comprising an infrastructure/service parts or web of nodeJS (web server), expressJS, mongoDB (database), 
+redis (messaging service), and ansible (orchestration tool - for config management).
+- We've had a lot of issues developing this application with all these different components
+- Their compatability with the underlying Operating System. We had to make sure these components were compatible with the current version of the OS.
+- We'll need to carefully look for another OS version that's compatible for all these service parts.
+- Additionally, the dependencies and libraries that's on the OS -- we need to ensure these services are compatible with those OS components.
+- Every time something changed. We need to go through the compatability between these elements. Which makes things difficult.
+
 
