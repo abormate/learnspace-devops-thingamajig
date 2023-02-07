@@ -20,9 +20,17 @@ the application behaves differently when tested in different environments or OS 
 What can containers (like Docker) do?
 --------------------------------------------------
 - Solves the compatability issues or the matrix from hell.
-- With Docker, you can run each service component (like nodeJS, mongoDB, Redis, and Ansible) in an isolated area with its own dependencies and libraries.
-- Something that allows us to modify each service component without affecting the other components. Or even modify the underlying OS for the infra.
+- With Docker, you can run each service component (like nodeJS, mongoDB, Redis, and Ansible) in an isolated area with its own dependencies and libraries
+  within the same VM (virtual machine) or OS.
+- Something that allows us to modify each service component without affecting the other components. Or even modify the underlying OS for the infra, as needed.
+- We just have to build the Docker configuration once. And our developers could work and collaborate seamlessly.
+
+What are containers? 
+--------------------------------------------------
+- Containers are completely isolated environments. They have their own network interfaces, own mounts, and own processes. Just like virtual machines,
+ except they all share the same OS kernel. 
 - 
+
 
 
 
