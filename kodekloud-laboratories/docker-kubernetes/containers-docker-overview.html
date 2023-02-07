@@ -15,7 +15,14 @@ redis (messaging service), and ansible (orchestration tool - for config manageme
 - Additionally, the dependencies and libraries that's on the OS -- we need to ensure these services are compatible with those OS components.
 - Every time something changed. We need to go through the compatability between these elements. Which makes things difficult.
 - Another pain-point is that developers use different OS themselves for developing parts of the application. Which leads to inconsistencies of how
-the application behaves when tested in different environments or OS (along with the libraries and dependencies).
+the application behaves differently when tested in different environments or OS (along with the libraries and dependencies).
+
+What can containers (like Docker) do?
+--------------------------------------------------
+- Solves the compatability issues or the matrix from hell.
+- With Docker, you can run each service component (like nodeJS, mongoDB, Redis, and Ansible) in an isolated area with its own dependencies and libraries.
+- Something that allows us to modify each service component without affecting the other components. Or even modify the underlying OS for the infra.
+- 
 
 
 
