@@ -92,6 +92,17 @@ gcloud container clusters create hello-cloudbuild --num-nodes 1 --region $REGION
 git config --global user.email "you@example.com"  
 git config --global user.name "Your Name"
 
+# ---------------------------------------------- #
+#
+# TASK 2
+# You'll next need to create 2 Git repos "hello-cloudbuild-app" and "hello-cloudbuild-env"
+# And, you'll need to initialize "hello-cloudbuild-app" with sample code.
+#
+
+gcloud source repos create hello-cloudbuild-app
+gcloud source repos create hello-cloudbuild-env
+
+
 
 
 
