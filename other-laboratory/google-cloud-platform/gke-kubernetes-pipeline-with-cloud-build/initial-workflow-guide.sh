@@ -85,9 +85,12 @@ gcloud artifacts repositories create my-repository \
 gcloud container clusters create hello-cloudbuild --num-nodes 1 --region $REGION
 
 #
+# You'll also need to configure git in Cloud shell. 
+# Set your email address and name
 #
-#
-#
+
+git config --global user.email "you@example.com"  
+git config --global user.name "Your Name"
 
 
 
