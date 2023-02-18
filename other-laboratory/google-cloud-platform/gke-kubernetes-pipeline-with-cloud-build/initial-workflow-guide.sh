@@ -79,7 +79,16 @@ gcloud artifacts repositories create my-repository \
   --location=$REGION
   
 #
+# Create a GKE Kubernetes cluster to deploy the sample application
+#
+
+gcloud container clusters create hello-cloudbuild --num-nodes 1 --region $REGION
+
 #
 #
+#
+#
+
+
 
 
