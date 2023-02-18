@@ -43,3 +43,15 @@ When you finish this lab, you have a system where you can easily:
 # list active account name 
 
 gcloud auth list
+
+#
+# list project ID with the following command
+#
+
+gcloud config list project
+
+#
+#
+#
+#
+
