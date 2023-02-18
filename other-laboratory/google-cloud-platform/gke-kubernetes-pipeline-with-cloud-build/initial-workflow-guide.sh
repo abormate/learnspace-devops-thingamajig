@@ -102,7 +102,16 @@ git config --global user.name "Your Name"
 gcloud source repos create hello-cloudbuild-app
 gcloud source repos create hello-cloudbuild-env
 
+#
+# Next you need to clone sample code from GitHub
+#
+#
 
+cd ~
+git clone https://github.com/GoogleCloudPlatform/gke-gitops-tutorial-cloudbuild hello-cloudbuild-app
 
-
+#
+#
+#
+#
 
