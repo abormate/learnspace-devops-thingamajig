@@ -51,7 +51,26 @@ gcloud auth list
 gcloud config list project
 
 #
-#
-#
+# Task 1
+# In cloud shell, set your project ID and project number. Save them in the appropriate variables. 
 #
 
+export PROJECT_ID=$(gcloud config get-value project)
+export PROJECT_NUMBER=$(gcloud projects describe $PROJECT_ID --format='value(projectNumber)')
+export REGION=
+gcloud config set compute/region $REGION
+
+#
+# Next, you need to enable required APIs, initialize git configuration, and download sample code
+# The following command, enables APIs for GKE, Cloud Build, Source Repo, and Container analysis.
+#
+
+gcloud services enable container.googleapis.com \
+    cloudbuild.googleapis.com \
+    sourcerepo.googleapis.com \
+    containeranalysis.googleapis.com
+    
+#
+#
+#
+#
