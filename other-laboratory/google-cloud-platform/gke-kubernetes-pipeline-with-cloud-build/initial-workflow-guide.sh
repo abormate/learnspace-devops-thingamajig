@@ -25,5 +25,13 @@ When you finish this lab, you have a system where you can easily:
 -- Distinguish between failed and successful deployments by looking at the Cloud Build history.
 -- Access the manifest currently used by looking at the production branch of the env repository.
 -- Rollback to any previous version by re-executing the corresponding Cloud Build build.
+
+--> --> --> Image diagram of process: https://prnt.sc/X3VCx9-kl9UF
+--> --> diagram: https://prnt.sc/4SI0RHwlXJ6g 
+
+#
+#
+#
+#
 '
 
