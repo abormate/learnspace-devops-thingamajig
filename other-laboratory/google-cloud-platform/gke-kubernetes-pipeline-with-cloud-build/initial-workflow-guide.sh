@@ -71,6 +71,15 @@ gcloud services enable container.googleapis.com \
     containeranalysis.googleapis.com
     
 #
+# Create an artifact registry docker repo named "my-repository" to store your container images
+#
+
+gcloud artifacts repositories create my-repository \
+  --repository-format=docker \
+  --location=$REGION
+  
 #
 #
 #
+
+
