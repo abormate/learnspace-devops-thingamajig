@@ -34,4 +34,12 @@ When you finish this lab, you have a system where you can easily:
 #
 #
 '
+# -------------------------------- #
 
+#
+# Pre-check: before task 1
+#
+
+# list active account name 
+
+gcloud auth list
