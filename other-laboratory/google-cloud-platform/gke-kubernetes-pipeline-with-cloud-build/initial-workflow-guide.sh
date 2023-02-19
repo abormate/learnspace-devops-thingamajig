@@ -119,5 +119,20 @@ cd ~/hello-cloudbuild-app
 PROJECT_ID=$(gcloud config get-value project)
 git remote add google "https://source.developers.google.com/p/${PROJECT_ID}/r/hello-cloudbuild-app"
 
+#
+# "Hello World" app source code on the following
+#
 
+from flask import Flask
+app = Flask('hello-cloudbuild')
+@app.route('/')
+def hello():
+  return "Hello World!\n"
+if __name__ == '__main__':
+  app.run(host = '0.0.0.0', port = 8080)
+  
+#
+# END for pre-checks... + Task 1 and 2
+#
+#
 
