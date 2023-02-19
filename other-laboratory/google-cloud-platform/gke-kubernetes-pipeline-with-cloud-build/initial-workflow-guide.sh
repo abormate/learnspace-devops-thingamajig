@@ -112,6 +112,8 @@ git clone https://github.com/GoogleCloudPlatform/gke-gitops-tutorial-cloudbuild 
 
 #
 #
+# Configure Cloud source repo as a remote
 #
-#
+
+cd ~/hello-cloudbuild-app
 
