@@ -116,4 +116,8 @@ git clone https://github.com/GoogleCloudPlatform/gke-gitops-tutorial-cloudbuild 
 #
 
 cd ~/hello-cloudbuild-app
+PROJECT_ID=$(gcloud config get-value project)
+git remote add google "https://source.developers.google.com/p/${PROJECT_ID}/r/hello-cloudbuild-app"
+
+
 
