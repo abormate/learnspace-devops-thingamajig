@@ -32,3 +32,23 @@ PROJECT_NUMBER="$(gcloud projects describe ${PROJECT_ID} --format='get(projectNu
 gcloud projects add-iam-policy-binding ${PROJECT_NUMBER} \
 --member=serviceAccount:${PROJECT_NUMBER}@cloudbuild.gserviceaccount.com \
 --role=roles/container.developer
+
+#
+# You need to initialize the hello-cloudbuild-env repository with two branches (production and candidate) and a 
+# Cloud Build configuration file describing the deployment process.
+#
+# The first step is to clone the hello-cloudbuild-env repository and create the production branch. It is still empty.
+#
+#
+
+cd ~
+
+gcloud source repos clone hello-cloudbuild-env
+
+
+
+
+
+
+
+
