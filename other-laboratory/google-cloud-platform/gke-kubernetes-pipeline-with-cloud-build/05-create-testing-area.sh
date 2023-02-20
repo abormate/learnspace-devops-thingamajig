@@ -47,6 +47,6 @@ gcloud source repos clone hello-cloudbuild-env
 
 cd ~/hello-cloudbuild-env
 
-
+git checkout -b production
 
 
