@@ -98,8 +98,13 @@ bindings:
 EOF
 
 
+gcloud source repos set-iam-policy \
+hello-cloudbuild-env /tmp/hello-cloudbuild-env-policy.yaml
 
-
+#
+# Create trigger for continuous delivery 
+#
+#
 
 
 
