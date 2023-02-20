@@ -82,3 +82,29 @@ git checkout -b candidate
 git push origin production
 
 git push origin candidate
+
+#
+# Step (5)
+# Grant the Source Repository Writer IAM role to the Cloud Build service account for the hello-cloudbuild-env repository:
+#
+
+PROJECT_NUMBER="$(gcloud projects describe ${PROJECT_ID} \
+--format='get(projectNumber)')"
+cat >/tmp/hello-cloudbuild-env-policy.yaml <<EOF
+bindings:
+- members:
+  - serviceAccount:${PROJECT_NUMBER}@cloudbuild.gserviceaccount.com
+  role: roles/source.writer
+EOF
+
+
+
+
+
+
+
+
+
+
+
+
