@@ -62,3 +62,23 @@ cp ~/hello-cloudbuild-app/cloudbuild-delivery.yaml ~/hello-cloudbuild-env/cloudb
 git add .
 
 git commit -m "Create cloudbuild.yaml for deployment"
+
+#
+#
+:'
+The cloudbuild-delivery.yaml file describes the deployment process to be run in Cloud Build. It has two steps:
+
+Cloud Build applies the manifest on the GKE cluster.
+
+If successful, Cloud Build copies the manifest on the production branch.
+
+Step (4): Create a candidate branch and push both branches for them to be available in Cloud Source Repositories:
+'
+#
+#
+
+git checkout -b candidate
+
+git push origin production
+
+git push origin candidate
