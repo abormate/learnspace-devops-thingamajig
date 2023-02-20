@@ -3,3 +3,13 @@
 #
 
 # This laboratory entails working mostly on the Console. 
+#
+#
+#
+
+#
+# To start trigger, run the following
+#
+
+cd ~/hello-cloudbuild-app
+
