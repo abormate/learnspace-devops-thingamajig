@@ -21,3 +21,12 @@ copies the manifest over to the production branch. This process has the followin
 Next you will modify the continuous integration pipeline to update the candidate branch of the hello-cloudbuild-env repository, 
 triggering the continuous delivery pipeline.
 '
+
+#
+# Grant Cloud Build access to Kubernetes (GKE)
+# To deploy the application in your Kubernetes cluster, Cloud Build needs the Kubernetes Engine Developer Identity and Access Management role.
+#
+
+PROJECT_NUMBER="$(gcloud projects describe ${PROJECT_ID} --format='get(projectNumber)')"
+
+
