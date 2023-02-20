@@ -12,4 +12,5 @@
 #
 
 cd ~/hello-cloudbuild-app
+git push google master
 
