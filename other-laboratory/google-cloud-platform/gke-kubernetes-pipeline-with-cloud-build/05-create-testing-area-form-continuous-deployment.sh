@@ -49,4 +49,16 @@ cd ~/hello-cloudbuild-env
 
 git checkout -b production
 
+#
+#
+# Next you need to copy the cloudbuild-delivery.yaml file available in the hello-cloudbuild-app repository and commit the change:
+#
+#
 
+cd ~/hello-cloudbuild-env
+
+cp ~/hello-cloudbuild-app/cloudbuild-delivery.yaml ~/hello-cloudbuild-env/cloudbuild.yaml
+
+git add .
+
+git commit -m "Create cloudbuild.yaml for deployment"
