@@ -20,5 +20,6 @@
 #
 
 #
-#
+# Step 3 -- You should see a build running. Or have recently finished for the "hello-cloud-build-env"
+# repo. You can examine its logs and follow its execution. 
 #
