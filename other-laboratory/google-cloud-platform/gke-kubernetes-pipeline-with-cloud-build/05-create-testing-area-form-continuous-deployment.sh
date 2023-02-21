@@ -137,6 +137,6 @@ kustomize or skaffold. They allow for more control over the rendering of the man
 
 cd ~/hello-cloudbuild-app
 
-
+git add cloudbuild.yaml
 
 
