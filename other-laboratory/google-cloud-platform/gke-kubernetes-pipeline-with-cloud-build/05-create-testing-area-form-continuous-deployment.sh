@@ -117,7 +117,11 @@ hello-cloudbuild-env repository to trigger the continuous delivery pipeline.
 
 cd ~/hello-cloudbuild-app
 
+cp cloudbuild-trigger-cd.yaml cloudbuild.yaml
 
+#
+#
+#
 
 
 
