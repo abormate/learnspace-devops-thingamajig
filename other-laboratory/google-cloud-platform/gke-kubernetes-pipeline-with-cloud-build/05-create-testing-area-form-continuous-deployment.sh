@@ -106,8 +106,16 @@ hello-cloudbuild-env /tmp/hello-cloudbuild-env-policy.yaml
 # Most stuff for this particular sub-task could be done on the Console
 #
 
+#
+# Next -- Modify the CI pipeline to trigger the CD pipeline
+#
+:'
+Next, add some steps to the continuous integration pipeline that will generate a new version of the Kubernetes manifest and push it to the 
+hello-cloudbuild-env repository to trigger the continuous delivery pipeline.
+'
+#
 
-
+cd ~/hello-cloudbuild-app
 
 
 
