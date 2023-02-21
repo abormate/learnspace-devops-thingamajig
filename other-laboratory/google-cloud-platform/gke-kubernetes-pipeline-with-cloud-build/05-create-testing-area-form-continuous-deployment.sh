@@ -141,3 +141,10 @@ git add cloudbuild.yaml
 
 git commit -m "Trigger CD pipeline"
 
+git push google master
+
+#
+#
+# FIN -- Task 5
+#
+#
