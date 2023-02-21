@@ -119,6 +119,10 @@ cd ~/hello-cloudbuild-app
 
 cp cloudbuild-trigger-cd.yaml cloudbuild.yaml
 
+:'
+The cloudbuild-trigger-cd.yaml is an extended version of the cloudbuild.yaml file. It adds the steps below: they generate the new 
+Kubernetes manifest and trigger the continuous delivery pipeline.
+'
 #
 #
 #
