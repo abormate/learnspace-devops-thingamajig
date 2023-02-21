@@ -131,5 +131,12 @@ kustomize or skaffold. They allow for more control over the rendering of the man
 '
 # ------------------------------------- #
 
+#
+# Commit modifications and push them to Cloud Source Repositories
+#
+
+cd ~/hello-cloudbuild-app
+
+
 
 
