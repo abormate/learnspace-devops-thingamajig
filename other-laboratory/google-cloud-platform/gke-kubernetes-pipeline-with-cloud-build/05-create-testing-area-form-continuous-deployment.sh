@@ -103,7 +103,7 @@ hello-cloudbuild-env /tmp/hello-cloudbuild-env-policy.yaml
 
 #
 # Create trigger for continuous delivery 
-#
+# Most stuff for this particular sub-task could be done on the Console
 #
 
 
