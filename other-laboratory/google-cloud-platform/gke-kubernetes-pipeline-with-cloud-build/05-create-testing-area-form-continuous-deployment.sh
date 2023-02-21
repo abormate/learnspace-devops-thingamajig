@@ -124,8 +124,12 @@ The cloudbuild-trigger-cd.yaml is an extended version of the cloudbuild.yaml fil
 Kubernetes manifest and trigger the continuous delivery pipeline.
 '
 #
-#
-#
+# Important Notice: ------------------- #
+:'
+This pipeline uses a simple sed to render the manifest template. In reality, you will benefit from using a dedicated tool such as 
+kustomize or skaffold. They allow for more control over the rendering of the manifest templates.
+'
+# ------------------------------------- #
 
 
 
