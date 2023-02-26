@@ -45,4 +45,6 @@ Minimum nodes	    2
 Maximum nodes	    6
 '
 
+# Create "prod" and "dev" namespaces on your cluster
 
+# ----------------------------------------------- #
