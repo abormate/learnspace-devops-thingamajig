@@ -1,3 +1,10 @@
+# -------------------------------
+#
+# Provisioning resources and other dependencies
+#
+# -------------------------------
+
+
 :'
 In this section, you will initialize your Google Cloud project for the demo environment. 
 You will enable the required APIs, configure Git in Cloud Shell, create an Artifact Registry 
