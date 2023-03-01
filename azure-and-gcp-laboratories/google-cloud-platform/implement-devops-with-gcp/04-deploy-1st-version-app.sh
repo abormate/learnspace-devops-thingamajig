@@ -66,8 +66,27 @@ and 15 with v1.0
 
 # step 02 --
 :'
-Navigate to the prod/deployment.yaml file and fill in the <todo> on line 17 with the correct 
+Go to the prod/deployment.yaml file and fill in the <todo> on line 17 with the correct 
 container image name
 '
 
+# Notable -- Info:
+:'
+Note: your container image name cannot contain any variables, so you will need to use the full path 
+of your image in Artifact Registry.
+'
+
+# step 03 --
+:'
+Commit with your changes on the master branch and push changes to trigger the sample-app-prod-deploy 
+build job
+'
+
+# step 04 --
+:'
+Verify your build executed successfully, and verify the production-deployment application was deployed 
+onto the prod namespace of the cluster
+'
+
+# step 05 --
 
