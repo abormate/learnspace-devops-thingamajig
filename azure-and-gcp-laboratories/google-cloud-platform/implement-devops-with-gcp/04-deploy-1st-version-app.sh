@@ -89,4 +89,10 @@ onto the prod namespace of the cluster
 '
 
 # step 05 --
+:'
+Put the production-deployment deployment on the prod namespace to a LoadBalancer service named 
+prod-deployment-service on port 8080, and set the target port of the container to the one 
+specified in the Dockerfile
+'
+
 
