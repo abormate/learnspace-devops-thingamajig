@@ -17,5 +17,7 @@ in your GKE cluster.
 :'
 -- -- Event: "Push to a branch"
 -- -- Source repo: "sample-app"
+-- -- Branch: "^master$"
+-- -- Cloud Build Config file: "cloudbuild.yaml"
 
 '
