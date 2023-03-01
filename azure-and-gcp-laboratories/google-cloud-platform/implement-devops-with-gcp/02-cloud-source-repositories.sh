@@ -19,4 +19,6 @@ triggering builds.
 cd ~
 gsutil cp -r gs://spls/gsp330/sample-app/* sample-app
 
+# step 04 -- commit first sample code added to your sample-add directory and push changes to master branch
 
+# 
