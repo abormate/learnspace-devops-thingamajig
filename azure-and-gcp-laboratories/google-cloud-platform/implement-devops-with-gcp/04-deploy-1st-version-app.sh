@@ -95,4 +95,11 @@ prod-deployment-service on port 8080, and set the target port of the container t
 specified in the Dockerfile
 '
 
+# step 06 --
+:'
+Navigate to the Load Balancer IP of the service and add the /blue entry point at the end of the URL 
+to verify the application is up and running. It should resemble something like the following:
+ http://34.135.245.19:8080/blue
+'
 
+# -------------- END ---------------- #
