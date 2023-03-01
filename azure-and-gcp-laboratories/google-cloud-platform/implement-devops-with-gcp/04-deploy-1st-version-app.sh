@@ -29,7 +29,7 @@ Make sure to reference the correct one!
 
 # step 03 --
 :'
-Make a commit with your changes on the dev branch and push changes to trigger the 
+Commit with your changes on the dev branch and push changes to trigger the 
 sample-app-dev-deploy build job.
 '
 
@@ -37,4 +37,17 @@ sample-app-dev-deploy build job.
 :'
 Verify your build executed successfully, and verify the development-deployment application 
 was deployed onto the dev namespace of the cluster.
+'
+
+# step 05 --
+:'
+Put your development-deployment deployment to a LoadBalancer service named dev-deployment-service 
+on port 8080, and set the target port of the container to the one specified in the Dockerfile.
+'
+
+# step 06 --
+:'
+Navigate to the Load Balancer IP of the service and add the /blue entry point at the end of the URL 
+to verify the application is up and running. It should resemble something like the following: 
+http://34.135.97.199:8080/blue
 '
