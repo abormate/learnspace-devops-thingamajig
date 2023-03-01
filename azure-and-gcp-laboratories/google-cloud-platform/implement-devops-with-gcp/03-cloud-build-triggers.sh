@@ -21,3 +21,12 @@ in your GKE cluster.
 -- -- Cloud Build Config file: "cloudbuild.yaml"
 
 '
+
+# step 02 -- create Cloud Build trigger name "sample-app-dev-deploy" with the following config:
+:'
+-- -- Event: "Push to a branch"
+-- -- Source repo: "sample-app"
+-- -- Branch: "^dev$"
+-- -- 
+
+'
