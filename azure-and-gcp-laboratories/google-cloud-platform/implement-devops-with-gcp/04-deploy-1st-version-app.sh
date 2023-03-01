@@ -51,3 +51,23 @@ Navigate to the Load Balancer IP of the service and add the /blue entry point at
 to verify the application is up and running. It should resemble something like the following: 
 http://34.135.97.199:8080/blue
 '
+
+# ------------------------------------ #
+
+# Build 1st app-production deployment
+
+# ------------------------------------ #
+
+# step 01 --
+:'
+Inspect the cloudbuild.yaml file to see the steps in the build process. Fill in the <version> on lines 10 
+and 15 with v1.0
+'
+
+# step 02 --
+:'
+Navigate to the prod/deployment.yaml file and fill in the <todo> on line 17 with the correct 
+container image name
+'
+
+
