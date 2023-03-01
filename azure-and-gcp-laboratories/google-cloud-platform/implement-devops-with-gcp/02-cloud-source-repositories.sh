@@ -21,4 +21,14 @@ gsutil cp -r gs://spls/gsp330/sample-app/* sample-app
 
 # step 04 -- commit first sample code added to your sample-add directory and push changes to master branch
 
-# 
+# step 05 -- create branch named "dev". Make a commit with sample code added to your sample-app 
+# directory and push changes to "dev" branch/
+
+# step 06 -- verify that you have the sample code and branches stored in Source repository. 
+# --> screenshot for step 06 --->> https://prnt.sc/sIACdkZDZ0CB 
+
+# following context for sample-app
+:'
+The code you just cloned contains a simple Go application that has two entry points: Red and Blue. 
+Each will display a simple colored square on the web page depending on the entry point you go to.
+'
