@@ -27,6 +27,14 @@ in your GKE cluster.
 -- -- Event: "Push to a branch"
 -- -- Source repo: "sample-app"
 -- -- Branch: "^dev$"
--- -- 
+-- -- Cloud Build config file: "cloudbuild-dev.yaml"
 
 '
+
+# After setting up
+:'
+Any changes made to the branches will trigger the corresponding Cloud Build pipeline, which will build 
+and deploy the application as specified in the cloudbuild.yaml files.
+'
+
+# --------------- END Module 03 --------------- #
