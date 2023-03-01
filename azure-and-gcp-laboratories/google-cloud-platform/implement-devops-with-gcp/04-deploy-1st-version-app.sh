@@ -20,3 +20,14 @@ Fill in the <version> on lines 10 and 15 with v1.0.
 Navigate to the dev/deployment.yaml file and fill in the <todo> on line 17 with the correct 
 container image name.
 '
+
+# Info - Notable
+:'
+Hint: there are two containers that are built, one for the production app and one for the development app. 
+Make sure to reference the correct one!
+'
+
+# step 03 --
+:'
+
+'
