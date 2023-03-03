@@ -26,9 +26,9 @@ func redHandler(w http.ResponseWriter, r *http.Request) {
 	png.Encode(w, img)
 }
 
-:" # 04 Step --
-# Inspect the cloudbuild-dev.yaml file to see the steps in the build process. Update the version of 
-# the Docker image to v2.0
+: " 04 Step --
+Inspect the cloudbuild-dev.yaml file to see the steps in the build process. Update the version of 
+the Docker image to v2.0
 "
 
 # 05 Step --
@@ -41,3 +41,8 @@ Make a commit with your changes on the dev branch and push changes to trigger th
 build job.
 ' 
 
+# 07  Step --
+: '
+Verify your build executed successfully, and verify the development-deployment application was 
+deployed onto the dev namespace of the cluster and is using the v2.0 image
+'
