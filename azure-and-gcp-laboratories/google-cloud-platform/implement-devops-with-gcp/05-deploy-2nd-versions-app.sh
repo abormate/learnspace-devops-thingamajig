@@ -35,3 +35,9 @@ func redHandler(w http.ResponseWriter, r *http.Request) {
 :' Navigate to the dev/deployment.yaml file and update the container image name to the new version (v2.0)
 '
 
+# 06 Step --
+: '
+Make a commit with your changes on the dev branch and push changes to trigger the sample-app-dev-deploy 
+build job.
+' 
+
