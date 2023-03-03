@@ -41,8 +41,15 @@ Make a commit with your changes on the dev branch and push changes to trigger th
 build job.
 ' 
 
-# 07  Step --
+# 07 Step --
 : '
 Verify your build executed successfully, and verify the development-deployment application was 
 deployed onto the dev namespace of the cluster and is using the v2.0 image
+'
+
+# 08 Step --
+: '
+Navigate to the Load Balancer IP of the service and add the /red entry point at the end of the 
+URL to verify the application is up and running. It should resemble something like the following: 
+http://34.135.97.199:8080/red
 '
