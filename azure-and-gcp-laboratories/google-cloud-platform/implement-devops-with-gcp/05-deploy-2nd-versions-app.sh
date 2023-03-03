@@ -31,3 +31,7 @@ func redHandler(w http.ResponseWriter, r *http.Request) {
 # the Docker image to v2.0
 "
 
+# 05 Step --
+:' Navigate to the dev/deployment.yaml file and update the container image name to the new version (v2.0)
+'
+
