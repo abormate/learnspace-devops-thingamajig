@@ -26,7 +26,7 @@ func redHandler(w http.ResponseWriter, r *http.Request) {
 	png.Encode(w, img)
 }
 
-:"
+:" # 04 Step --
 # Inspect the cloudbuild-dev.yaml file to see the steps in the build process. Update the version of 
 # the Docker image to v2.0
 "
