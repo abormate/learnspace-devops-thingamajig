@@ -25,3 +25,9 @@ func redHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "image/png")
 	png.Encode(w, img)
 }
+
+:"
+# Inspect the cloudbuild-dev.yaml file to see the steps in the build process. Update the version of 
+# the Docker image to v2.0
+"
+
