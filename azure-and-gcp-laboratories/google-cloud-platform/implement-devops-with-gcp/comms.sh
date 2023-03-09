@@ -14,3 +14,12 @@ kubectl create namespace prod && \
 kubectl create namespace dev
 
 kubectl get namespace
+
+gcloud source repos create sample-app
+
+gcloud source repos clone sample-app --project=project ID
+
+cd ~
+gsutil cp -r gs://spls/gsp330/sample-app/* sample-app
+
+# push file contents new -- to master branch
