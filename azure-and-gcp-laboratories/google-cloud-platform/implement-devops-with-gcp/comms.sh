@@ -1,5 +1,9 @@
 
 
+
+git config --global user.email ab@test-domain.com                                             
+git config --global user.name abraham
+
 gcloud artifacts repositories create my-repository \
   --repository-format=docker \
   --location=us-central1
@@ -9,3 +13,4 @@ gcloud container clusters create hello-cluster --num-nodes 3 --region us-central
 kubectl create namespace prod && \
 kubectl create namespace dev
 
+kubectl get namespace
