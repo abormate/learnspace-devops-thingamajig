@@ -52,3 +52,5 @@ install git man pages using the command sudo apt-get install git-man
 sudo apt-get install git-man
 
 
+# when starting -- always initialize a folder or directory with git repo
+git init
