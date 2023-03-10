@@ -31,3 +31,7 @@ git help
 
 git show
 
+# List, create, or delete branches
+
+git branch
+
