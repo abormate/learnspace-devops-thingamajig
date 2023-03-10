@@ -11,7 +11,11 @@ cat /etc/os-release
 
 cat /etc/*release*
 
+# update apt package library
+
+sudo apt update
+
 # install git on Debian-based distro like Ubuntu 
 
-sudo apt install git-all
+sudo apt install git -y
 
