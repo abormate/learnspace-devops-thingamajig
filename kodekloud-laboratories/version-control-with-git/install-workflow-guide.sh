@@ -35,3 +35,7 @@ git show
 
 git branch
 
+# Download objects from another repository
+
+git fetch
+
