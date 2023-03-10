@@ -39,3 +39,6 @@ git branch
 
 git fetch
 
+# When starting -- to create an empty Git repository or re-initialize an existing one
+
+git init 
