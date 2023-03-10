@@ -23,3 +23,11 @@ sudo apt install git -y
 
 git --version
 
+# explore git commands 
+
+git help
+
+# Show various types of objects
+
+git show
+
