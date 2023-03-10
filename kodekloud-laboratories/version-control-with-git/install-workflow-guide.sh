@@ -19,3 +19,7 @@ sudo apt update
 
 sudo apt install git -y
 
+# verify git is already installed in your local machine
+
+git --version
+
