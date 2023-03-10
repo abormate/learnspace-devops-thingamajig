@@ -42,3 +42,11 @@ git fetch
 # When starting -- to create an empty Git repository or re-initialize an existing one
 
 git init 
+
+: '
+You may view additional help on each command following the syntax git help <command>. For this you must 
+first install git man pages using the command sudo apt-get install git-man
+'
+
+sudo apt-get install git-man
+
