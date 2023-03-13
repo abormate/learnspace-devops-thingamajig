@@ -21,3 +21,14 @@ gcloud auth list
 
 # After authorization -- list the project ID 
 gcloud config list project
+
+
+# --------------------------------- #
+#
+# Task 1 - create a function
+#
+# --------------------------------- #
+
+# With the shell, create a directory for code
+mkdir gcf_hello_world
+
