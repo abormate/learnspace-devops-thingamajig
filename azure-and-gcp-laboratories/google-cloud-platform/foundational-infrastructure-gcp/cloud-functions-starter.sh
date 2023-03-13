@@ -32,3 +32,6 @@ gcloud config list project
 # With the shell, create a directory for code
 mkdir gcf_hello_world
 
+# move into the newly created directory
+cd gcf_hello_world
+
