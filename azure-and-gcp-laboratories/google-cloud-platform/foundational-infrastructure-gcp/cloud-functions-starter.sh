@@ -19,3 +19,5 @@ any work from you.
 # list active account name
 gcloud auth list
 
+# After authorization -- list the project ID 
+gcloud config list project
