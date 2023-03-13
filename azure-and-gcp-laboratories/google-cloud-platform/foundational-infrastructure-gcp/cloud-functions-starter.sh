@@ -14,3 +14,8 @@ This means that a function can scale from a few invocations a day to many millio
 any work from you.
 '
 
+# Setup
+
+# list active account name
+gcloud auth list
+
