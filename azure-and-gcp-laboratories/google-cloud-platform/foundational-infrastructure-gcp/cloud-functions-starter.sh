@@ -35,3 +35,6 @@ mkdir gcf_hello_world
 # move into the newly created directory
 cd gcf_hello_world
 
+# create and open a javascript file
+nano index.js
+
