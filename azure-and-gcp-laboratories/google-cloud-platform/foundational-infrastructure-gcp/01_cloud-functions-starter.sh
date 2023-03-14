@@ -57,3 +57,8 @@ console.log(`My Cloud Function: ${name}`);
 
 # Exit nano with "CTRL + x" and save (Y) the file
 
+# ------------------------------------ #
+#
+# END - Task 1
+#
+# ------------------------------------ #
