@@ -55,3 +55,5 @@ const name = pubSubMessage.data
 console.log(`My Cloud Function: ${name}`);
 };
 
+# Exit nano with "CTRL + x" and save (Y) the file
+
