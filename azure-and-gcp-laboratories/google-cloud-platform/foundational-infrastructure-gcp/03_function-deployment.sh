@@ -42,3 +42,8 @@ status: ACTIVE
 
 # Every message published in the topic triggers function execution, the message contents are passed as input data
 
+# ------------------------------------- #
+#
+# END -- Task 3
+#
+# ------------------------------------- #
