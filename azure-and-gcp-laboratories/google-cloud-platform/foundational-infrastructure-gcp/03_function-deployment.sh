@@ -6,6 +6,18 @@
 
 # Learn
 : '
+What are Cloud events and triggers?
+
+Cloud events are things that happen in your cloud environment.These might be things like changes to data in 
+a database, files added to a storage system, or a new virtual machine instance being created.
+
+Events occur whether or not you choose to respond to them. You create a response to an event with a trigger. 
+A trigger is a declaration that you are interested in a certain event or set of events. Binding a function 
+to a trigger allows you to capture and act on events. For more information on creating triggers and associating 
+them with your functions
+'
+
+: '
 When deploying a new function, you must specify --trigger-topic, --trigger-bucket, or --trigger-http. When 
 deploying an update to an existing function, the function keeps the existing trigger unless otherwise 
 specified
