@@ -10,3 +10,10 @@
 
 DATA=$(printf 'Hello World!'|base64) && gcloud functions call helloWorld --data '{"data":"'$DATA'"}'
 
+# The cloud tool returns the execution ID for the function, which means a message has been written in the log.
+
+# Output
+# executionId: 3zmhpf7l6j5b
+
+# View logs to confirm that there are log messages with that execution ID
+
