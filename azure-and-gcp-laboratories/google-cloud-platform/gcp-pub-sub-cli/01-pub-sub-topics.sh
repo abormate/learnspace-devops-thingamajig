@@ -64,5 +64,9 @@ name: projects/projectID-gcp-3450558d2b043890/topics/Test2
 ---
 name: projects/projectID-gcp-3450558d2b043890/topics/Test1
 
+# Time to clean up. Delete "Test1" and "Test2"
+gcloud pubsub topics delete Test1
+
+gcloud pubsub topics delete Test2
 
 
