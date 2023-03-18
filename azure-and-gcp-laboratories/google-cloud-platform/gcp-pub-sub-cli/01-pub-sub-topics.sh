@@ -48,7 +48,21 @@ receive messages from it.
 # create a pub/sub topic called "myTopic"
 gcloud pubsub topics create myTopic
 
+# For good measure, create 2 more topics -- one called "Test1" another called "Test2"
+gcloud pubsub topics create Test1
 
+gcloud pubsub topics create Test2
+
+# To see the 3 topics you just created, run the following:
+gcloud pubsub topics list
+
+# output should be the following
+
+name: projects/projectID-gcp-3450558d2b043890/topics/myTopic
+---
+name: projects/projectID-gcp-3450558d2b043890/topics/Test2
+---
+name: projects/projectID-gcp-3450558d2b043890/topics/Test1
 
 
 
