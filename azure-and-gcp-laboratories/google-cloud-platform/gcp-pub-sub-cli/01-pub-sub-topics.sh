@@ -16,6 +16,7 @@ and streaming data from various processes or devices
 
 '
 
+# activate Cloud Shell
 # list active account name
 gcloud auth list
 
@@ -23,5 +24,8 @@ gcloud auth list
 
 # list project ID with the following
 gcloud config list project
+
+
+
 
 
