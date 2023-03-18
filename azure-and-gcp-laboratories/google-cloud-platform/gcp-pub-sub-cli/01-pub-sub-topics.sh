@@ -42,6 +42,12 @@ receive messages from it.
 
 '
 
+# Pub/Sub comes pre-installed in Cloud Shell, so there are no installations or configurations required to
+# get started with this service.
+
+# create a pub/sub topic called "myTopic"
+gcloud pubsub topics create myTopic
+
 
 
 
