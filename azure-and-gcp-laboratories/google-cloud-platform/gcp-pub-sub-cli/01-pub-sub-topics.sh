@@ -69,4 +69,7 @@ gcloud pubsub topics delete Test1
 
 gcloud pubsub topics delete Test2
 
+# Run the gcloud pubsub topics list command in order to verify topics were deleted
+gcloud pubsub topics list
+
 
