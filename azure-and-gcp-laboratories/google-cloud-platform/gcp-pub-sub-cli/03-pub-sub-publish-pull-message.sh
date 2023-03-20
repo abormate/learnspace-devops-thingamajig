@@ -48,3 +48,9 @@ access that message again with the pull command.
 
 gcpstaging20394_student@cloudshell:~ (projectID-gcp-3450558d2b043890)$ gcloud pubsub subscriptions pull mySubscription --auto-ack
 Listed 0 items.
+
+# ----------------------------------- #
+#
+# End Tutorial - Pub Sub
+#
+# ----------------------------------- #
