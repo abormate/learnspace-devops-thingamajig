@@ -21,5 +21,6 @@ Next, use the pull command to get the messages from your topic. The pull command
 meaning it should work because earlier you set up the subscription mySubscription to the topic myTopic
 '
 
-
+# Use the following command to pull the messages you just published from the Pub/Sub topic
+gcloud pubsub subscriptions pull mySubscription --auto-ack
 
