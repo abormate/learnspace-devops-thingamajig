@@ -39,3 +39,12 @@ that has more held in it.
 access that message again with the pull command.
 
 '
+
+# To see what the second bullet is talking about, run the last command three more times. 
+# You will see that it will output the other messages you published before
+
+# Now, run the command a 4th time. You'll get the following output (since there were none left to return)
+# Output on 4th run
+
+gcpstaging20394_student@cloudshell:~ (projectID-gcp-3450558d2b043890)$ gcloud pubsub subscriptions pull mySubscription --auto-ack
+Listed 0 items.
