@@ -24,3 +24,18 @@ meaning it should work because earlier you set up the subscription mySubscriptio
 # Use the following command to pull the messages you just published from the Pub/Sub topic
 gcloud pubsub subscriptions pull mySubscription --auto-ack
 
+# Important notice about the Pull command for Pub/Sub
+: '
+What's going on here? You published 4 messages to your topic, but only 1 was outputted
+'
+
+: '
+Now is an important time to note a couple features of the pull command that often trip developers up:
+
+-- -- Using the pull command without any flags will output only one message, even if you are subscribed to a topic 
+that has more held in it.
+
+-- -- Once an individual message has been outputted from a particular subscription-based pull command, you cannot 
+access that message again with the pull command.
+
+'
