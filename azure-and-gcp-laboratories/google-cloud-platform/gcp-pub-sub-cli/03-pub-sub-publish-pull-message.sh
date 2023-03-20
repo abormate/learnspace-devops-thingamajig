@@ -16,3 +16,10 @@ gcloud pubsub topics publish myTopic --message "Publisher likes the <FOOD>"
 
 gcloud pubsub topics publish myTopic --message "Publisher thinks Pub/Sub is awesome"
 
+: '
+Next, use the pull command to get the messages from your topic. The pull command is subscription based, 
+meaning it should work because earlier you set up the subscription mySubscription to the topic myTopic
+'
+
+
+
