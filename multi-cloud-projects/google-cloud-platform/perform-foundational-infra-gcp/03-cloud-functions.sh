@@ -4,6 +4,8 @@
 #
 # ------------------------------ #
 
+# index.js
+
 /* globals exports, require */
 //jshint strict: false
 //jshint esversion: 6
