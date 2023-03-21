@@ -71,3 +71,6 @@ exports.thumbnail = (event, context) => {
     console.log(`gs://${bucketName}/${fileName} already has a thumbnail`);
   }
 };
+
+# package.json
+
