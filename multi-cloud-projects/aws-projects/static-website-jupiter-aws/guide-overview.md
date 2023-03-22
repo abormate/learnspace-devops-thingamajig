@@ -19,3 +19,5 @@ Step 06 -- Create a DNS record set in Route53
 
 Step 07 -- Register an SSL certificate with AWS Certificate Manager
 
+Step 08 -- Create a HTTPS listener for Application Load Balancer
+
