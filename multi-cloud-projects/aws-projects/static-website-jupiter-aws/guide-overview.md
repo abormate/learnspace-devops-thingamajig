@@ -13,3 +13,5 @@ Step 03 -- Create Security Groups
 
 Step 04 -- Create an Application Load Balancer
 
+Step 05 -- Register a new Domain Name with Route53
+
