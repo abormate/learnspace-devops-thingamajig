@@ -6,3 +6,6 @@ Step 01 -- First, we provision the needed VPC and 3-level Sub-net networking inf
 
 
 ![VPC_Reference_Architecture](https://user-images.githubusercontent.com/53473761/226775649-b191d344-e17b-4441-a868-2ca9fee08221.jpg)
+
+Step 02 -- Create NAT gateway connected to an internet gateway
+
