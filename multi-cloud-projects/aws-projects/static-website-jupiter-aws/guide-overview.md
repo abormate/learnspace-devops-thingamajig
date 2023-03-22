@@ -9,6 +9,10 @@ Step 01 -- First, we provision the needed VPC and 3-level Sub-net networking inf
 
 Step 02 -- Create a NAT gateway
 
+
+![Nat_Gateway_Reference_Architecture](https://user-images.githubusercontent.com/53473761/226817327-4f685c37-b327-4ffc-88b8-c97753584211.jpg)
+
+
 Step 03 -- Create Security Groups
 
 Step 04 -- Create an Application Load Balancer
