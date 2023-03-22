@@ -15,6 +15,9 @@ Step 02 -- Create a NAT gateway
 
 Step 03 -- Create Security Groups
 
+![Sg](https://user-images.githubusercontent.com/53473761/226819140-96907a8b-c23a-4a39-99eb-bfbe4f6d36e9.JPG)
+
+
 Step 04 -- Create an Application Load Balancer
 
 Step 05 -- Register a new Domain Name with Route53
