@@ -11,3 +11,5 @@ Step 02 -- Create a NAT gateway
 
 Step 03 -- Create Security Groups
 
+Step 04 -- Create an Application Load Balancer
+
