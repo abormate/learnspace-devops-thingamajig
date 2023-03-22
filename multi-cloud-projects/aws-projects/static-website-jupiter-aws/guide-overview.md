@@ -21,3 +21,4 @@ Step 07 -- Register an SSL certificate with AWS Certificate Manager
 
 Step 08 -- Create a HTTPS listener for Application Load Balancer
 
+Step 09 -- Create an autoscaling group
