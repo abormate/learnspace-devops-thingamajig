@@ -15,3 +15,5 @@ Step 04 -- Create an Application Load Balancer
 
 Step 05 -- Register a new Domain Name with Route53
 
+Step 06 -- Create a DNS record set in Route53
+
