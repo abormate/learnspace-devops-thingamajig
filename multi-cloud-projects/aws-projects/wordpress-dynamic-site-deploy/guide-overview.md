@@ -8,3 +8,5 @@ Step 2 -- create of NAT gateways
 
 ![3 _Nat_Gateway_Reference_Architecture](https://user-images.githubusercontent.com/53473761/227087795-ec2224ff-c70e-4d98-ba40-96eb657090f9.jpg)
 
+Step 3 -- Creation of Security Groups
+
