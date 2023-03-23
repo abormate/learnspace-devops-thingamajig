@@ -22,8 +22,10 @@ Step 6 -- Provision EC2 instances
 
 Step 7 -- Install WordPress on EC2 instances
 
-Step 8 -- Register a new Domain Name on Route53
+Step 8 -- Create Application Load Balancer
 
-Step 9 -- Acquire SSL certificate from Certificate Manager 
+Step 9 -- Register a new Domain Name on Route53
 
-Step 10 -- Launch Bastion Host
+Step 10 -- Acquire SSL certificate from Certificate Manager 
+
+Step 11 -- Launch Bastion Host
