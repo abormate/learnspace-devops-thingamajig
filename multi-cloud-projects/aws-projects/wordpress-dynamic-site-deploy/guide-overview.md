@@ -29,3 +29,5 @@ Step 9 -- Register a new Domain Name on Route53
 Step 10 -- Acquire SSL certificate from Certificate Manager 
 
 Step 11 -- Launch Bastion Host
+
+Step 12 -- Create Autoscaling Group
