@@ -18,3 +18,5 @@ Step 4 -- Creation of RDS instance
 
 Step 5 -- Create EFS instance
 
+Step 6 -- Provision EC2 instances
+
