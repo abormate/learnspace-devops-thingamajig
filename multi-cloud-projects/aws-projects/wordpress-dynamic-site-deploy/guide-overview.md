@@ -24,3 +24,6 @@ Step 7 -- Install WordPress on EC2 instances
 
 Step 8 -- Register a new Domain Name on Route53
 
+Step 9 -- Acquire SSL certificate from Certificate Manager 
+
+Step 10 -- Launch Bastion Host
