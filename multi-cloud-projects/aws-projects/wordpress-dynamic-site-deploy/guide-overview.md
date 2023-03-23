@@ -12,3 +12,5 @@ Step 3 -- Creation of Security Groups
 
 ![4 WordPress_SG](https://user-images.githubusercontent.com/53473761/227088032-7dcd8bfb-8c9f-4135-b8e2-eb01609d8b0f.jpg)
 
+Step 4 -- Creation of RDS instance
+
