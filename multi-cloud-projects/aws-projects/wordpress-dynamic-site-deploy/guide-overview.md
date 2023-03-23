@@ -20,3 +20,4 @@ Step 5 -- Create EFS instance
 
 Step 6 -- Provision EC2 instances
 
+Step 7 -- Install WordPress on EC2 instances
