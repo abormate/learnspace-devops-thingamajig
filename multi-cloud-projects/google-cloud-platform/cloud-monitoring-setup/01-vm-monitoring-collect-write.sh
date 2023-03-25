@@ -21,3 +21,5 @@ Boot disk	    Click Change. Select version Debian GNU/Linux 10 (buster) for Debi
 Firewall	    check Allow HTTP traffic
 
 '
+
+# Create VM instance
