@@ -45,3 +45,4 @@ sudo systemctl status google-cloud-ops-agent"*"
 
 # Enter 'q' from keys to exit status
 
+sudo apt-get update
