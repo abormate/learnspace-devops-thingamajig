@@ -12,3 +12,6 @@ sudo apt-get update
 
 sudo apt-get install apache2 php7.0
 
+# If you have trouble installing PHP 7.0 -- then you can try instead, PHP 5
+
+sudo service apache2 restart
