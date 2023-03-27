@@ -28,3 +28,6 @@ list of agent metrics.
 
 # GCP operations website --> Cloud Monitoring documentation --> https://cloud.google.com/monitoring/docs#
 
+# You'll install the Cloud Logging agents to stream logs from your VM instances to Cloud Logging.
+# It is best practice, to run the Cloud Logging agent on all your VM instances.
+
