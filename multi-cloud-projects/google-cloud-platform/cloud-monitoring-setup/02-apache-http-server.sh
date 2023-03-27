@@ -17,3 +17,13 @@ sudo apt-get install apache2 php7.0
 sudo service apache2 restart
 
 # Now, you'll need to install monitoring and logging agents to your server(s)
+
+# Agents collect data and then send or stream info to Cloud Monitoring in the Cloud Console
+: '
+The Cloud Monitoring agent is a collected-based daemon that gathers system and application metrics from 
+virtual machine instances and sends them to Monitoring. By default, the Monitoring agent collects disk, CPU, 
+network, and process metrics. Configuring the Monitoring agent allows third-party applications to get the full 
+list of agent metrics.
+'
+
+# GCP operations website --> Cloud Monitoring documentation --> https://cloud.google.com/monitoring/docs#
