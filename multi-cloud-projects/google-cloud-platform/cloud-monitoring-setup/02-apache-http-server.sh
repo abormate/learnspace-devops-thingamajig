@@ -34,3 +34,6 @@ list of agent metrics.
 # Run monitoring agent install script from the SSH terminal of your VM instance to install logging agent
 curl -sSO https://dl.google.com/cloudagents/add-google-cloud-ops-agent-repo.sh
 
+sudo bash add-google-cloud-ops-agent-repo.sh --also-install
+
+# When asked if you want to continue, enter Y
