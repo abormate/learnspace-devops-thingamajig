@@ -31,3 +31,6 @@ list of agent metrics.
 # You'll install the Cloud Logging agents to stream logs from your VM instances to Cloud Logging.
 # It is best practice, to run the Cloud Logging agent on all your VM instances.
 
+# Run monitoring agent install script from the SSH terminal of your VM instance to install logging agent
+curl -sSO https://dl.google.com/cloudagents/add-google-cloud-ops-agent-repo.sh
+
