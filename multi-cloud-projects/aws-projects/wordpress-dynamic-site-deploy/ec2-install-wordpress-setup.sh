@@ -33,3 +33,7 @@ chown apache:apache -R /var/www/html
 wget https://wordpress.org/latest.tar.gz
 tar -xzf latest.tar.gz
 cp -r wordpress/* /var/www/html/
+
+#7. create the wp-config.php file
+cp /var/www/html/wp-config-sample.php /var/www/html/wp-config.php
+
