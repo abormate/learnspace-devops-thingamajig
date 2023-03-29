@@ -37,3 +37,7 @@ cp -r wordpress/* /var/www/html/
 #7. create the wp-config.php file
 cp /var/www/html/wp-config-sample.php /var/www/html/wp-config.php
 
+#8. edit the wp-config.php file
+# Then input database details and credentials manually. Save file.
+nano /var/www/html/wp-config.php
+
