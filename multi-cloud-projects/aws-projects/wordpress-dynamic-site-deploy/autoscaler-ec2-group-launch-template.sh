@@ -16,3 +16,10 @@ sudo rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
 
 sudo yum install mysql-community-server -y
 sudo systemctl enable mysqld
+
+sudo systemctl start mysqld
+echo "efs-url.amazonaws.com:/ /var/www/html nfs4 
+
+
+
+
