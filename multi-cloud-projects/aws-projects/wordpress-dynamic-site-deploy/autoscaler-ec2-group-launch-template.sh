@@ -18,8 +18,8 @@ sudo yum install mysql-community-server -y
 sudo systemctl enable mysqld
 
 sudo systemctl start mysqld
-echo "efs-url.amazonaws.com:/ /var/www/html nfs4 
-
+echo "efs-url.amazonaws.com:/ /var/www/html nfs4 nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2 0 0" >> /etc/fstab
+mount -a
 
 
 
