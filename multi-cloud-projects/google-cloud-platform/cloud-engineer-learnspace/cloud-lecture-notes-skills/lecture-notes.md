@@ -15,3 +15,9 @@ Cymbal superstore, plans to migrate 3 applications to the Cloud
 * Transportation management app will run on Cloud Functions to track deliveries
 
 The graphic above shows a possible organizational hierarchy for the Cloud resources for Cymbal
+
+Multiple projects, one for each environment for CI/CD
+* Development or Dev
+* Staging
+* Production 
+
