@@ -12,4 +12,4 @@ To help alongside a team to determine how the Cloud solution structure will be o
 Cymbal superstore, plans to migrate 3 applications to the Cloud
 * Supply Chain app will run on VMs
 * ECommerce app will run on containers through GKE
-* Transportation app will run on Cloud Functions
+* Transportation management app will run on Cloud Functions to track deliveries
