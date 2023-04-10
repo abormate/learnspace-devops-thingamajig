@@ -22,7 +22,7 @@ compute, networking, and storage resources to meet your production needs.
 -- Limited geographic reach: Deployments in a single environment require people who are geographically distant from 
 one another to access one deployment. Their traffic might travel around the world to a central location.
 
-
+-- Limited availability: Web-scale traffic patterns challenge applications to remain fault-tolerant and resilient.
 
 '
 
