@@ -5,3 +5,8 @@ regions to address a specific technical or operational need. Heterogeneous deplo
 "multi-cloud", or "public-private", depending upon the specifics of the deployment.
 '
 
+: '
+For the purposes of this lab, heterogeneous deployments include those that span regions within a single 
+cloud environment, multiple public cloud environments (multi-cloud), or a combination of on-premises and public 
+cloud environments (hybrid or public-private).
+'
