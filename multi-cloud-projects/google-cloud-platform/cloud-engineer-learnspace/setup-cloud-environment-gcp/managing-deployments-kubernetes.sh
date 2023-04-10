@@ -14,3 +14,10 @@ cloud environments (hybrid or public-private).
 : '
 Various business and technical challenges can arise in deployments that are limited to a single environment or region:
 '
+
+: '
+Maxed out resources: In any single environment, particularly in on-premises environments, you might not have the 
+compute, networking, and storage resources to meet your production needs.
+
+'
+
