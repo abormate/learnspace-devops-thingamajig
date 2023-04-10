@@ -35,6 +35,9 @@ Heterogeneous deployments can help address these challenges, but they must be ar
 deterministic processes and procedures. One-off or ad-hoc deployment procedures can cause deployments or 
 processes to be brittle and intolerant of failures.
 
+Ad-hoc processes can lose data or drop traffic. Good deployment processes must be repeatable and use proven approaches 
+for managing provisioning, configuration, and maintenance
+
 '
 
 
