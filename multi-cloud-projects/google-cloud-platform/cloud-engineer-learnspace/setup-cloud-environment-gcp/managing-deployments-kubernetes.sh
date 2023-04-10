@@ -10,3 +10,7 @@ For the purposes of this lab, heterogeneous deployments include those that span 
 cloud environment, multiple public cloud environments (multi-cloud), or a combination of on-premises and public 
 cloud environments (hybrid or public-private).
 '
+
+: '
+Various business and technical challenges can arise in deployments that are limited to a single environment or region:
+'
