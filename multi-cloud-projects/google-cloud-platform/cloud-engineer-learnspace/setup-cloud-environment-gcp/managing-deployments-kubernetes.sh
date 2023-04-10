@@ -16,8 +16,13 @@ Various business and technical challenges can arise in deployments that are limi
 '
 
 : '
-Maxed out resources: In any single environment, particularly in on-premises environments, you might not have the 
+-- Maxed out resources: In any single environment, particularly in on-premises environments, you might not have the 
 compute, networking, and storage resources to meet your production needs.
+
+-- Limited geographic reach: Deployments in a single environment require people who are geographically distant from 
+one another to access one deployment. Their traffic might travel around the world to a central location.
+
+
 
 '
 
