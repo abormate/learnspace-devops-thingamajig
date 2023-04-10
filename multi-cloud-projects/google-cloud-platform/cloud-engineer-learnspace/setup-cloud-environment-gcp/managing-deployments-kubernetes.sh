@@ -30,5 +30,11 @@ one another to access one deployment. Their traffic might travel around the worl
 offerings.
 '
 
+: ' 
+Heterogeneous deployments can help address these challenges, but they must be architected using programmatic and 
+deterministic processes and procedures. One-off or ad-hoc deployment procedures can cause deployments or 
+processes to be brittle and intolerant of failures.
+
+'
 
 
