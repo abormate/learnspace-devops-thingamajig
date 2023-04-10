@@ -25,5 +25,10 @@ one another to access one deployment. Their traffic might travel around the worl
 -- Limited availability: Web-scale traffic patterns challenge applications to remain fault-tolerant and resilient.
 
 -- Vendor lock-in: Vendor-level platform and infrastructure abstractions can prevent you from porting applications.
+
+-- Inflexible resources: Your resources might be limited to a particular set of compute, storage, or networking 
+offerings.
 '
+
+
 
