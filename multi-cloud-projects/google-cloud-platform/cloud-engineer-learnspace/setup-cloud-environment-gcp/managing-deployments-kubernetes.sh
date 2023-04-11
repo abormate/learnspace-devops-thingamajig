@@ -75,7 +75,10 @@ gcloud container clusters create bootcamp \
 #
 # ---------------------------------- #
 
+# first, let's take a look at the deployment object
 # explain command in kubectl tells us about the deployment object
 kubectl explain deployment
+
+
 
 
