@@ -40,4 +40,10 @@ for managing provisioning, configuration, and maintenance
 
 '
 
+: '
+Three common scenarios for heterogeneous deployment are multi-cloud deployments, fronting on-premises data, and 
+continuous integration/continuous delivery (CI/CD) processes.
+
+'
+
 
