@@ -69,6 +69,12 @@ gcloud container clusters create bootcamp \
   --num-nodes 3 \
   --scopes "https://www.googleapis.com/auth/projecthosting,storage-rw"
 
+# ---------------------------------- #
+#
+# Task 1 -- Learn about the deployment object
+#
+# ---------------------------------- #
+
 
 
 
