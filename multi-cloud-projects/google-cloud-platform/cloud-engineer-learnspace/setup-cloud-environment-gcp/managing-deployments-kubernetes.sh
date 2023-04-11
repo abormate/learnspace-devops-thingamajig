@@ -47,6 +47,9 @@ continuous integration/continuous delivery (CI/CD) processes.
 '
 
 # Activate Cloud Shell
+# List active account name with the following command
 gcloud auth list 
+
+
 
 
