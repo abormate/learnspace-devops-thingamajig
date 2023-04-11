@@ -79,6 +79,5 @@ gcloud container clusters create bootcamp \
 # explain command in kubectl tells us about the deployment object
 kubectl explain deployment
 
-
-
-
+# we can also see all the fields with the --recursive option
+kubectl explain deployment --recursive
