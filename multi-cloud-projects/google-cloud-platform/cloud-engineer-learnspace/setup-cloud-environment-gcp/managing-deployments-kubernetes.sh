@@ -46,4 +46,6 @@ continuous integration/continuous delivery (CI/CD) processes.
 
 '
 
+# Activate Cloud Shell
+
 
