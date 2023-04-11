@@ -55,5 +55,9 @@ gcloud auth list
 # List the project ID 
 gcloud config list project
 
+# Set the Zone
+gcloud config set compute/zone 
+
+
 
 
