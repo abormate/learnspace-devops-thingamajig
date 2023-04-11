@@ -50,6 +50,10 @@ continuous integration/continuous delivery (CI/CD) processes.
 # List active account name with the following command
 gcloud auth list 
 
+# Authorize
+
+# List the project ID 
+gcloud config list project
 
 
 
