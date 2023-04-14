@@ -97,4 +97,10 @@ kubectl explain deployment.metadata.name
 vi deployments/auth.yaml
 
 # Modify VM image in the containers section of the deployment file to the following
+...
+containers:
+- name: auth
+  image: "kelseyhightower/auth:1.0.0"
+...
+
 
