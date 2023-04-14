@@ -81,3 +81,8 @@ kubectl explain deployment
 
 # we can also see all the fields with the --recursive option
 kubectl explain deployment --recursive
+
+# You can use the explain command as you go through the lab to help you understand the structure of a 
+# deployment object and understand what the individual fields do
+
+
