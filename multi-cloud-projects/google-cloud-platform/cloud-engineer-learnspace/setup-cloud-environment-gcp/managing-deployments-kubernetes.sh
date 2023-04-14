@@ -96,4 +96,5 @@ kubectl explain deployment.metadata.name
 # Modify through vim or vi that file at deployments/auth.yaml
 vi deployments/auth.yaml
 
+# Modify VM image in the containers section of the deployment file to the following
 
