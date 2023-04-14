@@ -103,4 +103,31 @@ containers:
   image: "kelseyhightower/auth:1.0.0"
 ...
 
+# Save the auth.yaml from vim or vi
 
+# Output should be the following
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: auth
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: auth
+  template:
+    metadata:
+      labels:
+        app: auth
+        track: stable
+    spec:
+      containers:
+        - name: auth
+          image: "kelseyhightower/auth:1.0.0"
+          ports:
+            - name: http
+              containerPort: 80
+            - name: health
+              containerPort: 81
+...
