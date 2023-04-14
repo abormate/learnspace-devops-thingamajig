@@ -89,6 +89,8 @@ kubectl explain deployment.metadata.name
 
 # --------------------------------------- #
 #
-# 
+#  Task 2 -- Create a Kubernetes deployment
 #
 # --------------------------------------- #
+
+
