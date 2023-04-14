@@ -94,4 +94,6 @@ kubectl explain deployment.metadata.name
 # --------------------------------------- #
 
 # Modify through vim or vi that file at deployments/auth.yaml
+vi deployments/auth.yaml
+
 
