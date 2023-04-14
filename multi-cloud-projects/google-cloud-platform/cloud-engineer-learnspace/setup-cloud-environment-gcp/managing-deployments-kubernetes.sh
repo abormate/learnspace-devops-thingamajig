@@ -105,7 +105,7 @@ containers:
 
 # Save the auth.yaml from vim or vi
 
-# Output should be the following
+# Output should be the following 
 
 apiVersion: apps/v1
 kind: Deployment
@@ -131,3 +131,12 @@ spec:
             - name: health
               containerPort: 81
 ...
+
+: '
+Notice how the deployment is creating one replica and it's using version 1.0.0 of the auth container.
+
+When you run the kubectl create command to create the auth deployment, it will make one pod that conforms to the 
+data in the deployment manifest. This means we can scale the number of Pods by changing the number specified in 
+the replicas field.
+
+'
