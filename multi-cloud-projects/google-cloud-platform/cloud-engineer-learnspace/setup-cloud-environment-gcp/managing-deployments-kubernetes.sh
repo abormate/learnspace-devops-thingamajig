@@ -87,4 +87,8 @@ kubectl explain deployment --recursive
 
 kubectl explain deployment.metadata.name
 
-
+# --------------------------------------- #
+#
+# 
+#
+# --------------------------------------- #
