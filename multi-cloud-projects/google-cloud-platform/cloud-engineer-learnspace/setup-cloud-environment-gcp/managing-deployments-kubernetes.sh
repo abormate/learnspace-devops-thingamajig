@@ -141,3 +141,5 @@ the replicas field.
 ''
 
 # Create your deployment object through kubectl
+kubectl create -f deployments/auth.yaml
+
