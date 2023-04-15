@@ -144,3 +144,5 @@ the replicas field.
 kubectl create -f deployments/auth.yaml
 
 # After creating a deployment -- verify that it was created
+kubectl get deployments
+
