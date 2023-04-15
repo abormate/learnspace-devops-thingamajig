@@ -150,4 +150,5 @@ kubectl get deployments
 # We can verify that a ReplicaSet was created for our deployment
 kubectl get replicasets
 
-
+# We should see a ReplicaSet with a name like "auth-xxxxxxx"
+ 
