@@ -146,3 +146,6 @@ kubectl create -f deployments/auth.yaml
 # After creating a deployment -- verify that it was created
 kubectl get deployments
 
+# Once deployment is created, Kubernetes will create a ReplicaSet for the deployment
+# We can verify that a ReplicaSet was created for our deployment
+
