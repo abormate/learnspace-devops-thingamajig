@@ -143,3 +143,4 @@ the replicas field.
 # Create your deployment object through kubectl
 kubectl create -f deployments/auth.yaml
 
+# After creating a deployment -- verify that it was created
