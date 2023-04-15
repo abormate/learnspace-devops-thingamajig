@@ -151,4 +151,5 @@ kubectl get deployments
 kubectl get replicasets
 
 # We should see a ReplicaSet with a name like "auth-xxxxxxx"
- 
+# Finally, we can view the Pods that were created as part of our deployment. 
+# The single Pod is created by the Kubernetes when the ReplicaSet is created:
