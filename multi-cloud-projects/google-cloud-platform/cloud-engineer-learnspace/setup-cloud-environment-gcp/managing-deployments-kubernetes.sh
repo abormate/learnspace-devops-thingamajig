@@ -148,4 +148,6 @@ kubectl get deployments
 
 # Once deployment is created, Kubernetes will create a ReplicaSet for the deployment
 # We can verify that a ReplicaSet was created for our deployment
+kubectl get replicasets
+
 
