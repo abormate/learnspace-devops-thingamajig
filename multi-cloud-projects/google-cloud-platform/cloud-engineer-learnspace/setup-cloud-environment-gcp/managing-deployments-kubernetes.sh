@@ -169,4 +169,5 @@ kubectl create configmap nginx-frontend-conf --from-file=nginx/frontend.conf
 kubectl create -f deployments/frontend.yaml
 kubectl create -f services/frontend.yaml
 
-
+# Interact with frontend through obtaining its externap IP then curling to it
+kubectl get services frontend
