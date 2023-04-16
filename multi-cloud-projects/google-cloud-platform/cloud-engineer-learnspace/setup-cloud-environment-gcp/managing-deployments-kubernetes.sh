@@ -159,4 +159,6 @@ kubectl get pods
 # Work with kubectl create command to create the auth service
 kubectl create -f services/auth.yaml
 
+# Now do the same thing to create and expose the hello deployment
+kubectl create -f deployments/hello.yaml
 
