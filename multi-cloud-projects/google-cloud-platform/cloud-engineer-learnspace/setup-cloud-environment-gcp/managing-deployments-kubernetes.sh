@@ -156,3 +156,5 @@ kubectl get replicasets
 kubectl get pods
 
 # Its time to create a service for our auth deployment. You've seen the service manifest files, so we wont go into the details anymore
+# Work with kubectl create command to create the auth service
+
