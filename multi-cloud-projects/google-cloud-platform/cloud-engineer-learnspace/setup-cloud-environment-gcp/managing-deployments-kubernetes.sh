@@ -154,3 +154,5 @@ kubectl get replicasets
 # Finally, we can view the Pods that were created as part of our deployment. 
 # The single Pod is created by the Kubernetes when the ReplicaSet is created:
 kubectl get pods
+
+# Its time to create a service for our auth deployment. You've seen the service manifest files, so we wont go into the details anymore
