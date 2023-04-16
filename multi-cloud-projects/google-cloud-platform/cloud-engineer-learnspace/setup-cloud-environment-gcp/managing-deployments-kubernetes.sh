@@ -163,4 +163,6 @@ kubectl create -f services/auth.yaml
 kubectl create -f deployments/hello.yaml
 kubectl create -f services/hello.yaml
 
+# And one more time to crete and expose the front-end development space
+kubectl create secret generic tls-certs --from-file tls/
 
