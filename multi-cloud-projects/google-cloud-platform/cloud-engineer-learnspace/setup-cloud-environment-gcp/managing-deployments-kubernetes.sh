@@ -166,4 +166,5 @@ kubectl create -f services/hello.yaml
 # And one more time to crete and expose the front-end development space
 kubectl create secret generic tls-certs --from-file tls/
 kubectl create configmap nginx-frontend-conf --from-file=nginx/frontend.conf
+kubectl create -f deployments/frontend.yaml
 
