@@ -161,4 +161,6 @@ kubectl create -f services/auth.yaml
 
 # Now do the same thing to create and expose the hello deployment
 kubectl create -f deployments/hello.yaml
+kubectl create -f services/hello.yaml
+
 
