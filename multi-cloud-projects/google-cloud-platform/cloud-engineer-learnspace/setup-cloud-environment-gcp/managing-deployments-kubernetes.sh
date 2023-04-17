@@ -197,3 +197,4 @@ kubectl scale deployment hello --replicas=5
 # After the deployment is updated. Kubernetes will automatically update the associated ReplicaSet and start 
 # new Pods to make the total number of Pods equal to 5
 
+# Verify that there are now 5 hello Pods running:
