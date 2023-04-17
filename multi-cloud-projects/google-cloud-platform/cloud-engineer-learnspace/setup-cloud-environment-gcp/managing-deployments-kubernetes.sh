@@ -179,3 +179,9 @@ curl -ks https://<external IP>
 # And you get a hello response back
 # You can also use the output templating feature of kubectl to use curl as a one-liner
 curl -ks https://`kubectl get svc frontend -o=jsonpath="{.status.loadBalancer.ingress[0].ip}"`
+
+# ------------------------------ #
+#
+# Scale a deployment -- Task 2
+#
+# ------------------------------ #
