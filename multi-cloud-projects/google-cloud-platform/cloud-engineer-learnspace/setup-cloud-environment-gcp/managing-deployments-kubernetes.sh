@@ -190,4 +190,5 @@ curl -ks https://`kubectl get svc frontend -o=jsonpath="{.status.loadBalancer.in
 kubectl explain deployment.spec.replicas
 
 # The replicas field can be updated using the kubectl scale command
+kubectl scale deployment hello --replicas=5
 
