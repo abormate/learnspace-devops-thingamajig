@@ -177,4 +177,5 @@ kubectl get services frontend
 curl -ks https://<external IP>
 
 # And you get a hello response back
+# You can also use the output templating feature of kubectl to use curl as a one-liner
 
