@@ -173,3 +173,5 @@ kubectl create -f services/frontend.yaml
 kubectl get services frontend
 
 # This may take a while before the external IP field is populated for your service.
+# Just re-rin the above command every once every few seconds until the field is populated.
+
