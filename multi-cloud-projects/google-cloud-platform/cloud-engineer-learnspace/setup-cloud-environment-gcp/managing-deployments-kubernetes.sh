@@ -192,3 +192,5 @@ kubectl explain deployment.spec.replicas
 # The replicas field can be updated using the kubectl scale command
 kubectl scale deployment hello --replicas=5
 
+# Note: -- It may take a minute or so for all the new pods to start up
+
