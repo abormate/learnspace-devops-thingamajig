@@ -187,4 +187,6 @@ curl -ks https://`kubectl get svc frontend -o=jsonpath="{.status.loadBalancer.in
 # ------------------------------ #
 
 # Now that we have a deployment created, we can scale it. Do this by updating the spec.replicas field
+kubectl explain deployment.spec.replicas
+
 
