@@ -185,3 +185,5 @@ curl -ks https://`kubectl get svc frontend -o=jsonpath="{.status.loadBalancer.in
 # Scale a deployment -- Task 2
 #
 # ------------------------------ #
+
+
