@@ -176,3 +176,5 @@ kubectl get services frontend
 # Just re-rin the above command every once every few seconds until the field is populated.
 curl -ks https://<external IP>
 
+# And you get a hello response back
+
