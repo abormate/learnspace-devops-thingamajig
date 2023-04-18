@@ -203,3 +203,6 @@ kubectl get pods | grep hello- | wc -l
 # Scale back the application
 kubectl scale deployment hello --replicas=3
 
+# Again, verify the correct number of Pods
+
+
