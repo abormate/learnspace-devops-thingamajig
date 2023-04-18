@@ -227,6 +227,13 @@ containers:
   image: kelseyhightower/hello:2.0.0
 ...
 
+# Save and exit
+: '
+Once you save out of the editor, the updated deployment will be saved to your cluster and Kubernetes will 
+begin a rolling update
+
+'
+
 
 
 
