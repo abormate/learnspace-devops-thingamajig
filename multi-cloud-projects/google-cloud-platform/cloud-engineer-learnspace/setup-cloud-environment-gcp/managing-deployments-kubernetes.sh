@@ -200,3 +200,6 @@ kubectl scale deployment hello --replicas=5
 # Verify that there are now 5 hello Pods running:
 kubectl get pods | grep hello- | wc -l
 
+# Scale back the application
+
+
