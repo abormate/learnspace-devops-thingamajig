@@ -221,6 +221,12 @@ number of replicas in the new ReplicaSet as it decreases the replicas in the old
 # Update deployments with the following
 kubectl edit deployment hello
 
+# Change the image in the containers section of the deployment to the following
+...
+containers:
+  image: kelseyhightower/hello:2.0.0
+...
+
 
 
 
