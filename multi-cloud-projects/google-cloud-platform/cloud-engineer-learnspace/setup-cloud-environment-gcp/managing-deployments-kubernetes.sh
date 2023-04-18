@@ -234,6 +234,7 @@ begin a rolling update
 
 '
 
-
+# See the new ReplicaSet that Kubernetes creates
+kubectl get replicaset
 
 
