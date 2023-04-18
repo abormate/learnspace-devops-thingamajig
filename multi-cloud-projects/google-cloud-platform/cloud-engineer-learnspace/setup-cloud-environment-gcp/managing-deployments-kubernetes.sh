@@ -201,5 +201,5 @@ kubectl scale deployment hello --replicas=5
 kubectl get pods | grep hello- | wc -l
 
 # Scale back the application
-
+kubectl scale deployment hello --replicas=3
 
