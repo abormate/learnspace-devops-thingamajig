@@ -218,6 +218,9 @@ When a deployment is updated with a new version, it creates a new ReplicaSet and
 number of replicas in the new ReplicaSet as it decreases the replicas in the old ReplicaSet
 '
 
+# Update deployments with the following
+kubectl edit deployment hello
+
 
 
 
