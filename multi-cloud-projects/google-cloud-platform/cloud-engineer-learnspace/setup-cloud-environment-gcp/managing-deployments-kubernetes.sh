@@ -212,5 +212,12 @@ kubectl get pods | grep hello- | wc -l
 #
 # -------------------------------------- #
 
+: '
+Deployments support updating images to a new version through a rolling update mechanism. 
+When a deployment is updated with a new version, it creates a new ReplicaSet and slowly increases the 
+number of replicas in the new ReplicaSet as it decreases the replicas in the old ReplicaSet
+'
+
+
 
 
