@@ -206,3 +206,9 @@ kubectl scale deployment hello --replicas=3
 # Again, verify the correct number of Pods
 kubectl get pods | grep hello- | wc -l
 
+# -------------------------------------- #
+#
+# Task 3 -- Rolling Update
+#
+# -------------------------------------- #
+
