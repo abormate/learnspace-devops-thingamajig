@@ -246,4 +246,7 @@ kubectl rollout history deployment/hello
 #
 # -------------------- #
 
+# If you detect problems with a running rollout, pause it to stop the update
+
+
 
