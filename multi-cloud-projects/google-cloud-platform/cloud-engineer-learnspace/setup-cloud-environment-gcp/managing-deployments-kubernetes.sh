@@ -252,5 +252,6 @@ kubectl rollout pause deployment/hello
 # Verify the current state of the rollout
 kubectl rollout status deployment/hello
 
+# You can also verify this on the Pods directly
 
 
