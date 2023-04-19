@@ -238,6 +238,6 @@ begin a rolling update
 kubectl get replicaset
 
 # You can also see a new entry in the rollout history
-
+kubectl rollout history deployment/hello
 
 
