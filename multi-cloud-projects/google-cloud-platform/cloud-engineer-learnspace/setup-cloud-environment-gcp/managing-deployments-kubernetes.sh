@@ -250,6 +250,6 @@ kubectl rollout history deployment/hello
 kubectl rollout pause deployment/hello
 
 # Verify the current state of the rollout
-
+kubectl rollout status deployment/hello
 
 
