@@ -255,3 +255,13 @@ kubectl rollout status deployment/hello
 # You can also verify this on the Pods directly
 kubectl get pods -o jsonpath --template='{range .items[*]}{.metadata.name}{"\t"}{"\t"}{.spec.containers[0].image}{"\n"}{end}'
 
+# -------------------- #
+#
+# Resume a rolling update
+#
+# -------------------- #
+
+# The rollout is paused which means some pods are at the new version and some pods are at the older version
+
+
+
