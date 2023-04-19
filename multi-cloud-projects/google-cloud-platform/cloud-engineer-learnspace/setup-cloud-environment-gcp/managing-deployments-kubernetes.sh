@@ -262,6 +262,8 @@ kubectl get pods -o jsonpath --template='{range .items[*]}{.metadata.name}{"\t"}
 # -------------------- #
 
 # The rollout is paused which means some pods are at the new version and some pods are at the older version
+# Resume with the following
 
+kubectl rollout resume deployment/hello
 
 
