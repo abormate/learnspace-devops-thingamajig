@@ -253,5 +253,5 @@ kubectl rollout pause deployment/hello
 kubectl rollout status deployment/hello
 
 # You can also verify this on the Pods directly
-
+kubectl get pods -o jsonpath --template='{range .items[*]}{.metadata.name}{"\t"}{"\t"}{.spec.containers[0].image}{"\n"}{end}'
 
