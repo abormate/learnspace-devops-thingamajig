@@ -253,3 +253,4 @@ kubectl rollout pause deployment/hello
 kubectl rollout status deployment/hello
 
 
+
