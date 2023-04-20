@@ -272,4 +272,9 @@ kubectl rollout status deployment/hello
 # !! NOTE !! -- Output should be the following:
 deployment "hello" successfully rolled out
 
+# --------------------- #
+#
+# Rollback an update
+#
+# --------------------- #
 
