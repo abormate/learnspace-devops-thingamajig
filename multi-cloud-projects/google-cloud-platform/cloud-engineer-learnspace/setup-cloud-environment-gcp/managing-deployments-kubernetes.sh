@@ -284,3 +284,8 @@ any users connected to the new Pods will experience those issues.
 
 '
 
+: '
+You will want to roll back to the previous version so you can investigate and then release a version that is fixed 
+properly
+
+'
