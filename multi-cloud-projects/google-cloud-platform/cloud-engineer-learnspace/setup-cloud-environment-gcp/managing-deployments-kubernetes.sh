@@ -296,3 +296,5 @@ kubectl rollout undo deployment/hello
 # Verify the rollback in the history
 kubectl rollout history deployment/hello
 
+# Finally, verify that all the Pods have rolled back to their previous versions:
+kubectl get pods -o jsonpath --template='{range .items[*]}{.metadata.name}{"\t"}{"\t"}{.spec.containers[0].image}{"\n"}{end}'
