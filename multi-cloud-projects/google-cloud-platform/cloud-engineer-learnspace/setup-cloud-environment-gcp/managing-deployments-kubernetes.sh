@@ -278,3 +278,9 @@ deployment "hello" successfully rolled out
 #
 # --------------------- #
 
+: '
+Assume that a bug was detected in your new version. Since the new version is presumed to have problems, 
+any users connected to the new Pods will experience those issues.
+
+'
+
