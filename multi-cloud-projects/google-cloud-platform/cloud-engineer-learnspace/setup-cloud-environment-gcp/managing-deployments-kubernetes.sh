@@ -289,3 +289,5 @@ You will want to roll back to the previous version so you can investigate and th
 properly
 
 '
+
+# Use the rollout command to rollback to previous version
