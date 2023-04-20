@@ -291,3 +291,5 @@ properly
 '
 
 # Use the rollout command to rollback to previous version
+kubectl rollout undo deployment/hello
+
