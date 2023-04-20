@@ -269,4 +269,5 @@ kubectl rollout resume deployment/hello
 # When a rollout is  complete, you should see the following when running the status command:
 kubectl rollout status deployment/hello
 
+# Output
 
