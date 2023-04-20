@@ -294,3 +294,5 @@ properly
 kubectl rollout undo deployment/hello
 
 # Verify the rollback in the history
+kubectl rollout history deployment/hello
+
