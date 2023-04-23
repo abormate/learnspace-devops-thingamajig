@@ -310,3 +310,5 @@ A canary deployment consists of a separate deployment with your new version and 
 normal, stable deployment as well as your canary deployment.
 
 '
+
+# screenshot image of Canary deployment diagram ----> https://prnt.sc/zW84HTceNqz9
