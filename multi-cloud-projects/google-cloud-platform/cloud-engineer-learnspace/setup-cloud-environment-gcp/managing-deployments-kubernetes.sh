@@ -317,4 +317,29 @@ normal, stable deployment as well as your canary deployment.
 cat deployments/hello-canary.yaml
 
 # What the output looks like
-
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-canary
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hello
+  template:
+    metadata:
+      labels:
+        app: hello
+        track: canary
+        # Use ver 2.0.0 so it matches version on service selector
+        version: 2.0.0
+    spec:
+      containers:
+        - name: hello
+          image: kelseyhightower/hello:2.0.0
+          ports:
+            - name: http
+              containerPort: 80
+            - name: health
+              containerPort: 81
+...
