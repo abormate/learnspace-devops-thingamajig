@@ -316,4 +316,5 @@ normal, stable deployment as well as your canary deployment.
 # First, create a new canary deployment for the new version of the app
 cat deployments/hello-canary.yaml
 
+# What the output looks like
 
