@@ -304,3 +304,9 @@ kubectl get pods -o jsonpath --template='{range .items[*]}{.metadata.name}{"\t"}
 # Task 4 -- Canary deployments
 #
 # ------------------------------- #
+
+: '
+A canary deployment consists of a separate deployment with your new version and a service that targets both your 
+normal, stable deployment as well as your canary deployment.
+
+'
