@@ -351,3 +351,9 @@ kubectl create -f deployments/hello-canary.yaml
 # Verify it with this kubectl command
 kubectl get deployments
 
+: '
+On the hello service, the selector uses the app:hello selector which will match pods in both the prod deployment 
+and canary deployment. However, because the canary deployment has a fewer number of pods, it will be visible to 
+fewer users.
+
+'
