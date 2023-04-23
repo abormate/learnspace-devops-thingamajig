@@ -347,4 +347,7 @@ spec:
 # Now create the canary deployment
 kubectl create -f deployments/hello-canary.yaml
 
+# After the canary deployment is created, you should have two deployments, hello and hello-canary. 
+# Verify it with this kubectl command
+
 
