@@ -345,4 +345,6 @@ spec:
 ...
 
 # Now create the canary deployment
+kubectl create -f deployments/hello-canary.yaml
+
 
