@@ -357,3 +357,12 @@ and canary deployment. However, because the canary deployment has a fewer number
 fewer users.
 
 '
+
+# -------------------- #
+#
+# Verify canary deployment
+#
+# -------------------- #
+
+# You can verify the hello version being served by the request:
+curl -ks https://`kubectl get svc frontend -o=jsonpath="{.status.loadBalancer.ingress[0].ip}"`/version
