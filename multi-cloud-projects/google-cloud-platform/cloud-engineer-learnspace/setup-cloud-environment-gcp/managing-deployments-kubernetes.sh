@@ -343,3 +343,6 @@ spec:
             - name: health
               containerPort: 81
 ...
+
+# Now create the canary deployment
+
