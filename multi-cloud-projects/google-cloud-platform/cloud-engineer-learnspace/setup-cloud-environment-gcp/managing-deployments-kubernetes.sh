@@ -311,4 +311,7 @@ normal, stable deployment as well as your canary deployment.
 
 '
 
-# screenshot image of Canary deployment diagram ----> https://prnt.sc/zW84HTceNqz9
+# Screenshot image of Canary deployment diagram ----> https://prnt.sc/zW84HTceNqz9
+
+# First, create a new canary deployment for the new version of the app
+
