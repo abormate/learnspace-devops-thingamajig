@@ -413,10 +413,15 @@ way to go.
 '
 
 : '
-Kubernetes achieves this by creating two separate deployments; one for the old "blue" version and one for the 
-new "green" version. Use your existing hello deployment for the "blue" version. The deployments will be accessed 
-via a Service which will act as the router. Once the new "green" version is up and running, you'll switch over to 
+Kubernetes achieves this by creating two separate deployments; one for the old blue version and one for the 
+new green version. Use your existing hello deployment for the "blue" version. The deployments will be accessed 
+via a Service which will act as the router. Once the new green version is up and running, youll switch over to 
 using that version by updating the Service.
-
 '
 
+: '
+Note: A major downside of blue-green deployments is that you will need to have at least 2x the resources in your 
+cluster necessary to host your application. Make sure you have enough resources in your cluster before deploying 
+both versions of the application at once.
+
+'
