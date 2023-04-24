@@ -419,6 +419,9 @@ via a Service which will act as the router. Once the new green version is up and
 using that version by updating the Service.
 '
 
+# screenshot image diagram of blue-green deployments
+# --> https://prnt.sc/-UJhS1Fggo1u
+
 : '
 Note: A major downside of blue-green deployments is that you will need to have at least 2x the resources in your 
 cluster necessary to host your application. Make sure you have enough resources in your cluster before deploying 
