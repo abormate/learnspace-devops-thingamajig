@@ -412,3 +412,11 @@ way to go.
 
 '
 
+: '
+Kubernetes achieves this by creating two separate deployments; one for the old "blue" version and one for the 
+new "green" version. Use your existing hello deployment for the "blue" version. The deployments will be accessed 
+via a Service which will act as the router. Once the new "green" version is up and running, you'll switch over to 
+using that version by updating the Service.
+
+'
+
