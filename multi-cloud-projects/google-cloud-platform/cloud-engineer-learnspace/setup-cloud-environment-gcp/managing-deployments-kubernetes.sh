@@ -369,14 +369,6 @@ curl -ks https://`kubectl get svc frontend -o=jsonpath="{.status.loadBalancer.in
 
 # Run this several times and you should see that some of the requests are served by hello 1.0.0 and a small subset (1/4 = 25%) are served by 2.0.0.
 
-
-
-# ------------------------------ #
-#
-# Blue-green deployments
-#
-# ------------------------------ #
-
 # Canary deployments in production - session affinity
 
 : '
@@ -405,3 +397,5 @@ spec:
     - protocol: "TCP"
       port: 80
       targetPort: 80
+
+# ------------------------------ #
