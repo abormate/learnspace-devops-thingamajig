@@ -404,3 +404,11 @@ spec:
 #
 # ------------------------------ #
 
+: '
+Rolling updates are ideal because they allow you to deploy an application slowly with minimal overhead, minimal 
+performance impact, and minimal downtime. There are instances where it is beneficial to modify the load balancers 
+to point to that new version only after it has been fully deployed. In this case, blue-green deployments are the 
+way to go.
+
+'
+
