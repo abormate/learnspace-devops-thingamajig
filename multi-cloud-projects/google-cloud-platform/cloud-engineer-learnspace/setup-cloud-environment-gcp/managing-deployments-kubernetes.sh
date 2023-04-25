@@ -496,3 +496,4 @@ spec:
 # create the green deployment
 kubectl create -f deployments/hello-green.yaml
 
+# once you have a green deployment and it has started up, verify that the current version 1.0.0 is still being used
