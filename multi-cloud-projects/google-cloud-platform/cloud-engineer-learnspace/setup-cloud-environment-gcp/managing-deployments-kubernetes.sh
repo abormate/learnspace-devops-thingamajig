@@ -492,3 +492,5 @@ spec:
               scheme: HTTP
             initialDelaySeconds: 5
             timeoutSeconds: 1
+
+# create the green deployment
