@@ -428,3 +428,14 @@ cluster necessary to host your application. Make sure you have enough resources 
 both versions of the application at once.
 
 '
+
+# The service
+: '
+Use the existing hello service, but update it so that it has a selector app:hello, version: 1.0.0. The selector 
+will match the existing "blue" deployment. But it will not match the "green" deployment because it will use a 
+different version.
+
+'
+
+# First update the service
+
