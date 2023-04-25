@@ -442,3 +442,4 @@ kubectl apply -f services/hello-blue.yaml
 
 # Note! --> Note: Ignore the warning that says resource service/hello is missing as this is patched automatically.
 
+# Updating with Blue-Green deployments
