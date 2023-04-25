@@ -443,3 +443,52 @@ kubectl apply -f services/hello-blue.yaml
 # Note! --> Note: Ignore the warning that says resource service/hello is missing as this is patched automatically.
 
 # Updating with Blue-Green deployments
+: '
+In order to support a blue-green deployment style, we will create a new "green" deployment for our new version. 
+The green deployment updates the version label and the image path.
+
+'
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-green
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: hello
+  template:
+    metadata:
+      labels:
+        app: hello
+        track: stable
+        version: 2.0.0
+    spec:
+      containers:
+        - name: hello
+          image: kelseyhightower/hello:2.0.0
+          ports:
+            - name: http
+              containerPort: 80
+            - name: health
+              containerPort: 81
+          resources:
+            limits:
+              cpu: 0.2
+              memory: 10Mi
+          livenessProbe:
+            httpGet:
+              path: /healthz
+              port: 81
+              scheme: HTTP
+            initialDelaySeconds: 5
+            periodSeconds: 15
+            timeoutSeconds: 5
+          readinessProbe:
+            httpGet:
+              path: /readiness
+              port: 81
+              scheme: HTTP
+            initialDelaySeconds: 5
+            timeoutSeconds: 1
