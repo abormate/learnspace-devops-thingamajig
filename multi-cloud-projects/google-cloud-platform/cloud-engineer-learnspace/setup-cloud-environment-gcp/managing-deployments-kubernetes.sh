@@ -518,3 +518,11 @@ curl -ks https://`kubectl get svc frontend -o=jsonpath="{.status.loadBalancer.in
 
 # If necessary, you can roll back to the old version in the same way
 # While the blue deployment is still running, just update the service back to the old version
+kubectl apply -f services/hello-blue.yaml
+
+# once you have updated the service, your rollback will have been made successful. Again, verify that the
+# right version is now being used
+
+curl -ks https://`kubectl get svc frontend -o=jsonpath="{.status.loadBalancer.ingress[0].ip}"`/version
+
+curl -ks https://`kubectl get svc frontend -o=jsonpath="{.status.loadBalancer.ingress[0].ip}"`/version
