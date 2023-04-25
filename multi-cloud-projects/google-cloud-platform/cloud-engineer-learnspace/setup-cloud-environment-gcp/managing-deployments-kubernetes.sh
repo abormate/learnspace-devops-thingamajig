@@ -497,3 +497,7 @@ spec:
 kubectl create -f deployments/hello-green.yaml
 
 # once you have a green deployment and it has started up, verify that the current version 1.0.0 is still being used
+curl -ks https://`kubectl get svc frontend -o=jsonpath="{.status.loadBalancer.ingress[0].ip}"`/version
+
+curl -ks https://`kubectl get svc frontend -o=jsonpath="{.status.loadBalancer.ingress[0].ip}"`/version
+
