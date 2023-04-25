@@ -504,3 +504,5 @@ curl -ks https://`kubectl get svc frontend -o=jsonpath="{.status.loadBalancer.in
 # Now update the service to point to the new version
 kubectl apply -f services/hello-green.yaml
 
+# When the service is updated the green deployment will be used immediately. You can now verify that the new
+# version is always being used
