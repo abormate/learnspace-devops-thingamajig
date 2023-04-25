@@ -494,3 +494,5 @@ spec:
             timeoutSeconds: 1
 
 # create the green deployment
+kubectl create -f deployments/hello-green.yaml
+
