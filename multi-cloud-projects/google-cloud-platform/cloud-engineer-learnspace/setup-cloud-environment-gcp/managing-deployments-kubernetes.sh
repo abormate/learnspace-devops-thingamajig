@@ -438,4 +438,4 @@ different version.
 '
 
 # First update the service
-
+kubectl apply -f services/hello-blue.yaml
