@@ -502,3 +502,5 @@ curl -ks https://`kubectl get svc frontend -o=jsonpath="{.status.loadBalancer.in
 curl -ks https://`kubectl get svc frontend -o=jsonpath="{.status.loadBalancer.ingress[0].ip}"`/version
 
 # Now update the service to point to the new version
+kubectl apply -f services/hello-green.yaml
+
