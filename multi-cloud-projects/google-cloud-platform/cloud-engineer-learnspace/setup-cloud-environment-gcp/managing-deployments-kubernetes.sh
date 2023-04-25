@@ -516,3 +516,5 @@ curl -ks https://`kubectl get svc frontend -o=jsonpath="{.status.loadBalancer.in
 #
 # --------------------------- #
 
+# If necessary, you can roll back to the old version in the same way
+# While the blue deployment is still running, just update the service back to the old version
