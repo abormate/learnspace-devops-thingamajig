@@ -17,8 +17,6 @@ to a trigger allows you to capture and act on events. For more information on cr
 them with your functions
 '
 
-..
-
 : '
 When deploying a new function, you must specify --trigger-topic, --trigger-bucket, or --trigger-http. When 
 deploying an update to an existing function, the function keeps the existing trigger unless otherwise 
