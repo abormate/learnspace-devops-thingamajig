@@ -11,4 +11,7 @@
 # Initial: Standard
 
 # 2.
-# Client needs to populate visual dashboards with historical time-based data. 
+# Client needs to populate visual dashboards with historical time-based data. This is an analytical use-case.
+# Which 2 storage solutions could they work with?
+# Refer to: https://cloud.google.com/bigtable/docs/overview#other-storage-option
+
