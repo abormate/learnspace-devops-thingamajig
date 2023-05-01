@@ -22,4 +22,7 @@
 # Which GCP load balancing option runs at the Layer 7 of the TCP stack?
 # Initial: Global TCP Proxy
 
+# 4. 
+# Client decides to migrate their supply chain application to GCP. You need to configure specific OS dependencies. 
+# What should you do?
 
