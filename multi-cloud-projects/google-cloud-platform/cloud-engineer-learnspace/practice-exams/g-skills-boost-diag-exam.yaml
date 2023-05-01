@@ -30,4 +30,7 @@
 # 5.
 # Amount of storage required for client to enable users to post photos for product reviews is 10TB of immediate
 # access storage in the US. And 30TB of storage for historical posts in a bucket located near the client
-# headquarters. 
+# headquarters. The contents of this bucket will be access once every 30 days. You want to estimate the 
+# cost of these storage resources to ensure this is economically feasible. What should you do?
+
+
