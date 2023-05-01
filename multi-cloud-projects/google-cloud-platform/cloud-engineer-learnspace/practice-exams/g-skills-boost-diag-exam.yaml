@@ -25,4 +25,6 @@
 # 4. 
 # Client decides to migrate their supply chain application to GCP. You need to configure specific OS dependencies. 
 # What should you do?
+# Initial: Implement app using VMs on Compute Engine
+
 
