@@ -34,4 +34,5 @@
 # cost of these storage resources to ensure this is economically feasible. What should you do?
 
 # Initial:
-#
+# Use the pricing calculator to estimate the price for 10 TB of multi-region Standard storage, 30 TB 
+# for regional Nearline, and egress charges for reads from the bucket.
