@@ -53,5 +53,6 @@
 # architecture for it. How do you proceed?
 
 # Initial
-#
+# Configure a standard tier proxied external https load balancer connected to the web tier as a frontend 
+# and a regional internal load balancer between the web tier and the backend
 
