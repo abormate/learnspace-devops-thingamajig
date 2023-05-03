@@ -56,3 +56,11 @@
 # Configure a standard tier proxied external https load balancer connected to the web tier as a frontend 
 # and a regional internal load balancer between the web tier and the backend
 
+# 8.
+# Cymbal Superstore decides to pilot a cloud application for their point of sale system in their flagship store. 
+# You want to focus on code and develop your solution quickly, and you want your code to be portable. 
+# How do you proceed?
+
+
+
+
