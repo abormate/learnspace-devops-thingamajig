@@ -20,7 +20,8 @@
 
 # 3.
 # Which GCP load balancing option runs at the Layer 7 of the TCP stack?
-# Initial: Global TCP Proxy
+# Initial: Global TCP Proxy 
+# Wrong answer -- TCP proxy is layer 4
 
 # 4. 
 # Client decides to migrate their supply chain application to GCP. You need to configure specific OS dependencies. 
@@ -72,6 +73,7 @@
 
 # Initial
 # Cloud Run
+# Wrong answer -- Cloud Run doesn't give you full control over your containers
 
 # 10.
 # Cymbal Superstore needs to analyze whether they met quarterly sales projections. Analysts assigned to run 
