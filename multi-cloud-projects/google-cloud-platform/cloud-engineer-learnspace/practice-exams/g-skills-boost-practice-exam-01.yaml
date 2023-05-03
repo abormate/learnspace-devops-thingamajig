@@ -65,6 +65,21 @@
 # Package your code to a container image and post it to Cloud Run
 
 
+# 9.
+# You want to deploy a microservices application. You need full control of how you manage containers, 
+# reliability, and autoscaling, but don’t want or need to manage the control plane. Which compute option 
+# should you use?
+
+# Initial
+# Cloud Run
+
+# 10.
+# Cymbal Superstore needs to analyze whether they met quarterly sales projections. Analysts assigned to run 
+# this query are familiar with SQL. What data solution should they implement?
+
+# Initial
+# BigQuery
+
 
 
 
