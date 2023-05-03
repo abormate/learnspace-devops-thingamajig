@@ -36,3 +36,9 @@
 # Initial:
 # Use the pricing calculator to estimate the price for 10 TB of multi-region Standard storage, 30 TB 
 # for regional Nearline, and egress charges for reads from the bucket.
+
+# 6.
+# An application running on a high-customzed version of Ubuntu needs to be migrated to GCP. 
+# You need to do this in the least amount of time with minimal code changes. 
+# How should you proceed?
+
