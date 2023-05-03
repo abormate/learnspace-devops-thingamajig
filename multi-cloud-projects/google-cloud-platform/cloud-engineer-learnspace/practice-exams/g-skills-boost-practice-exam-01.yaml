@@ -61,6 +61,10 @@
 # You want to focus on code and develop your solution quickly, and you want your code to be portable. 
 # How do you proceed?
 
+# Initial
+# Package your code to a container image and post it to Cloud Run
+
+
 
 
 
