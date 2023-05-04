@@ -15,3 +15,5 @@ if there's a specific software stack you need to support on your Compute Engine 
 A common dev op's practice is to deploy your infrastructure in a declarative way, and source control your configuration files. Deploying resources via infrastructure as code reduces human error, and speeds up resource allocation.
 
 Knowing how to do this in the context of your role as an associate cloud engineer is yet another tool you have at your disposal. As I review, here are Cymbal Superstore's proposed solutions.
+
+Their Ecommerce solution is based on container management provided by Google Kubernetes Engine. Data provided by the globally available, horizontally scalable capabilities of Cloud Spanner, and external HTTPS load balancing for user access.
