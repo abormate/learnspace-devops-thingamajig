@@ -3,3 +3,5 @@ You've planned and configured cloud solutions for Cymbal Superstore's applicatio
 You've worked hard to make sure resource entities and policies are set up correctly for Cymbal Superstore's cloud architecture. You've also selected cloud products for the application Cymbal Superstore has decided to migrate to the cloud.
 
 Solution deployment is a critical part of your role. As an associate cloud engineer, you're expected to have the knowledge to implement specific compute solutions, including Compute Engine, Kubernetes Engine,
+
+Cloud Run and Cloud Functions. Understanding availability, concurrency, connectivity and access options for these services are keys to success as you deploy them to support your needs. Solutions you implement in Google Cloud
