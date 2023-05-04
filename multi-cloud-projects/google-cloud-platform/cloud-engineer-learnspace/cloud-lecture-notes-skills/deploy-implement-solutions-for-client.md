@@ -9,3 +9,5 @@ Cloud Run and Cloud Functions. Understanding availability, concurrency, connecti
 will also require data stores. Google Cloud's data solutions include products that utilize relational and no SQL data structures. There are different products that support transactional and analytical use cases.
 
 Some solutions are optimized for low latency and global availability. Properly implementing software-defined networking will ensure your application front ends are accessible, and your application back ends are secured. Cloud Marketplace is always a good place to go
+
+if there's a specific software stack you need to support on your Compute Engine instances. With Cloud Marketplace, you don't have to reinvent the wheel and can have a development or production framework up and running in no time.
