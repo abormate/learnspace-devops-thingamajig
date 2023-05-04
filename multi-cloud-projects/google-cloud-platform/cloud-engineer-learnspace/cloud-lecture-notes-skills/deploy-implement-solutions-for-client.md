@@ -1,2 +1,3 @@
 You've planned and configured cloud solutions for Cymbal Superstore's application requirements. It's time to think about how you can deploy and implement the resources needed to realize the company's goals.
 
+You've worked hard to make sure resource entities and policies are set up correctly for Cymbal Superstore's cloud architecture. You've also selected cloud products for the application Cymbal Superstore has decided to migrate to the cloud.
