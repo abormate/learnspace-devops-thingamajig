@@ -5,3 +5,4 @@ You've worked hard to make sure resource entities and policies are set up correc
 Solution deployment is a critical part of your role. As an associate cloud engineer, you're expected to have the knowledge to implement specific compute solutions, including Compute Engine, Kubernetes Engine,
 
 Cloud Run and Cloud Functions. Understanding availability, concurrency, connectivity and access options for these services are keys to success as you deploy them to support your needs. Solutions you implement in Google Cloud
+
