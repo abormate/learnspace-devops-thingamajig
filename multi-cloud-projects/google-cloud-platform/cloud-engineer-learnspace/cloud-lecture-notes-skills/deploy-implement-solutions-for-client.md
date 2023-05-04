@@ -6,3 +6,4 @@ Solution deployment is a critical part of your role. As an associate cloud engin
 
 Cloud Run and Cloud Functions. Understanding availability, concurrency, connectivity and access options for these services are keys to success as you deploy them to support your needs. Solutions you implement in Google Cloud
 
+will also require data stores. Google Cloud's data solutions include products that utilize relational and no SQL data structures. There are different products that support transactional and analytical use cases.
