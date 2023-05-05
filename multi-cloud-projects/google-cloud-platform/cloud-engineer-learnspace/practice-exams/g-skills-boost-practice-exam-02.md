@@ -11,4 +11,4 @@ You need to quickly deploy a containerized web application on Google Cloud. You 
 Initial:
 Cloud Run
 
-3.)
+3.) What action does the terraform apply command perform?
