@@ -4,6 +4,7 @@ The development team for the supply chain project is ready to start building the
 Initial:
 Implement a private standard regional cluster in us-central1 with a default pool and container-optimized image type.
 
+
 2.)
 You need to quickly deploy a containerized web application on Google Cloud. You know the services you want to be exposed. You do not want to manage infrastructure. You only want to pay when requests are being handled and need support for custom packages. What technology meets these needs?
 
