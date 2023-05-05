@@ -12,3 +12,8 @@ Initial:
 Cloud Run
 
 3.) What action does the terraform apply command perform?
+
+Initial:
+Sets up resources requested in the terraform config file.
+
+
