@@ -20,3 +20,6 @@ Sets up resources requested in the terraform config file.
 
 4.)
 Cymbal Superstore asks you to implement Cloud SQL as a database backend to their supply chain application. You want to configure automatic failover in case of a zone outage. You decide to use the gcloud sql instances create command set to accomplish this. Which gcloud command line argument is required to configure the stated failover capability as you create the required instances?
+
+Initial:
+--availability-type
