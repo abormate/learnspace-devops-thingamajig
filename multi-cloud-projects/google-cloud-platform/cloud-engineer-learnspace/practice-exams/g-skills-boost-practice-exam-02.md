@@ -35,7 +35,9 @@ Custom mode network
 Initial:
 Create a new instance template, then click Update VMs. Set the update type to PROACTIVE. Click Start.
 
-7.) 
+7.) You need to analyze and act on files being added to a Cloud Storage bucket. Your programming team is proficient in Python. The analysis you need to do takes at most 5 minutes. You implement a Cloud Function to accomplish your processing and specify a trigger resource pointing to your bucket. How should you configure the --trigger-event parameter using gcloud?
+
+
 
 
 
