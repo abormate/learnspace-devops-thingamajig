@@ -24,4 +24,4 @@ Cymbal Superstore asks you to implement Cloud SQL as a database backend to their
 Initial:
 --availability-type
 
-5.)
+5.) Which Virtual Private Cloud network type allows you to fully manage IP ranges and the definition of regional subnets?
