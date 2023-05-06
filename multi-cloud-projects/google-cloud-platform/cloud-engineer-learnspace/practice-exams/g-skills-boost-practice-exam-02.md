@@ -35,6 +35,8 @@ Custom mode network
 Initial:
 Create a new instance template, then click Update VMs. Set the update type to PROACTIVE. Click Start.
 
+7.) 
+
 
 
 
