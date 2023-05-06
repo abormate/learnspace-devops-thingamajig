@@ -50,7 +50,7 @@ Initial:
 You require a Cloud Storage bucket serving users in New York City. There is a need for geo-redundancy. You do not plan on using ACLs. What CLI command do you use?
 
 Initial:
-
+Run a gsutil mb command specifying a dual-region bucket and accepting defaults for the other mb settings.
 
 
 
