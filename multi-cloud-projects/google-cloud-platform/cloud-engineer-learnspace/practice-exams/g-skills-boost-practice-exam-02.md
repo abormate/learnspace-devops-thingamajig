@@ -60,6 +60,11 @@ Initial:
 Implement a database instance using Cloud SQL, back up your local data, and restore it to the new instance.
 
 
+10.)
+Cymbal Superstore’s marketing department needs to load some slowly changing data into BigQuery. The data arrives hourly in a Cloud Storage bucket. You want to minimize cost and implement this in the fewest steps. What should you do?
+
+Initial:
+Create a Cloud Function to push data to BigQuery through a Dataflow pipeline.
 
 
 
