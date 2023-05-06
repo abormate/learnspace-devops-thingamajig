@@ -24,22 +24,32 @@ Cymbal Superstore asks you to implement Cloud SQL as a database backend to their
 Initial:
 --availability-type
 
-5.) Which Virtual Private Cloud network type allows you to fully manage IP ranges and the definition of regional subnets?
+5.) 
+Which Virtual Private Cloud network type allows you to fully manage IP ranges and the definition of regional subnets?
 
 Initial:
 Custom mode network
 
 
-6.) The backend of Cymbal Superstore’s e-commerce system consists of managed instance groups. You need to update the operating system of the instances in an automated way using minimal resources. What do you do?
+6.) 
+The backend of Cymbal Superstore’s e-commerce system consists of managed instance groups. You need to update the operating system of the instances in an automated way using minimal resources. What do you do?
 
 Initial:
 Create a new instance template, then click Update VMs. Set the update type to PROACTIVE. Click Start.
 
-7.) You need to analyze and act on files being added to a Cloud Storage bucket. Your programming team is proficient in Python. The analysis you need to do takes at most 5 minutes. You implement a Cloud Function to accomplish your processing and specify a trigger resource pointing to your bucket. How should you configure the --trigger-event parameter using gcloud?
+
+7.) 
+You need to analyze and act on files being added to a Cloud Storage bucket. Your programming team is proficient in Python. The analysis you need to do takes at most 5 minutes. You implement a Cloud Function to accomplish your processing and specify a trigger resource pointing to your bucket. How should you configure the --trigger-event parameter using gcloud?
 
 
 Initial:
 --trigger-event google.storage.object.add
+
+
+8.)
+You require a Cloud Storage bucket serving users in New York City. There is a need for geo-redundancy. You do not plan on using ACLs. What CLI command do you use?
+
+
 
 
 
