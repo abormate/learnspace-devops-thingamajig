@@ -30,6 +30,8 @@ Initial:
 Custom mode network
 
 
-6.)
+6.) The backend of Cymbal Superstore’s e-commerce system consists of managed instance groups. You need to update the operating system of the instances in an automated way using minimal resources. What do you do?
+
+
 
 
