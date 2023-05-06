@@ -56,6 +56,9 @@ Run a gsutil mb command specifying a dual-region bucket and accepting defaults f
 9.)
 Cymbal Superstore’s sales department has a medium-sized MySQL database. This database includes user-defined functions and is used internally by the marketing department at Cymbal Superstore HQ. The sales department asks you to migrate the database to Google Cloud in the most timely and economical way. What should you do?
 
+Initial:
+Implement a database instance using Cloud SQL, back up your local data, and restore it to the new instance.
+
 
 
 
