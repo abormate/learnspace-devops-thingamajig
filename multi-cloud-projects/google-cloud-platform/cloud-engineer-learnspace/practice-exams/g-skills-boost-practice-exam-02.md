@@ -92,3 +92,10 @@ Create a Cloud Function to push data to BigQuery through a Dataflow pipeline.
 
 Result:
 Wrong answer
+
+Secondary:
+Read the data from your bucket by using the BigQuery streaming API in a program.
+
+Result[1]:
+Still wrong answer
+
