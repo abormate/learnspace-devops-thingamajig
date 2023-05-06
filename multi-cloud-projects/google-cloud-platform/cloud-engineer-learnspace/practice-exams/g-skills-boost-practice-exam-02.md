@@ -7,6 +7,13 @@ Implement a private standard regional cluster in us-central1 with a default pool
 Result: Wrong answer
 
 
+Secondary:
+Implement a private standard zonal cluster in us-central1-a with a default pool and an Ubuntu image.
+
+Result:
+Correct answer on 2nd attempt
+
+
 2.)
 You need to quickly deploy a containerized web application on Google Cloud. You know the services you want to be exposed. You do not want to manage infrastructure. You only want to pay when requests are being handled and need support for custom packages. What technology meets these needs?
 
@@ -62,6 +69,14 @@ Initial:
 
 Result: Wrong answer
 
+Secondary:
+--trigger-event google.storage.object.change
+
+Result: Still Wrong answer
+
+
+
+
 
 8.)
 You require a Cloud Storage bucket serving users in New York City. There is a need for geo-redundancy. You do not plan on using ACLs. What CLI command do you use?
@@ -71,6 +86,12 @@ Run a gsutil mb command specifying a dual-region bucket and accepting defaults f
 
 Result: 
 Wrong answer
+
+Secondary:
+Run a gsutil mb command specifying a dual-region bucket and an option to turn ACL evaluation off.
+
+Result:
+Correct answer on 2nd attempt
 
 
 9.)
@@ -82,6 +103,15 @@ Implement a database instance using Cloud SQL, back up your local data, and rest
 
 Result:
 Wrong answer
+
+Secondary:
+Use gcloud to implement a Compute Engine instance with an E2-standard-8 machine type, install, and configure MySQL.
+
+Result:
+Still Wrong answer
+
+
+
 
 
 10.)
