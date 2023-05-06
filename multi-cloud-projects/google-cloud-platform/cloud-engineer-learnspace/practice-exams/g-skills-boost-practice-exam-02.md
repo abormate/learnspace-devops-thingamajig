@@ -25,3 +25,7 @@ Initial:
 --availability-type
 
 5.) Which Virtual Private Cloud network type allows you to fully manage IP ranges and the definition of regional subnets?
+
+Initial:
+Custom mode network
+
