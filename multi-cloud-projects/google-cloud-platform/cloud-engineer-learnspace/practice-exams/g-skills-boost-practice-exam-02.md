@@ -23,3 +23,5 @@ Cymbal Superstore asks you to implement Cloud SQL as a database backend to their
 
 Initial:
 --availability-type
+
+5.)
