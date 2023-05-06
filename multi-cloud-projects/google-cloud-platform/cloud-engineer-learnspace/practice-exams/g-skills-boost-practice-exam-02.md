@@ -39,7 +39,7 @@ Create a new instance template, then click Update VMs. Set the update type to PR
 
 
 Initial:
-
+--trigger-event google.storage.object.add
 
 
 
