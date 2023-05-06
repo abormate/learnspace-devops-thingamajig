@@ -4,6 +4,8 @@ The development team for the supply chain project is ready to start building the
 Initial:
 Implement a private standard regional cluster in us-central1 with a default pool and container-optimized image type.
 
+Result: Wrong answer
+
 
 2.)
 You need to quickly deploy a containerized web application on Google Cloud. You know the services you want to be exposed. You do not want to manage infrastructure. You only want to pay when requests are being handled and need support for custom packages. What technology meets these needs?
@@ -11,11 +13,16 @@ You need to quickly deploy a containerized web application on Google Cloud. You 
 Initial:
 Cloud Run
 
+Result: Correct
+
 3.)
 What action does the terraform apply command perform?
 
 Initial:
 Sets up resources requested in the terraform config file.
+
+Result:
+Correct
 
 
 4.)
@@ -24,11 +31,17 @@ Cymbal Superstore asks you to implement Cloud SQL as a database backend to their
 Initial:
 --availability-type
 
+Result: Correct
+
+
 5.) 
 Which Virtual Private Cloud network type allows you to fully manage IP ranges and the definition of regional subnets?
 
 Initial:
 Custom mode network
+
+Result:
+Correct
 
 
 6.) 
@@ -36,6 +49,8 @@ The backend of Cymbal Superstore’s e-commerce system consists of managed insta
 
 Initial:
 Create a new instance template, then click Update VMs. Set the update type to PROACTIVE. Click Start.
+
+Result: Correct
 
 
 7.) 
@@ -45,12 +60,17 @@ You need to analyze and act on files being added to a Cloud Storage bucket. Your
 Initial:
 --trigger-event google.storage.object.add
 
+Result: Wrong answer
+
 
 8.)
 You require a Cloud Storage bucket serving users in New York City. There is a need for geo-redundancy. You do not plan on using ACLs. What CLI command do you use?
 
 Initial:
 Run a gsutil mb command specifying a dual-region bucket and accepting defaults for the other mb settings.
+
+Result: 
+Wrong answer
 
 
 9.)
@@ -60,11 +80,15 @@ Initial:
 Implement a database instance using Cloud SQL, back up your local data, and restore it to the new instance.
 
 
+Result:
+Wrong answer
+
+
 10.)
 Cymbal Superstore’s marketing department needs to load some slowly changing data into BigQuery. The data arrives hourly in a Cloud Storage bucket. You want to minimize cost and implement this in the fewest steps. What should you do?
 
 Initial:
 Create a Cloud Function to push data to BigQuery through a Dataflow pipeline.
 
-
-
+Result:
+Wrong answer
