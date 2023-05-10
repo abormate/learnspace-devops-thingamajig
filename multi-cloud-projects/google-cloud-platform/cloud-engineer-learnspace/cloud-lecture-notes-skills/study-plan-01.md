@@ -6,3 +6,4 @@ We'll introduce an objective, briefly review the answers to the related question
 
 As we go through each section objective, use the page in your workbook to mark the specific documentation, courses or modules and quests that you'll want to emphasize in your study plan.
 
+As you can see, there are multiple objectives in this section that have many related tasks. So you will probably need to plan for more study time in this section.
