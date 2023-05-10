@@ -8,3 +8,4 @@ As we go through each section objective, use the page in your workbook to mark t
 
 As you can see, there are multiple objectives in this section that have many related tasks. So you will probably need to plan for more study time in this section.
 
+Study guidelines -- deploying and implementing a Cloud Solution
