@@ -5,3 +5,4 @@ to focus on the areas you need to develop your skills in the most. We'll approac
 We'll introduce an objective, briefly review the answers to the related questions, then talk about where you can find out more in the learning resources, or in the Google Cloud documentation.
 
 As we go through each section objective, use the page in your workbook to mark the specific documentation, courses or modules and quests that you'll want to emphasize in your study plan.
+
