@@ -9,3 +9,5 @@ is made of resources implemented close to their headquarters in Minneapolis, Min
 Sometimes the instance template that the group is based on might need to be changed. Some reasons you might want to do this include the following. Upgrading the operating system of your instances,
 
 conducting A/B or canary testing of capability upgrades, changing the disk type or attach disks attached to your instances. Once you do update the template, you need to ensure the change is propagated
+
+to all the VM instances in the group. Cymbal Superstore's e-commerce app is architected using containers deployed to GKE pods. As an Associate Cloud Engineer on the e-commerce team, you might be asked to configure and monitor external connectivity.
