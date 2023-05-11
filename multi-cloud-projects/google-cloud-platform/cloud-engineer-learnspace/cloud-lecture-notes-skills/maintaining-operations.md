@@ -12,3 +12,4 @@ conducting A/B or canary testing of capability upgrades, changing the disk type 
 
 to all the VM instances in the group. Cymbal Superstore's e-commerce app is architected using containers deployed to GKE pods. As an Associate Cloud Engineer on the e-commerce team, you might be asked to configure and monitor external connectivity.
 
+An external HTTPS load balancer is a solution that advertises a single global IP, provides content close to your end user and forwards content to back ends that are available globally.
