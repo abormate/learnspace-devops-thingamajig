@@ -7,3 +7,4 @@ to manage the resources used in an organization's cloud solutions. You also need
 is made of resources implemented close to their headquarters in Minneapolis, Minnesota. It is architected using Compute Engine. Manage instance groups let their application scale automatically and remain available across zonal outages.
 
 Sometimes the instance template that the group is based on might need to be changed. Some reasons you might want to do this include the following. Upgrading the operating system of your instances,
+
