@@ -4,3 +4,4 @@ In deploying and implementing Cymbal Superstore's cloud architecture, you needed
 
 to manage the resources used in an organization's cloud solutions. You also need to be able to use Google Cloud's operations suite for monitoring and logging. Cymbal Superstore's supply chain management app
 
+is made of resources implemented close to their headquarters in Minneapolis, Minnesota. It is architected using Compute Engine. Manage instance groups let their application scale automatically and remain available across zonal outages.
