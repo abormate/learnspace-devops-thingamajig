@@ -40,4 +40,7 @@ You want to implement a lifecycle rule that changes your storage type from stand
 Initial:
 
 
+8.
+Cymbal Superstore’s GKE cluster requires an internal http(s) load balancer. You are creating the configuration files required for this resource. What is the proper setting for this scenario?
+
 
