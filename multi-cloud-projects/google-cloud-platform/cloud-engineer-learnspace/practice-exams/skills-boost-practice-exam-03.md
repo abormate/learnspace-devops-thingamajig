@@ -44,3 +44,11 @@ Initial:
 Cymbal Superstore’s GKE cluster requires an internal http(s) load balancer. You are creating the configuration files required for this resource. What is the proper setting for this scenario?
 
 
+Initial:
+
+
+9.
+What is the declarative way to initialize and update Kubernetes objects?
+
+Initial:
+
