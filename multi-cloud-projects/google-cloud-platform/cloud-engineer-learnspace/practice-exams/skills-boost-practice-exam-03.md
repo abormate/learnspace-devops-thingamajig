@@ -18,4 +18,7 @@ Initial:
 4.
 You have a scheduled snapshot you are trying to delete, but the operation returns an error. What should you do to resolve this problem?
 
+Initial:
+
+
 
