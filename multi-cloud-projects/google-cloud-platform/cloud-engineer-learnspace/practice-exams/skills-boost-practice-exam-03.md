@@ -30,4 +30,7 @@ Initial:
 6. 
 You want to view a description of your available snapshots using the command line interface (CLI). What gcloud command should you use?
 
+Initial:
+
+
 
