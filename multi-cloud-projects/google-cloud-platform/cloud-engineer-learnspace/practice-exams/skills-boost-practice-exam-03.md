@@ -37,4 +37,7 @@ Initial:
 You want to implement a lifecycle rule that changes your storage type from standard to nearline after a specific date. What conditions should you use? (Pick two).
 
 
+Initial:
+
+
 
