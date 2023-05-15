@@ -15,3 +15,7 @@ Cymbal Superstore has a subnetwork called mysubnet with an IP range of 10.1.2.0/
 Initial:
 
 
+4.
+You have a scheduled snapshot you are trying to delete, but the operation returns an error. What should you do to resolve this problem?
+
+
