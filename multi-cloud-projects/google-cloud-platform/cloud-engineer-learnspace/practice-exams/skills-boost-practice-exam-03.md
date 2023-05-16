@@ -3,6 +3,7 @@ Cymbal Superstore’s supply chain management system has been deployed and is wo
 
 Initial:
 
+
 2.
 Which of the following tasks are part of the process when configuring a managed instance group? (Pick two).
 
