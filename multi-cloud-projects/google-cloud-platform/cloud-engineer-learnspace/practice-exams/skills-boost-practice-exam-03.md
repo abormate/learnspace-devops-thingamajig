@@ -10,6 +10,8 @@ Which of the following tasks are part of the process when configuring a managed 
 
 Initial:
 
+
+
 3.
 Cymbal Superstore has a subnetwork called mysubnet with an IP range of 10.1.2.0/24. You need to expand this subnet to include enough IP addresses for at most 2000 users or devices. What should you do?
 
