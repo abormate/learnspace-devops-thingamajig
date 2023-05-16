@@ -25,7 +25,7 @@ gcloud networks subnets expand-ip-range mysubnet --region us-central1 --prefix-l
 You have a scheduled snapshot you are trying to delete, but the operation returns an error. What should you do to resolve this problem?
 
 Initial:
-
+Detach the snapshot schedule before deleting it.
 
 
 
