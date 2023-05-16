@@ -18,6 +18,7 @@ Cymbal Superstore has a subnetwork called mysubnet with an IP range of 10.1.2.0/
 
 
 Initial:
+gcloud networks subnets expand-ip-range mysubnet --region us-central1 --prefix-length 21
 
 
 4.
