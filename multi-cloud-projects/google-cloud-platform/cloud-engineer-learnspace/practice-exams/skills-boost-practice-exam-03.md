@@ -50,6 +50,8 @@ You want to implement a lifecycle rule that changes your storage type from stand
 
 
 Initial:
+-- Age
+-- MatchesStorageClass
 
 
 8.
