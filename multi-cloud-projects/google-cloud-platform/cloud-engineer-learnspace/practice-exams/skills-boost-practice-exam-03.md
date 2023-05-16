@@ -41,7 +41,7 @@ Set Concurrency settings
 You want to view a description of your available snapshots using the command line interface (CLI). What gcloud command should you use?
 
 Initial:
-
+gcloud compute snapshots list
 
 
 
