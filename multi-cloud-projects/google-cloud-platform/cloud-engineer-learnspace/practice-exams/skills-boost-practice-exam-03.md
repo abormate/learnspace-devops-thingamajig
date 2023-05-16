@@ -9,7 +9,8 @@ Choose resource type of VM instance and metric of CPU utilization, condition tri
 Which of the following tasks are part of the process when configuring a managed instance group? (Pick two).
 
 Initial:
-
+-- Choosing instance machine type
+-- Providing number of instances
 
 
 3.
