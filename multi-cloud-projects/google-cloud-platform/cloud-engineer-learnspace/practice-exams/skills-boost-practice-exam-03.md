@@ -35,6 +35,8 @@ You have a Cloud Run service with a database backend. You want to limit the numb
 Initial:
 
 
+
+
 6. 
 You want to view a description of your available snapshots using the command line interface (CLI). What gcloud command should you use?
 
