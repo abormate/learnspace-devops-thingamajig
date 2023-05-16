@@ -27,6 +27,8 @@ You have a scheduled snapshot you are trying to delete, but the operation return
 Initial:
 
 
+
+
 5.
 You have a Cloud Run service with a database backend. You want to limit the number of connections to your database. What should you do?
 
