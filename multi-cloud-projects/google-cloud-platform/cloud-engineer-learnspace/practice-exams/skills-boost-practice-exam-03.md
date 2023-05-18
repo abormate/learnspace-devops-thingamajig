@@ -61,6 +61,8 @@ Cymbal Superstore’s GKE cluster requires an internal http(s) load balancer. Yo
 Initial:
 
 
+
+
 9.
 What is the declarative way to initialize and update Kubernetes objects?
 
