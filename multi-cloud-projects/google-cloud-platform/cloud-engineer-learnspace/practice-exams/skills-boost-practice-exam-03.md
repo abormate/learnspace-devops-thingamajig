@@ -74,4 +74,4 @@ kubectl apply
 What Kubernetes object provides access to logic running in your cluster via endpoints that you define?
 
 Initial:
-
+Pods
