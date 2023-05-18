@@ -67,7 +67,7 @@ Initial:
 What is the declarative way to initialize and update Kubernetes objects?
 
 Initial:
-
+kubectl apply
 
 
 10.
