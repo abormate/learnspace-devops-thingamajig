@@ -69,6 +69,7 @@ What is the declarative way to initialize and update Kubernetes objects?
 Initial:
 
 
+
 10.
 What Kubernetes object provides access to logic running in your cluster via endpoints that you define?
 
