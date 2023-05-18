@@ -59,7 +59,7 @@ Cymbal Superstore’s GKE cluster requires an internal http(s) load balancer. Yo
 
 
 Initial:
--- 
+-- Configure your service object with a type: LoadBalancer.
 
 
 
