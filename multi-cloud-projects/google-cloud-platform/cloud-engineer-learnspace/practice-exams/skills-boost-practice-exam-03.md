@@ -4,6 +4,9 @@ Cymbal Superstore’s supply chain management system has been deployed and is wo
 Initial:
 Choose resource type of VM instance and metric of CPU utilization, condition trigger if any time series violates, condition is above, threshold is .60 for 5 minutes.
 
+Result
+Incorrect
+
 
 2.
 Which of the following tasks are part of the process when configuring a managed instance group? (Pick two).
@@ -11,6 +14,9 @@ Which of the following tasks are part of the process when configuring a managed 
 Initial:
 -- Choosing instance machine type
 -- Providing number of instances
+
+Result
+Incorrect
 
 
 3.
@@ -20,12 +26,18 @@ Cymbal Superstore has a subnetwork called mysubnet with an IP range of 10.1.2.0/
 Initial:
 gcloud networks subnets expand-ip-range mysubnet --region us-central1 --prefix-length 21
 
+result
+incorrect
+
 
 4.
 You have a scheduled snapshot you are trying to delete, but the operation returns an error. What should you do to resolve this problem?
 
 Initial:
 Detach the snapshot schedule before deleting it.
+
+Result
+Correct
 
 
 
@@ -35,6 +47,10 @@ You have a Cloud Run service with a database backend. You want to limit the numb
 Initial:
 Set Concurrency settings
 
+Result
+Incorrect
+
+
 
 
 6. 
@@ -42,6 +58,10 @@ You want to view a description of your available snapshots using the command lin
 
 Initial:
 gcloud compute snapshots list
+
+
+Result
+Correct
 
 
 
@@ -53,6 +73,9 @@ Initial:
 -- Age
 -- MatchesStorageClass
 
+Result
+Incorrect Age
+
 
 8.
 Cymbal Superstore’s GKE cluster requires an internal http(s) load balancer. You are creating the configuration files required for this resource. What is the proper setting for this scenario?
@@ -62,6 +85,9 @@ Initial:
 -- Configure your service object with a type: LoadBalancer.
 
 
+Result
+Incorrect
+
 
 9.
 What is the declarative way to initialize and update Kubernetes objects?
@@ -69,9 +95,15 @@ What is the declarative way to initialize and update Kubernetes objects?
 Initial:
 kubectl apply
 
+Result
+Correct
+
 
 10.
 What Kubernetes object provides access to logic running in your cluster via endpoints that you define?
 
 Initial:
 Pods
+
+Result
+Incorrect
