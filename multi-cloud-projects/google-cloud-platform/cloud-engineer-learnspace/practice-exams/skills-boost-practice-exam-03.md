@@ -8,6 +8,8 @@ Result
 Incorrect
 
 
+
+
 2.
 Which of the following tasks are part of the process when configuring a managed instance group? (Pick two).
 
