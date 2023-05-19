@@ -9,7 +9,7 @@ Incorrect
 
 
 Secondary:
-
+Choose resource type of VM instance and metric of CPU utilization, condition trigger if any time series violates, condition is above, threshold is .60 for 5 minutes.
 
 
 2.
