@@ -86,7 +86,7 @@ Incorrect Age
 
 Secondary:
 -- MatchesStorageClass
-
+-- CreatedBefore
 
 8.
 Cymbal Superstore’s GKE cluster requires an internal http(s) load balancer. You are creating the configuration files required for this resource. What is the proper setting for this scenario?
