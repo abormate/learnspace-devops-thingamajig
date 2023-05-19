@@ -23,7 +23,8 @@ Result
 Incorrect
 
 Secondary:
-
+-- Specifying persistent disks
+-- Providing number of instances
 
 
 3.
