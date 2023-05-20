@@ -23,8 +23,8 @@ Result
 Incorrect
 
 Secondary:
--- Specifying persistent disks
--- Providing number of instances
+-- Specifying persistent disks [wrong]
+-- Providing number of instances [correct]
 
 
 3.
@@ -36,6 +36,9 @@ gcloud networks subnets expand-ip-range mysubnet --region us-central1 --prefix-l
 
 result
 incorrect
+
+Secondary:
+gcloud compute networks subnets expand-ip-range mysubnet --region us-central1 --prefix-length 21
 
 
 4.
@@ -91,6 +94,10 @@ Secondary:
 -- MatchesStorageClass
 -- CreatedBefore
 
+result
+Correct
+
+
 8.
 Cymbal Superstore’s GKE cluster requires an internal http(s) load balancer. You are creating the configuration files required for this resource. What is the proper setting for this scenario?
 
@@ -101,6 +108,9 @@ Initial:
 
 Result
 Incorrect
+
+Secondary:
+Implement custom static routes in your VPC [wrong]
 
 
 9.
