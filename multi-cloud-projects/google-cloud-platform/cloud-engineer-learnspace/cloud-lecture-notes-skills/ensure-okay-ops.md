@@ -8,3 +8,4 @@ then talk about where you can find out more in the learning resources and/or in 
 
 courses and modules, and quests you'll want to emphasize in your study plan. Just like with the previous section, there are multiple objectives in this section that have many related tasks.
 
+So you will probably need to plan for more study time.
