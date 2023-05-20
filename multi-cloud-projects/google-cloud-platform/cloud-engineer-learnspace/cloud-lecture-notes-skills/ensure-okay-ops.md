@@ -1,0 +1,1 @@
+ What areas do you need to develop your skills in order to manage the different aspects of a Google Cloud solution? This is another important area for an associate cloud engineer,
