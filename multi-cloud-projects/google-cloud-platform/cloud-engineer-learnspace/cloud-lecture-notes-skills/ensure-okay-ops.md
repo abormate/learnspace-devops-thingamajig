@@ -4,3 +4,4 @@ and where you'll likely spend much of your time on the job. Let's review the dia
 
 We'll approach this review by looking at the objectives of this exam section, and the questions you just answered about each one. We'll introduce an objective, briefly review the answers to the related questions,
 
+then talk about where you can find out more in the learning resources and/or in Google Cloud documentation. As we go through each section objective, use the page in your workbook to mark the specific documentation,
