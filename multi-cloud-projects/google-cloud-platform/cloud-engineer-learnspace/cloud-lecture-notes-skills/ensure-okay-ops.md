@@ -6,3 +6,4 @@ We'll approach this review by looking at the objectives of this exam section, an
 
 then talk about where you can find out more in the learning resources and/or in Google Cloud documentation. As we go through each section objective, use the page in your workbook to mark the specific documentation,
 
+courses and modules, and quests you'll want to emphasize in your study plan. Just like with the previous section, there are multiple objectives in this section that have many related tasks.
