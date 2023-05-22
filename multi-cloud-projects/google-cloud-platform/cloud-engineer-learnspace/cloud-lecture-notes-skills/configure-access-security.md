@@ -9,3 +9,5 @@ We'll start by discussing your role as an Associate Cloud Engineer in managing a
 Next, you'll assess your skills in this section of the exam guide through seven diagnostic questions.
 
 There are fewer questions for this module.
+
+While this is an important area for you to understand as an Associate Cloud Engineer, it is narrower in scope.
