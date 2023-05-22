@@ -150,3 +150,6 @@ What GKE object implements an http(s) load balancer?
 
 Initial
 Ingress
+
+Result
+Correct
