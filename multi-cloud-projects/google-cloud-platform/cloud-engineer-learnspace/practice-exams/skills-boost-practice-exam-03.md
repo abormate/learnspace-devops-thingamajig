@@ -144,6 +144,9 @@ Which Cloud Run autoscaling setting should you set if you want to limit cost?
 Initial
 Max instances
 
+Result
+Correct
+
 
 Extra 2
 What GKE object implements an http(s) load balancer?
