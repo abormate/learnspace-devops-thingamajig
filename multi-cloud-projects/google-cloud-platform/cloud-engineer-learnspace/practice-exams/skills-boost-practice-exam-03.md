@@ -146,3 +146,4 @@ Max instances
 
 
 Extra 2
+What GKE object implements an http(s) load balancer?
