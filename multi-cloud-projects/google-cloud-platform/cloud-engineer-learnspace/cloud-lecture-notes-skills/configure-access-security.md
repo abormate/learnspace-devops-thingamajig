@@ -5,3 +5,5 @@ This involves managing IAM as well as service accounts for cloud solutions.
 These areas correspond to the fifth and last section of the Associate Cloud Engineer Exam Guide.
 
 We'll start by discussing your role as an Associate Cloud Engineer in managing access for Cymbal Superstore's cloud solutions.
+
+Next, you'll assess your skills in this section of the exam guide through seven diagnostic questions.
