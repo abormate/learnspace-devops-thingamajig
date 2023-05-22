@@ -142,3 +142,4 @@ Extra
 Which Cloud Run autoscaling setting should you set if you want to limit cost?
 
 Initial
+Max instances
