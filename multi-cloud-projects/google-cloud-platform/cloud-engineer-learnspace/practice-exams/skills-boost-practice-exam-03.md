@@ -138,8 +138,9 @@ Secondary:
 Services
 
 
-Extra
+Extra 1
 Which Cloud Run autoscaling setting should you set if you want to limit cost?
 
 Initial
 Max instances
+
