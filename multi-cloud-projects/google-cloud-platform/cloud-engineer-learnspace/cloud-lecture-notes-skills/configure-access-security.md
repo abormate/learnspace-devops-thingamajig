@@ -11,3 +11,5 @@ Next, you'll assess your skills in this section of the exam guide through seven 
 There are fewer questions for this module.
 
 While this is an important area for you to understand as an Associate Cloud Engineer, it is narrower in scope.
+
+When we review the questions, identify the resources you'll want to include in your study plan.
