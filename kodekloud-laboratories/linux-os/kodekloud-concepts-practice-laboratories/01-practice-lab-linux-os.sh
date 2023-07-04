@@ -4,3 +4,7 @@
 #
 # ---------------------------------------- #
 
+# What is the Linux home directory for Bob Caleston from the narrative?
+
+/home/bob # after pwd
+
