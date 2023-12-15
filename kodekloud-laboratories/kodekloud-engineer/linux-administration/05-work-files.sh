@@ -28,5 +28,8 @@ ssh banner@stapp3
 cat /etc/os-release
 
 # find files belonging to a particular user
-find /home/usersdata -user anita -name *
+find /home/usersdata -user kareem -name *
+
+# pipe results of find command into cp 
+find /home/usersdata -type f -user kareem -exec cp --parents {} /official \;
 
