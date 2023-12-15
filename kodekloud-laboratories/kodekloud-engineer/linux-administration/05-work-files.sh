@@ -21,3 +21,5 @@ folder structure (preserve the directories path) to /media directory.
 
 '
 
+# from thor@jump_host ssh into hulk server
+
