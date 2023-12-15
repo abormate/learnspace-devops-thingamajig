@@ -24,4 +24,7 @@ folder structure (preserve the directories path) to /media directory.
 # from thor@jump_host ssh into hulk server
 ssh banner@172.18.238.12
 
+# determine Linux variant
+cat /etc/os-release
+
 
