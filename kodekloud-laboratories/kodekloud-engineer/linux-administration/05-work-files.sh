@@ -27,4 +27,6 @@ ssh banner@172.18.238.12
 # determine Linux variant
 cat /etc/os-release
 
+# find files belonging to a particular user
+find /home/usersdata -user anita -name *
 
