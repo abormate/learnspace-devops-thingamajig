@@ -14,3 +14,4 @@ Disable direct SSH root login on all app servers in Stratos Datacenter.
 
 '
 
+# ssh into needed servers
