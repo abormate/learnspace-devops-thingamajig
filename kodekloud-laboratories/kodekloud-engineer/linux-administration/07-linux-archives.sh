@@ -21,3 +21,11 @@ a. Make a ravi.tar.gz compressed archive of /data/ravi directory and move
 the archive to /home directory on Storage Server.
 
 '
+
+# go to directory /data/ravi
+
+# archive files into tar.gz
+tar czvf ravi.tar.gz .
+
+# move archive to /home/ directory
+mv ravi.tar.gz /home/
