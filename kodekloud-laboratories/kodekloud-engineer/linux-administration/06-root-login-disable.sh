@@ -15,3 +15,7 @@ Disable direct SSH root login on all app servers in Stratos Datacenter.
 '
 
 # ssh into needed servers
+
+# configure to disable root
+nano /etc/ssh/sshd_config
+
