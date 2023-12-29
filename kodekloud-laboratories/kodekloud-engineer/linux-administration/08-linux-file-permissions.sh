@@ -18,3 +18,7 @@ Please give executable permissions to /tmp/xfusioncorp.sh script on App
 Server 1. Also make sure every user can execute it.
 
 '
+
+ssh someone@<IP address>
+
+sudo su
