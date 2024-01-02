@@ -22,3 +22,5 @@ Server 1. Also make sure every user can execute it.
 ssh someone@<IP address>
 
 sudo su
+
+chmod a+x /tmp/xfusioncorp.sh
