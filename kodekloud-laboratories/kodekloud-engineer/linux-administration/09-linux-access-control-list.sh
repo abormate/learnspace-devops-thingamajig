@@ -17,3 +17,13 @@ be set.
 
 '
 
+sudo su -
+
+# enter passwd
+
+getfacl /etc/hosts
+
+setfacl -m u:anita:-,ben:r /etc/hosts
+
+getfacl /etc/hosts
+
