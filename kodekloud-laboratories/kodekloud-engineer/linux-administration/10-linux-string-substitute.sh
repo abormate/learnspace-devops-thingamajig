@@ -19,5 +19,7 @@ industries is to apply string and file manipulation commands!
 Replace all occurances of the string Random to Echo-Location on the XML 
 file /root/nautilus.xml located in the backup server.
 
-
 '
+
+ssh clint@backupserver-ip
+
