@@ -23,3 +23,5 @@ file /root/nautilus.xml located in the backup server.
 
 ssh clint@backupserver-ip
 
+sudo sed -i 's/Random/Echo-Location/g' /root/nautilus.xml
+
