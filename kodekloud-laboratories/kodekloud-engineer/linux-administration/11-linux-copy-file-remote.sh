@@ -16,7 +16,7 @@ at location /home/code
 
 '
 
-scp /tmp/nautilus.txt.gpg banner@stapp03: /home/code
+scp /tmp/nautilus.txt.gpg banner@stapp03:/home/code
 
 ssh banner@stapp03
 
