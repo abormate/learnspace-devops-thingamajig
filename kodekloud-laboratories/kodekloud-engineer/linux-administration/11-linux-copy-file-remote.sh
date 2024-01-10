@@ -5,7 +5,7 @@
 # -------------------------------------------- #
 
 : '
-One of the Nautilus devs has copied condifential data on the jump host in
+One of the Nautilus devs has copied confidential data on the jump host in
 Stratos DC. That data must be copied to one of the app servers. Because the devs
 do not have access to app servers. They asked the system admins to accomplish
 the task for them
