@@ -16,6 +16,8 @@ do not try to reboot these servers after completing this task.
 
 '
 
+ssh username@hostname 
+
 sudo su -
 
 systemctl get-default
