@@ -12,3 +12,12 @@ that of the local datacenter's timezone, which is America/Argentina/Rio_Gallegos
 Correct the mismatch.
 
 '
+
+ssh tony@stapp01
+
+ssh steve@stapp02
+
+ssh banner@stapp03
+
+sudo su -
+
