@@ -21,3 +21,8 @@ ssh banner@stapp03
 
 sudo su -
 
+timedatectl list-timezones
+
+timedatectl set-timezone America/Argentina/Rio_Gallegos
+
+timedatectl status
