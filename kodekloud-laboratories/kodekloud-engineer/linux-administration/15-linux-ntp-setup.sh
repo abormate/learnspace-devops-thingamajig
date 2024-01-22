@@ -25,10 +25,21 @@ App Server 1.
 
 
 3. Please do not try to start/restart/stop ntp service, as we already 
-have a restart for this service scheduled for tonight and we don't want 
+have a restart for this service scheduled for tonight and we dont want 
 these changes to be applied right now.
 
 '
 
 ssh tony@stapp01
+
+cat /etc/os-release
+
+# If CentOS Linux
+
+sudo yum install ntp -y
+
+# Configure NTP conf
+vim /etc/ntp.conf
+
+
 
