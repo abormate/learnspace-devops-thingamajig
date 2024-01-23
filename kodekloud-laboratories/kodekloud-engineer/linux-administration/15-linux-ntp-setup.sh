@@ -41,5 +41,4 @@ sudo yum install ntp -y
 # Configure NTP conf
 vim /etc/ntp.conf
 
-
-
+cat /etc/ntp.conf
