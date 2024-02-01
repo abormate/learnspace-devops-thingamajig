@@ -14,3 +14,6 @@ following:
 Open all incoming connection on 5003/tcp port. Zone should be public.
 
 '
+
+ssh clint@backupserver
+
