@@ -17,3 +17,9 @@ Open all incoming connection on 5003/tcp port. Zone should be public.
 
 ssh clint@backupserver
 
+firewall-cmd --permanent --zone=public --add-port=5003/tcp
+
+firewall-cmd --reload
+
+systemctl restart firewalld
+
