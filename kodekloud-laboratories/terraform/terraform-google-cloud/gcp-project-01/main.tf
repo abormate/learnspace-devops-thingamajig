@@ -66,3 +66,19 @@ resource "google_compute_managed_ssl_certificate" "website" {
     domains = [google_dns_record_set.website.name]
   }
 }
+
+# GCP URL MAP
+resource "google_compute_url_map" "website" {
+  provider        = google
+  name            = "website-url-map"
+  default_service = google_compute_backend_bucket.website-backend.self_link
+    host_rule {
+    hosts        = ["*"]
+    path_matcher = "allpaths"
+  }
+
+  path_matcher {
+    name            = "allpaths"
+    default_service = google_compute_backend_bucket.website-backend.self_link
+  }
+}
