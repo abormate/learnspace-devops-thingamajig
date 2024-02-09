@@ -48,3 +48,21 @@ resource "google_dns_record_set" "website" {
   managed_zone = data.google_dns_managed_zone.gcp_coffeetime_dev.name
   rrdatas      = [google_compute_global_address.website.address]
 }
+
+# Add the bucket as a CDN backend
+resource "google_compute_backend_bucket" "website-backend" {
+  provider    = google
+  name        = "website-backend"
+  description = "Contains files needed by the website"
+  bucket_name = google_storage_bucket.website.name
+  enable_cdn  = true
+}
+
+# Create HTTPS certificate
+resource "google_compute_managed_ssl_certificate" "website" {
+  provider = google-beta
+  name     = "website-cert"
+  managed {
+    domains = [google_dns_record_set.website.name]
+  }
+}
