@@ -21,10 +21,10 @@ jobs:
         aws-region: us-east-1
 
     - name: Build Docker Image
-      run: docker build -t my-lambda .
+      run: docker build -t zip_lambda_000 .
 
     - name: Tag Docker Image
-      run: docker tag my-lambda:latest ${{ steps.login-ecr.outputs.registry }}/my-lambda:latest
+      run: docker tag my-lambda:latest ${{ steps.login-ecr.outputs.registry }}/zip_lambda_000:latest
 
     - name: Push Docker Image to ECR
-      run: docker push ${{ steps.login-ecr.outputs.registry }}/my-lambda:latest
+      run: docker push ${{ steps.login-ecr.outputs.registry }}/zip_lambda_000:latest
