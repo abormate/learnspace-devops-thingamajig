@@ -6,3 +6,15 @@ spec:
   selector:
     matchLabels:
       app: aks-sample-linux-app
+  template:
+    metadata:
+      labels:
+        app: aks-sample-linux-app
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:1.24.0
+          resources:
+            limits:
+              memory: "128Mi"
+              cpu: "500m"
