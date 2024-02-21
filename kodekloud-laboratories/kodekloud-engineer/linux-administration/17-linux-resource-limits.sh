@@ -15,3 +15,15 @@ a. soft limit = 1025
 b. hard_limit = 2027
 
 '
+ssh natasha@ststor01
+
+sudo su -
+
+cat /etc/security/limits.conf | grep nproc | grep -v ^#
+
+vim /etc/security/limits.conf
+
+# Add nfsuser hard and soft nproc limits set to 1025 and 2027 respectively
+
+cat /etc/security/limits.conf | grep nproc | grep -v ^#
+
