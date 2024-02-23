@@ -21,3 +21,18 @@ Note: The kubectl utility on jump_host has been configured to work with the kube
 cluster.
 
 '
+
+kubectl run pod-nginx --image=nginx:latest --dry-run=client -o yaml
+
+kubectl run pod-nginx --image=nginx:latest --dry-run=client -o yaml > pod.yaml
+
+vim pod.yaml
+
+cat pod.yaml
+
+kubectl create -f pod.yaml
+
+kubectl get pods
+
+kubectl describe pod pod-nginx
+
