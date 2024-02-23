@@ -50,6 +50,26 @@ vim pod.yaml
 
 cat pod.yaml
 
+# must output the following ---
+:'
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    app: nginx_app
+  name: pod-nginx
+spec:
+  containers:
+  - image: nginx:latest
+    name: nginx-container
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
+
+'
+
 kubectl create -f pod.yaml
 
 kubectl get pods
