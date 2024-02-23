@@ -18,3 +18,6 @@ servers, so based on the recommendations they have the following requirements:
 ssh banner@steapp03
 
 sudo su -
+
+yum install -y selinux*
+
