@@ -21,3 +21,7 @@ sudo su -
 
 yum install -y selinux*
 
+vim /etc/selinux/config
+
+# write change to status enforcing into status disabled
+
