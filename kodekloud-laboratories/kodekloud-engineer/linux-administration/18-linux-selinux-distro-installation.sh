@@ -25,3 +25,6 @@ vim /etc/selinux/config
 
 # write change to status enforcing into status disabled
 
+cat /etc/selinux/config
+
+getenforce
