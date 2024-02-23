@@ -24,6 +24,26 @@ cluster.
 
 kubectl run pod-nginx --image=nginx:latest --dry-run=client -o yaml
 
+# outputs ---
+: '
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: pod-nginx
+  name: pod-nginx
+spec:
+  containers:
+  - image: nginx:latest
+    name: pod-nginx
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
+
+'
+
 kubectl run pod-nginx --image=nginx:latest --dry-run=client -o yaml > pod.yaml
 
 vim pod.yaml
