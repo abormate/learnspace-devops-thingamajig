@@ -40,3 +40,12 @@ spec:
                 image: nginx:latest
 
 '
+
+cat > deploy.yml
+
+# paste yaml code
+
+cat deploy.yml
+
+# to verify
+
