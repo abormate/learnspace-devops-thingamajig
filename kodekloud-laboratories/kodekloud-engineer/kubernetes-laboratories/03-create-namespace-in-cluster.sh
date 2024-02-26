@@ -17,3 +17,8 @@ Note: The kubectl utility on jump_host has been configured to work with the kube
 cluster.
 
 '
+
+kubectl create namespace dev
+
+kubectl get namespaces
+
