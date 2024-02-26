@@ -24,7 +24,7 @@ kubectl get namespaces
 
 kubectl run dev-nginx-pod -n dev --image=nginx:latest
 
-kubectl get pos -n dev
+kubectl get pods -n dev
 
 kubectl describe pod dev-nginx-pod -n dev
 
