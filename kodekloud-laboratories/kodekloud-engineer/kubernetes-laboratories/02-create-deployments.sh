@@ -49,3 +49,5 @@ cat deploy.yml
 
 # to verify
 
+kubectl apply -f deploy.yml
+
