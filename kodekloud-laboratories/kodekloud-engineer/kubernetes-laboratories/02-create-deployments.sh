@@ -17,3 +17,26 @@ Note: The kubectl utility on jump_host has been configured to work with the kube
 cluster.
 
 '
+
+# create manifest 
+
+: '
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+     name: nginx
+spec:
+     selector:
+          matchLabels:
+               app: myapp
+     template:
+          metadata:
+               labels:
+                    app: myapp
+          spec:
+               containers:
+               - name: nginx
+                image: nginx:latest
+
+'
