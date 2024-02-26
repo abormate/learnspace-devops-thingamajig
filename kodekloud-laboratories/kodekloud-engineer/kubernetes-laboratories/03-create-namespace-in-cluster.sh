@@ -22,3 +22,5 @@ kubectl create namespace dev
 
 kubectl get namespaces
 
+kubectl run dev-nginx-pod -n dev --image=nginx:latest
+
