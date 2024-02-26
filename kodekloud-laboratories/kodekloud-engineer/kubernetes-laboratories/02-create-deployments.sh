@@ -51,3 +51,8 @@ cat deploy.yml
 
 kubectl apply -f deploy.yml
 
+kubectl get deploy 
+
+kubectl get pods
+
+# check on deployment and pods status
