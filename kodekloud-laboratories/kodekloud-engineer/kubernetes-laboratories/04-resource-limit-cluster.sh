@@ -30,3 +30,7 @@ kubectl run httpd-pod --image=httpd:latest --dry-run=client -o yaml
 
 kubectl run httpd-pod --image=httpd:latest --dry-run=client -o yaml > pod.yaml
 
+kubectl create -f pod.yaml
+
+kubectl describe pod httpd-pod
+
