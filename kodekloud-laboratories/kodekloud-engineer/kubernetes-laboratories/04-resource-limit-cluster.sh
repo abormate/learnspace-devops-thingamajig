@@ -34,3 +34,5 @@ kubectl create -f pod.yaml
 
 kubectl describe pod httpd-pod
 
+# check kubernetes cluster pod details
+
