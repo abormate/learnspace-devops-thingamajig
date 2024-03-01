@@ -28,7 +28,9 @@ kubectl edit deployment nginx-deployment
 
 kubectl get deployment
 
+kubectl get pods
 
+kubectl describe pods
 
 
 
