@@ -24,3 +24,9 @@ kubectl get deployment
 
 kubectl describe deployment nginx-deployment
 
+kubectl edit deployment nginx-deployment
+
+
+
+
+
