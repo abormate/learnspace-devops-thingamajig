@@ -25,12 +25,14 @@ kubectl get deployment
 kubectl describe deployment nginx-deployment
 
 kubectl edit deployment nginx-deployment
+# insert and modify old version with new version requirement (nginx:1.17) then save (wq!)
 
 kubectl get deployment
 
 kubectl get pods
 
 kubectl describe pods
+# to determine what version of nginx is running in containers
 
 
 
