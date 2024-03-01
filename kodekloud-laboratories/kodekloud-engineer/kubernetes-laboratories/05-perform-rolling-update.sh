@@ -19,3 +19,8 @@ Note: The kubectl utility on jump_host has been configured to work with the kube
 cluster.
 
 '
+
+kubectl get deployment
+
+kubectl describe deployment nginx-deployment
+
