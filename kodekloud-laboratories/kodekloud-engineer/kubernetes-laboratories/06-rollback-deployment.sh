@@ -21,3 +21,5 @@ kubectl get deployments
 
 kubectl describe deployments nginx-deployment
 
+kubectl rollout status deployment nginx-deployment
+
