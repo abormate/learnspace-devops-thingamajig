@@ -19,5 +19,5 @@ cluster.
 
 kubectl get deployments
 
-kubectl describe deployments
+kubectl describe deployments nginx-deployment
 
