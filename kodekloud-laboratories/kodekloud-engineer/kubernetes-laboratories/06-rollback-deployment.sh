@@ -23,3 +23,4 @@ kubectl describe deployments nginx-deployment
 
 kubectl rollout status deployment nginx-deployment
 
+kubectl rollout history deployment nginx-deployment
