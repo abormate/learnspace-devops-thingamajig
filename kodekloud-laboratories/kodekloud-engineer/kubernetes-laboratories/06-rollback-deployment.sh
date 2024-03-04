@@ -24,3 +24,6 @@ kubectl describe deployments nginx-deployment
 kubectl rollout status deployment nginx-deployment
 
 kubectl rollout history deployment nginx-deployment
+
+kubectl rollout undo deployment nginx-deployment --to-revision=1
+
