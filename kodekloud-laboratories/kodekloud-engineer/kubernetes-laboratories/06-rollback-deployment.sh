@@ -17,3 +17,5 @@ cluster.
 
 '
 
+kubectl get deployments
+
