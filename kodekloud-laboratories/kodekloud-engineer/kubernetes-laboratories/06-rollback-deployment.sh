@@ -19,3 +19,5 @@ cluster.
 
 kubectl get deployments
 
+kubectl describe deployments
+
