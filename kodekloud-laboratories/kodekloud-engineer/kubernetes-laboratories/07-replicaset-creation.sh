@@ -20,4 +20,18 @@ tag i.e httpd:latest and name it as httpd-replicaset.
 >> 3. The container should be named as httpd-container; also make sure replicas counts 
 are 4.
 
+
+Note: 
+
+The kubectl utility on jump_host has been configured to work with the kubernetes 
+cluster.
+
 '
+
+kubectl create deployment httpd-replicaset --image=httpd:latest --replicates=4 --dry-run=client -o yaml
+
+kubectl create deployment httpd-replicaset --image=httpd:latest --replicates=4 --dry-run=client -o yaml > replicaset.yaml
+
+vi replicaset.yaml
+
+# modify property --> from replicaset template off kubernetes.io
