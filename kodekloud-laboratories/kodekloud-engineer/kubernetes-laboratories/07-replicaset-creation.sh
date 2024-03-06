@@ -39,3 +39,5 @@ vi replicaset.yaml
 kubectl create -f replicaset.yaml
 
 kubectl get replicaset
+
+kubectl describe replicaset httpd-replicaset
