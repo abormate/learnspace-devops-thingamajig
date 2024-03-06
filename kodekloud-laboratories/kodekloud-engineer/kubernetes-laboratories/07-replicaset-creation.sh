@@ -35,3 +35,6 @@ kubectl create deployment httpd-replicaset --image=httpd:latest --replicates=4 -
 vi replicaset.yaml
 
 # modify property --> from replicaset template off kubernetes.io
+
+kubectl create -f replicaset.yaml
+
