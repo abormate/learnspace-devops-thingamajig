@@ -23,3 +23,11 @@ spec:
 
 
 '
+
+# Integrate proper detaild as supplied from scenario description --> save as job.yaml
+
+kubectl create -f job.yaml
+
+kubectl get jobs
+
+kubectl get pods
