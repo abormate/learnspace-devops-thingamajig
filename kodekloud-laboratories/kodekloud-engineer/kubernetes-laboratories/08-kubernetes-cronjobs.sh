@@ -8,3 +8,7 @@
 
 # save template modified with correct details into file --> cronjob.yaml
 
+kubectl create -f cronjob.yaml
+
+kubectl get cj
+
