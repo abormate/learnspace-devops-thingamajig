@@ -12,3 +12,4 @@ kubectl create -f cronjob.yaml
 
 kubectl get cj
 
+kubectl describe cj nautilus
