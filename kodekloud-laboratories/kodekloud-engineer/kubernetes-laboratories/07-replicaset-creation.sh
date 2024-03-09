@@ -53,6 +53,34 @@ kubectl create deployment httpd-replicaset --image=httpd:latest --replicates=4 -
 
 kubectl create deployment httpd-replicaset --image=httpd:latest --replicates=4 --dry-run=client -o yaml > replicaset.yaml
 
+: '
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: nginx-replicaset
+  name: nginx-replicaset
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: nginx-replicaset
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: nginx-replicaset
+    spec:
+      containers:
+      - image: nginx:latest
+        name: nginx
+        resources: {}
+status: {}
+
+'
+
 vi replicaset.yaml
 
 # modify property --> from replicaset template off kubernetes.io
