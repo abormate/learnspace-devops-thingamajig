@@ -10,7 +10,18 @@ they are planning to migrate some of their existing applications there. Recently
 the team members has been assigned a task to write a template as per details mentioned 
 below:
 
+Create a ReplicaSet using nginx image with latest tag only and remember to mention 
+tag i.e nginx:latest and name it as nginx-replicaset.
 
+
+Labels app should be nginx_app, labels type should be front-end.
+
+
+The container should be named as nginx-container; also make sure replicas counts are 4.
+
+
+Note: The kubectl utility on jump_host has been configured to work with the kubernetes 
+cluster.
 
 '
 
