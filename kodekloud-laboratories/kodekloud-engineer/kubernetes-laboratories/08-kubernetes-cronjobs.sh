@@ -31,6 +31,8 @@ Run a dummy command echo Welcome to xfusioncorp!.
 
 Ensure restart policy is OnFailure.
 
+Note: The kubectl utility on jump_host has been configured to work with the kubernetes cluster.
+
 '
 
 # Go to official Kubernetes documentation page and check template for Cronjobs
