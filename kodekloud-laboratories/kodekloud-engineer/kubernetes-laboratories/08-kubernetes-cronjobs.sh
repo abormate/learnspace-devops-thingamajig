@@ -14,6 +14,23 @@ scripts later).
 
 Create a cronjob as per details given below:
 
+Create a cronjob named datacenter.
+
+
+Set Its schedule to something like */4 * * * *, you set any schedule for now.
+
+
+Container name should be cron-datacenter.
+
+
+Use nginx image with latest tag only and remember to mention the tag i.e nginx:latest.
+
+
+Run a dummy command echo Welcome to xfusioncorp!.
+
+
+Ensure restart policy is OnFailure.
+
 '
 
 # Go to official Kubernetes documentation page and check template for Cronjobs
