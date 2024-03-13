@@ -18,6 +18,10 @@ The time-check container should run the command: while true; do date; sleep $TIM
 
 Create a volume log-volume and mount the same on /opt/itadmin/time within the container.
 
+
+Note: The kubectl utility on jump_host has been configured to work with the kubernetes 
+cluster.
+
 '
 
 kubectl get namespace 
