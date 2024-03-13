@@ -4,6 +4,11 @@
 #
 # ------------------------------------------------ #
 
+: '
+
+
+'
+
 kubectl get namespace 
 
 kubectl create namespace <name>
