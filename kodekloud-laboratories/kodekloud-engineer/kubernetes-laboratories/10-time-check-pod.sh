@@ -5,7 +5,10 @@
 # ------------------------------------------------ #
 
 : '
-
+The Nautilus DevOps team want to create a time check pod in a particular Kubernetes 
+namespace and record the logs. This might be initially used only for testing purposes, 
+but later can be implemented in an existing cluster. Please find more details below 
+about the task and perform it.
 
 '
 
