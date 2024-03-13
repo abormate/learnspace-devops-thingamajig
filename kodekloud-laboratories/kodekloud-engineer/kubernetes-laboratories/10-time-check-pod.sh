@@ -44,3 +44,10 @@ data:
 
 
 '
+
+# modify properties accordingly aligned with task details -- then save as configmap.yaml
+
+k create -f configmap.yaml
+
+k get configmap -n datacenter
+
