@@ -17,3 +17,6 @@ as httpd-container. It is using image httpd:latest
 is using ubuntu:latest image.
 
 '
+
+kubectl get pods 
+
