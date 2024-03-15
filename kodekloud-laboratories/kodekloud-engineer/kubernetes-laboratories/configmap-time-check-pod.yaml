@@ -3,27 +3,27 @@ kind: Pod
 metadata:
   name: time-check
   namespace: datacenter
-spec:
-  containers:
-    - name: time-check
-      image: busybox:latest
-      command: 
-        - "sh"
-        - "-c"
-        - "while true; do date; sleep $TIME_FREQ;done >> /opt/itadmin/time/time-check.log"
-      env:
-        # Define the environment variable
-        - name: TIME_FREQ
-          valueFrom:
-            configMapKeyRef:
+# spec:
+#  containers:
+#    - name: time-check
+#      image: busybox:latest
+#      command: 
+#        - "sh"
+#        - "-c"
+#        - "while true; do date; sleep $TIME_FREQ;done >> /opt/itadmin/time/time-check.log"
+#      env:
+#        # Define the environment variable
+#        - name: TIME_FREQ
+#          valueFrom:
+#            configMapKeyRef:
               # The ConfigMap containing the value you want to assign to SPECIAL_LEVEL_KEY
-              name: time-config
+#              name: time-config
               # Specify the key associated with the value
-              key: TIME_FREQ
-      volumeMounts:
-      - mountPath: /opt/itadmin/time
-        name: log-volume
-  volumes:
-  - name: log-volume
-    emptyDir:
-      sizeLimit: 100Mi
+#              key: TIME_FREQ
+#      volumeMounts:
+#      - mountPath: /opt/itadmin/time
+#        name: log-volume
+#  volumes:
+#  - name: log-volume
+#    emptyDir:
+#     sizeLimit: 100Mi
