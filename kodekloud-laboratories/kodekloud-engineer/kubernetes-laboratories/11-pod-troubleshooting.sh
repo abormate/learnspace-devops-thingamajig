@@ -24,5 +24,7 @@ kubectl describe pods webserver
 
 kubectl edit pod webserver
 
+# correct wrong meta information for container image tag 
 
+kubectl get pods
 
