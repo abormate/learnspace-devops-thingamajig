@@ -20,3 +20,9 @@ is using ubuntu:latest image.
 
 kubectl get pods 
 
+kubectl describe pods webserver 
+
+kubectl edit pod webserver
+
+
+
