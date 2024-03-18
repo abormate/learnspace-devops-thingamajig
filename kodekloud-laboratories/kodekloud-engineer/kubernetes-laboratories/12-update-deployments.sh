@@ -27,3 +27,4 @@ service.
 
 kubectl get deploy
 
+kubectl edit deployment nginx-deployment
