@@ -24,3 +24,6 @@ service.
 3.) Change the image from nginx:1.17 to nginx:latest
 
 '
+
+kubectl get deploy
+
