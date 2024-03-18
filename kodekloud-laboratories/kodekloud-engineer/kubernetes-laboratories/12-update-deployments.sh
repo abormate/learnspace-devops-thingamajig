@@ -32,3 +32,5 @@ kubectl edit deployment nginx-deployment
 # modify to proper values the nginx image and replica count
 
 kubectl get service
+
+kubectl edit svc nginx-service
