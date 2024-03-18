@@ -43,4 +43,6 @@ kubectl edit service nginx-service
 
 kubectl get deployments
 
+kubectl describe deployments nginx-deployment
+
 
