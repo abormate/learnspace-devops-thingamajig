@@ -39,3 +39,5 @@ kubectl edit svc nginx-service
 
 kubectl edit service nginx-service
 
+# Update and fill the suggested value for the port number
+
