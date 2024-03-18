@@ -45,4 +45,6 @@ kubectl get deployments
 
 kubectl describe deployments nginx-deployment
 
+kubectl get service
+
 
