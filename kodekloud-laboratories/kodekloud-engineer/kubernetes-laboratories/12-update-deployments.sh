@@ -12,4 +12,9 @@ updates some new changes need to be made in this existing setup.
 
 So update the deployment and service as per details mentioned below:
 
+We already have a deployment named nginx-deployment and service 
+named nginx-service. Some changes need to be made in this 
+deployment and service, make sure not to delete the deployment and 
+service.
+
 '
