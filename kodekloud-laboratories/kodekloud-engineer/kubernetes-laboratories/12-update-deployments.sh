@@ -34,3 +34,8 @@ kubectl edit deployment nginx-deployment
 kubectl get service
 
 kubectl edit svc nginx-service
+
+# or
+
+kubectl edit service nginx-service
+
