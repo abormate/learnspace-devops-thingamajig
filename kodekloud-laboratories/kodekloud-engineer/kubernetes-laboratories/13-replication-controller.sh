@@ -50,3 +50,6 @@ spec:
 
 # modify or edit template from Kubernetes documentation with desired and proper values
 
+# after parameter values are added -- create resource
+
+k create -f rc.yaml
