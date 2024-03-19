@@ -23,3 +23,6 @@ All pods should be running state after deployment.
 
 '
 
+# go through Kubernetes documentation -- and look for replication controller template -- that creates nginx resources
+
+
