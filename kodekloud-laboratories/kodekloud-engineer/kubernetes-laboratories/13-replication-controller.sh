@@ -12,5 +12,12 @@ pods, these applications need highly available infrastructure.
 Below you can find exact details, create the ReplicationController 
 accordingly.
 
+-- Create a ReplicationController using nginx image, preferably 
+with latest tag, and name it as nginx-replicationcontroller.
+
+-- Labels app should be nginx_app, and labels type should be 
+front-end. The container should be named as nginx-container and 
+also make sure replica counts are 3.
+
 '
 
