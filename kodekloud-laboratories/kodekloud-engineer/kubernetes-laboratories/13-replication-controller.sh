@@ -47,3 +47,6 @@ spec:
         - containerPort: 80
 
 '
+
+# modify or edit template from Kubernetes documentation with desired and proper values
+
