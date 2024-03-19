@@ -19,5 +19,7 @@ with latest tag, and name it as nginx-replicationcontroller.
 front-end. The container should be named as nginx-container and 
 also make sure replica counts are 3.
 
+All pods should be running state after deployment.
+
 '
 
