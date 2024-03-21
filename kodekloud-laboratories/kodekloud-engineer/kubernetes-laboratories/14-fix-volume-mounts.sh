@@ -32,3 +32,5 @@ k get configmap
 
 k describe cm nginx-config
 
+k describe pods nginx-phpfpm
+
