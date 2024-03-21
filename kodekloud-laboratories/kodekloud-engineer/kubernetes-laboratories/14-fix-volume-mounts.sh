@@ -21,5 +21,7 @@ host to the nginx-container under nginx document root and you
 should be able to access the website using Website button on top 
 bar.
 
+Note: The kubectl utility on jump_host has been configured to work 
+with the kubernetes cluster.
 
 '
