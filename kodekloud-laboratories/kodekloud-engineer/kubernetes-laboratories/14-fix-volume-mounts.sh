@@ -25,3 +25,10 @@ Note: The kubectl utility on jump_host has been configured to work
 with the kubernetes cluster.
 
 '
+
+k get pods
+
+k get configmap
+
+k describe cm nginx-config
+
