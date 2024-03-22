@@ -34,3 +34,14 @@ k describe cm nginx-config
 
 k describe pods nginx-phpfpm
 
+k edit pods nginx-phpfpm
+
+# enter modify value for proper volume mount path
+
+k replace --force -f /tmp/kubectl-edit-3189585914.yaml
+
+k cp index.php nginx-phpfpm:/index.php -c nginx-container
+
+k exec -it nginx-phpfpm -c nginx-container -- /bin/bash
+
+cp index.php /var/www/html
