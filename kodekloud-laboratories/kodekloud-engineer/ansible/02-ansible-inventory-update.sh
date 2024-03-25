@@ -32,3 +32,8 @@ Note: Validation will try to run the playbook using command ansible-playbook
 without passing any extra arguments.
 
 '
+
+ls 
+
+cd playbook
+
