@@ -39,3 +39,8 @@ cd playbook
 
 cat > inventory
 
+# input to inventory file 
+: '
+stapp02 ansible_user=steve ansible_host=stapp02 ansible_ssh_pass=Am3ric@
+
+'
