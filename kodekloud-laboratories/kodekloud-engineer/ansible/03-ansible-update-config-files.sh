@@ -17,5 +17,10 @@ On jump host make appropriate changes so that Ansible can use anita as a
 default ssh user for all hosts. Make changes in Ansible's default 
 configuration only —please do not try to create a new config.
 
-'
+''
+
+# elevate privilege to root
+sudo su -
+
+vi /etc/ansible/ansible.cfg
 
