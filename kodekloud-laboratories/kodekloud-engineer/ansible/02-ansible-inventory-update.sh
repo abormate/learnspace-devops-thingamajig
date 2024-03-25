@@ -37,3 +37,5 @@ ls
 
 cd playbook
 
+cat > inventory
+
