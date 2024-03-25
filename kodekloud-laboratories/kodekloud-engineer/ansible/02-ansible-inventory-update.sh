@@ -49,3 +49,4 @@ ansible all -m ping -i inventory
 
 ansible-playbook playbook.yml -i inventory
 
+cat playbook.yml
