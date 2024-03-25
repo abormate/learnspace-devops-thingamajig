@@ -45,3 +45,7 @@ stapp02 ansible_user=steve ansible_host=stapp02 ansible_ssh_pass=Am3ric@
 
 '
 
+ansible all -m ping -i inventory
+
+ansible-playbook playbook.yml -i inventory
+
