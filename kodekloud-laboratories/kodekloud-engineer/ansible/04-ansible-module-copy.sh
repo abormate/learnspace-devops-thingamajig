@@ -42,3 +42,5 @@ stapp03 ansible_host=stapp03 ansible_user=banner ansible_ssh_pass=<password>
 # after enter and stop cat ^C
 '
 
+ansible all -m ping -i inventory
+
