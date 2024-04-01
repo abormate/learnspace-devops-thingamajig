@@ -26,3 +26,16 @@ without passing any extra arguments.
 
 '
 
+ls -la
+
+cd ansible/
+
+cat > inventory
+
+: '
+Enter the following inventory values...
+
+stapp01 ansible_host=stapp01 ansible_user=tony ansible_ssh_pass=Ir0nM@n
+
+
+'
