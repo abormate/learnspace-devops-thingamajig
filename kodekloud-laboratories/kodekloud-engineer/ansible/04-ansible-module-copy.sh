@@ -46,3 +46,9 @@ ansible all -m ping -i inventory
 
 ansible all -i inventory -a "ls -l /opt/itadmin"
 
+cat > playbook.yaml
+
+: '
+
+
+'
