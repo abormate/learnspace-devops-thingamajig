@@ -50,6 +50,7 @@ cat > playbook.yaml
 
 : '
  - name: "Copying index file to app servers"
+     become: yes
      hosts: all
      tasks:
           - name: "Copy index.html"
@@ -58,3 +59,8 @@ cat > playbook.yaml
                dest: /opt/itadmin/
 
 '
+
+ansible-playbook -i inventory playbook.yaml
+
+# check if file is present inside dest folder
+ansible all -i inventory -a "ls -l /opt/itadmin"
