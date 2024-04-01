@@ -44,3 +44,5 @@ stapp03 ansible_host=stapp03 ansible_user=banner ansible_ssh_pass=<password>
 
 ansible all -m ping -i inventory
 
+ansible all -i inventory -a "ls -l /opt/itadmin"
+
