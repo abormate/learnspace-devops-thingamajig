@@ -49,6 +49,12 @@ ansible all -i inventory -a "ls -l /opt/itadmin"
 cat > playbook.yaml
 
 : '
-
+ - name: "Copying index file to app servers"
+     hosts: all
+     tasks:
+          - name: "Copy index.html"
+            copy:
+               src: /usr/src/itadmin/index.html
+               dest: /opt/itadmin/
 
 '
