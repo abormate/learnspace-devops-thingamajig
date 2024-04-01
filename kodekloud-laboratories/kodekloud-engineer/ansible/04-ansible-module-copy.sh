@@ -33,10 +33,12 @@ cd ansible/
 cat > inventory
 
 : '
-Enter the following inventory values...
+# Enter the following inventory values...
 
 stapp01 ansible_host=stapp01 ansible_user=tony ansible_ssh_pass=<password>
 stapp02 ansible_host=stapp02 ansible_user=steve ansible_ssh_pass=<password>
 stapp03 ansible_host=stapp03 ansible_user=banner ansible_ssh_pass=<password>
 
+# after enter and stop cat ^C
 '
+
