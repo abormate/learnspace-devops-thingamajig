@@ -1,0 +1,8 @@
+- name: "Copying index file to app servers"
+  become: yes
+  hosts: all
+  tasks:
+  - name: "Copy index.html"
+    copy:
+        src: /usr/src/sysops/index.html
+        dest: /opt/sysops
