@@ -62,3 +62,5 @@ cat > playbook
         group: "{{ansible_user}}"
 
 '
+
+ansible all -i inventory -a "ls -l /opt" 
