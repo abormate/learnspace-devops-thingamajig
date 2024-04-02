@@ -48,7 +48,17 @@ ansible all -m ping -i inventory
 cat > playbook
 
 : '
-
-
+---
+- name: "Copy files"
+  hosts: all
+  become: yes 
+  tasks:
+    - name: "Copy webdata.txt"
+      file: 
+        path: /opt/webdata.txt
+        state: touch
+        mode: 0644
+        owner: "{{ansible_user}}"
+        group: "{{ansible_user}}"
 
 '
