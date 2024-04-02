@@ -45,7 +45,7 @@ stapp03 ansible_host=stapp03 ansible_user=banner ansible_ssh_pass=<password>
 
 ansible all -m ping -i inventory
 
-cat > playbook
+cat > playbook.yml
 
 : '
 ---
@@ -64,3 +64,6 @@ cat > playbook
 '
 
 ansible all -i inventory -a "ls -l /opt" 
+
+ansible-playbook playbook.yml -i inventory
+
