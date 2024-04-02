@@ -67,3 +67,7 @@ ansible all -i inventory -a "ls -l /opt"
 
 ansible-playbook playbook.yml -i inventory
 
+# check if files exist on the servers
+
+ansible all -i inventory -a "ls -l /opt"
+
