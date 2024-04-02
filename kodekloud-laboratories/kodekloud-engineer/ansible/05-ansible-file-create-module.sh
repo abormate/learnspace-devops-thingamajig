@@ -29,3 +29,10 @@ ansible-playbook -i inventory playbook.yml, so please make sure the
 playbook works this way without passing any extra arguments.
 
 '
+
+ls -l
+
+cd ansible
+
+cat > inventory
+
