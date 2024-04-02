@@ -1,12 +1,12 @@
 ---
-- name: "Copy files"
+- name: "Create blank files"
   hosts: all
   become: yes 
   tasks:
-    - name: "Copy webdata.txt"
+    - name: "Create webd.txt"
       file: 
-        path: /opt/webdata.txt
+        path: /tmp/web.txt
         state: touch
-        mode: 0644
+        mode: 0777
         owner: "{{ansible_user}}"
         group: "{{ansible_user}}"
