@@ -15,3 +15,6 @@ image nginx with alpine tag and make sure container is in running
 state.
 
 '
+
+ssh steve@stapp02
+
