@@ -18,3 +18,16 @@ state.
 
 ssh steve@stapp02
 
+docker create --help
+
+docker images
+
+docker pull nginx
+
+docker pull nginx:alpine
+
+docker images
+
+docker create -i --name nginx_2 nginx:alpine
+
+docker ps -a
