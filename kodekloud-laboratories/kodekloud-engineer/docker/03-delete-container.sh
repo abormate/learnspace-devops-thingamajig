@@ -19,3 +19,9 @@ ssh tony@stapp01
 
 docker ps -a
 
+docker stop kke-container
+
+docker rm kke-container
+
+docker ps -a
+
