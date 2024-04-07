@@ -14,3 +14,8 @@ Delete a container named kke-container, its running on App
 Server 1 in Stratos DC.
 
 '
+
+ssh tony@stapp01
+
+docker ps -a
+
