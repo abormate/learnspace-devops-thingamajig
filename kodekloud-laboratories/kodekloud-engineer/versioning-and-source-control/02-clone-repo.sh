@@ -21,3 +21,7 @@ directory. Please do not try to make any changes in the repo.
 
 ssh worker@ststor01
 
+cd /opt/beta.git
+
+ls -l
+
