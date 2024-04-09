@@ -25,3 +25,4 @@ under jon user.
 
 '
 
+# work done with web UI, not on CLI
