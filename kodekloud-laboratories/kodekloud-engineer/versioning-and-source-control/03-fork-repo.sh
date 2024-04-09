@@ -12,5 +12,16 @@ project. To do so, he needs to fork an existing Git repository.
 Below you can find more details:
 
 
+1. Click on the Gitea UI button on the top bar. You should be able 
+to access the Gitea page.
+
+
+2. Login to Gitea server using username jon and password 
+Jon_pass123.
+
+
+3. There you will see a Git repository sarah/story-blog, fork it 
+under jon user.
 
 '
+
