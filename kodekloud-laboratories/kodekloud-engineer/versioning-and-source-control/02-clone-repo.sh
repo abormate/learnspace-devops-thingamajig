@@ -25,3 +25,7 @@ cd /opt/beta.git
 
 ls -l
 
+cd /usr/src/kodekloudrepos
+
+sudo git clone /opt/beta.git
+
