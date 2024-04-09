@@ -18,3 +18,6 @@ Please clone the repo as per details shared below:
 directory. Please do not try to make any changes in the repo.
 
 '
+
+ssh worker@ststor01
+
