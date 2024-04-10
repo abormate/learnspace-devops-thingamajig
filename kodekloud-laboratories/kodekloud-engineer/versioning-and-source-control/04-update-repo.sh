@@ -19,3 +19,9 @@ add/commit the file and push to the master branch.
 
 '
 
+sudo scp /tmp/index.html worker@ststor01:/tmp
+
+ssh worker@ststor01
+
+sudo mv /tmp/index.html /usr/src/kodekloudrepos/news
+
