@@ -13,5 +13,8 @@ file that is currently present on jump host under /tmp directory.
 
 The repository has been cloned at /usr/src/kodekloudrepos on storage server in Stratos DC.
 
+Copy sample index.html file from jump host to storage server under 
+cloned repository at /usr/src/kodekloudrepos/cluster, further 
+add/commit the file and push to the master branch.
 
 '
