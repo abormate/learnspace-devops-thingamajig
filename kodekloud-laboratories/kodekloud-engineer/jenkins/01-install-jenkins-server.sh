@@ -20,3 +20,15 @@ Jenkins service, please refer this link for help.
 full name should be Rose and email should be ***@****.com.
 
 '
+
+ssh ***@***
+
+yum install java -y
+
+curl --silent --location http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo | sudo tee /etc/yum.repos.d/jenkins.repo
+
+sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
+
+yum install jenkins -y
+
+# remember to install supported java dependency versions 11, 17, or 21 prior
