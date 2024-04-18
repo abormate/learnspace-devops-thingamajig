@@ -19,4 +19,9 @@ added to the Jenkins server as per the details mentioned below:
 1. Create a jenkins user named **** with password ********, their full 
 name should be ***** (it is case sensitive).
 
+2. Using Project-based Matrix Authorization Strategy assign overall 
+read permission to **** user.
+
+
+
 '
