@@ -41,3 +41,4 @@ share your work.
 
 jenkins-plugin-cli --plugins gitlab-plugin:1.8.0
 
+jenkins-plugin-cli --plugins git:5.2.1
