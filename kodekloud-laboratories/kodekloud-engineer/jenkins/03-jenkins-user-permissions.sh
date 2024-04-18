@@ -25,5 +25,8 @@ read permission to **** user.
 3. Remember to remove all permissions for Anonymous users (if given) 
 and make sure admin user has overall Administer permissions.
 
+4. There is one existing job, make sure john only has read permissions 
+to that job (we are not worried about other permissions like Agent, 
+SCM, etc.).
 
 '
