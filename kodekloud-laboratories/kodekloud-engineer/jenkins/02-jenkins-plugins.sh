@@ -37,3 +37,7 @@ share your work.
 
 # Work done on Jenkins Web UI
 
+# If done on CLI 
+
+jenkins-plugin-cli --plugins gitlab-plugin:1.8.0
+
