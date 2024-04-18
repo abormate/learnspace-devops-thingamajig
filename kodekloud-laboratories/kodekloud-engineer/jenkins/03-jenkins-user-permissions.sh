@@ -16,4 +16,7 @@ It has only a sample job for now. A new developer has joined the
 Nautilus application development team and they want this user to be 
 added to the Jenkins server as per the details mentioned below:
 
+1. Create a jenkins user named **** with password ********, their full 
+name should be ***** (it is case sensitive).
+
 '
