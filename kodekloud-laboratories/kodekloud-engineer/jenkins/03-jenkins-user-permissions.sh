@@ -22,6 +22,8 @@ name should be ***** (it is case sensitive).
 2. Using Project-based Matrix Authorization Strategy assign overall 
 read permission to **** user.
 
+3. Remember to remove all permissions for Anonymous users (if given) 
+and make sure admin user has overall Administer permissions.
 
 
 '
