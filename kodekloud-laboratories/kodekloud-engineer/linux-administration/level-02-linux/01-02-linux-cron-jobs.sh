@@ -24,3 +24,15 @@ cat /etc/os-release
 
 sudo yum install cronie -y && systemctl start crond.service 
 && systemctl status crond.service
+
+crontab -e
+
+# enter "*/5 * * * * echo hello > /tmp/cron_text" and save then exit
+
+crontab -l
+
+# check if cron job properly entered
+
+watch -n 5 ls -l /tmp 
+
+# check after 5 mins if text file is present inside /tmp/
