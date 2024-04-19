@@ -22,5 +22,5 @@ ssh worker@stapp01
 
 cat /etc/os-release
 
-sudo yum install cronie -y
-
+sudo yum install cronie -y && systemctl start crond.service 
+&& systemctl status crond.service
