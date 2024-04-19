@@ -17,3 +17,8 @@ crond service.
 b. Add a cron */5 * * * * echo hello > /tmp/cron_text for root user.
 
 '
+
+ssh worker@stapp01 
+
+cat /etc/os-release
+
