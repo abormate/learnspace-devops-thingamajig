@@ -17,3 +17,5 @@ Nautilus. Make use of the approved template located at
 /home/thor/nautilus_banner on jump host
 
 '
+
+scp /home/thor/nautilus_banner worker@stapp01:/home/worker
