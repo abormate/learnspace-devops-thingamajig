@@ -26,3 +26,4 @@ vi /etc/ssh/sshd_config
 
 sudo systemctl reload sshd.service
 
+# redo for all the other app servers and one for db server
