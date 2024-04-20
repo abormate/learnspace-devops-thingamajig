@@ -24,3 +24,5 @@ vi /etc/ssh/sshd_config
 
 # modify banner entry with path to copied banner from jumphost
 
+sudo systemctl reload sshd.service
+
