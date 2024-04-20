@@ -38,3 +38,5 @@ record and share your work.
 '
 
 # Work expected to be done via Jenkins web UI
+
+# Found "Folders" from Jenkins plugin repository. Installed plugin
