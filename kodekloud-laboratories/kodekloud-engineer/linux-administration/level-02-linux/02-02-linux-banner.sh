@@ -19,3 +19,8 @@ Nautilus. Make use of the approved template located at
 '
 
 scp /home/thor/nautilus_banner worker@stapp01:/home/worker
+
+vi /etc/ssh/sshd_config 
+
+# modify banner entry with path to copied banner from jumphost
+
