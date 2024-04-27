@@ -18,3 +18,6 @@ should be read/write/execute to the user and group owners, and
 others should not have any access.
 
 '
+
+cat /etc/os-release
+
