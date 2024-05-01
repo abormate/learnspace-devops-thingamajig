@@ -23,3 +23,5 @@ ssh tony@stapp01
 
 cat /etc/os-release
 
+sudo su -
+
