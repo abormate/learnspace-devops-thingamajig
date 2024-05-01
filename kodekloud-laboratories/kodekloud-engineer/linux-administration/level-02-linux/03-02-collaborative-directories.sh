@@ -25,3 +25,7 @@ cat /etc/os-release
 
 sudo su -
 
+mkdir -p /sysops/data
+
+ls -ld /sysops/data/
+
