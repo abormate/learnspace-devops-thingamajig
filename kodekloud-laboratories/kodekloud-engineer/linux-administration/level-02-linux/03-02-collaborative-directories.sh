@@ -19,5 +19,7 @@ others should not have any access.
 
 '
 
+ssh tony@stapp01
+
 cat /etc/os-release
 
