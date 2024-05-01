@@ -29,3 +29,11 @@ mkdir -p /sysops/data
 
 ls -ld /sysops/data/
 
+chown -R root:sysops /sysops/data/
+
+ls -ld /sysops/data/
+
+chmod 770 /sysops/data/
+
+ls -ld /sysops/data/
+
