@@ -16,4 +16,6 @@ a. Delete all lines containing word copyright and save results in
 b. Replace all occurrence of word from to for and save results in 
 /home/BSD_REPLACE.txt file.
 
+Note: Lets say you are asked to replace word to with from. In that case, make sure not to alter any words containing the string itself; for example upto, contributor etc.
+
 '
