@@ -13,6 +13,7 @@ below:
 a. Delete all lines containing word copyright and save results in 
 /home/BSD_DELETE.txt file. (Please be aware of case sensitivity)
 
-b. Replace all occurrence of word from to for and save results in /home/BSD_REPLACE.txt file.
+b. Replace all occurrence of word from to for and save results in 
+/home/BSD_REPLACE.txt file.
 
 '
