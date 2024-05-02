@@ -19,3 +19,6 @@ b. Replace all occurrence of word from to for and save results in
 Note: Lets say you are asked to replace word to with from. In that case, make sure not to alter any words containing the string itself; for example upto, contributor etc.
 
 '
+
+cat  /etc/os-release
+
