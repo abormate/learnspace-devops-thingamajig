@@ -44,5 +44,10 @@ cat  /etc/os-release
         remote_src: true
         src: "{{ src_file }}"
         dest: "{{ del_file }}"
+    - name: Delete all lines contain {{ del_word }}
+      lineinfile:
+        path: "{{ del_file }}"
+        state: absent
+        regexp: "{{ del_word }}"
 
 '
