@@ -54,4 +54,9 @@ cat  /etc/os-release
         remote_src: true
         src: "{{ src_file }}"
         dest: "{{ rep_file }}"
+    - name: Replace all {{ rep_src_word }} to {{ rep_dest_word }}
+      replace:
+        path: "{{ rep_file }}"
+        regexp: '\b{{ rep_src_word }}\b'
+        replace: "{{ rep_dest_word }}"
 '
