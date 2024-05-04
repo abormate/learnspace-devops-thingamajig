@@ -22,3 +22,7 @@ Note: Lets say you are asked to replace word to with from. In that case, make su
 
 cat  /etc/os-release
 
+# --------------------- #
+# -- Ansible Solution --
+# --------------------- #
+
