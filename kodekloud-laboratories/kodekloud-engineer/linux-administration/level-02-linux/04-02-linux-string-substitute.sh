@@ -38,6 +38,11 @@ cat  /etc/os-release
     rep_file: /home/BSD_REPLACE.txt
     rep_src_word: the
     rep_dest_word: for
-
+  tasks:
+    - name: Copy {{ src_file }} to {{ del_file }}
+      copy:
+        remote_src: true
+        src: "{{ src_file }}"
+        dest: "{{ del_file }}"
 
 '
