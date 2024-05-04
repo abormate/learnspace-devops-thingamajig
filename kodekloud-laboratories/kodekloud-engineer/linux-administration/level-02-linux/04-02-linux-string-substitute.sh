@@ -26,3 +26,18 @@ cat  /etc/os-release
 # -- Ansible Solution --
 # --------------------- #
 
+: '
+- hosts: nautilus_app3
+  gather_facts: false
+  become: true
+
+  vars:
+    src_file: /home/BSD.txt
+    del_file: /home/BSD_DELETE.txt
+    del_word: software
+    rep_file: /home/BSD_REPLACE.txt
+    rep_src_word: the
+    rep_dest_word: for
+
+
+'
