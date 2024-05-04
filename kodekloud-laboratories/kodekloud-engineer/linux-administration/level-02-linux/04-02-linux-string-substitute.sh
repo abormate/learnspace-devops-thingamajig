@@ -49,5 +49,9 @@ cat  /etc/os-release
         path: "{{ del_file }}"
         state: absent
         regexp: "{{ del_word }}"
-
+    - name: Copy {{ src_file }} to {{ rep_file }}
+      copy:
+        remote_src: true
+        src: "{{ src_file }}"
+        dest: "{{ rep_file }}"
 '
