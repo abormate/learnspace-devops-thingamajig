@@ -13,7 +13,7 @@ spec:
         app: app-register
     spec:
       containers:
-       - name: app-register
-         image: devops/app-register:12345
-         port:
-         - containerPort: 8080
+      - name: app-register
+        image: devops/app-register:12345
+        port:
+        - containerPort: 8080
