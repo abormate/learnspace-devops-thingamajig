@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-register
+spec:
+  replicas: 1  # Adjust if needed
+  selector:
+    matchLabels:
+      app: app-register
+  template:
+    metadata:
+      labels:
+        app: app-register
+    spec:
+      containers:
+       - name: app-register
+         image: devops/app-register:12345
+         port:
+         - containerPort: 8080
