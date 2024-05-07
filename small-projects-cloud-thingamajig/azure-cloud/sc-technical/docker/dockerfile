@@ -1,0 +1,17 @@
+# Base image selection based on application language (replace with yours) 
+FROM python:3.6 
+
+WORKDIR /app 
+
+# Copy application code 
+COPY . . 
+
+# Install dependencies (if any) 
+RUN pip install -r requirements.txt 
+
+# Expose port 
+EXPOSE 8080 
+
+# Command to run the application 
+CMD [ "python", "app.py" ]
+
