@@ -42,3 +42,13 @@ payload = json.dumps( {
   },
   "update": {}
 } )
+
+response = requests.request(
+   "POST",
+   url,
+   data=payload,
+   headers=headers,
+   auth=auth
+)
+
+print(json.dumps(json.loads(response.text), sort_keys=True, indent=4, separators=(",", ": ")))
