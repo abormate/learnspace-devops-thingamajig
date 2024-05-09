@@ -76,3 +76,7 @@ Note: Let's say you are asked to replace word to with from. In that case, make s
 
 '
 
+ssh tony@stapp01
+
+sudo su -
+
