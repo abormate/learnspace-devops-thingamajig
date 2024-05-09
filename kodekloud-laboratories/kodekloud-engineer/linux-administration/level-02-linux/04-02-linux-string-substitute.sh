@@ -80,3 +80,5 @@ ssh tony@stapp01
 
 sudo su -
 
+cd /home
+
