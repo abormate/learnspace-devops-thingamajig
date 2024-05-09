@@ -82,3 +82,5 @@ sudo su -
 
 cd /home
 
+sed -e '/code/d' BSD.txt > /home/BSD_DELETE.txt
+
