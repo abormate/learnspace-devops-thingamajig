@@ -84,4 +84,4 @@ cd /home
 
 sed -e '/code/d' BSD.txt > /home/BSD_DELETE.txt
 
-sed -e 's/from/is/g' /home/BSD.txt > /home/
+sed -e 's/from/is/g' /home/BSD.txt > /home/BSD_REPLACE.txt
