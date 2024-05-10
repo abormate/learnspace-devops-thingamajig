@@ -16,3 +16,5 @@ Set up a password-less authentication from user thor on jump host to all app ser
 through their respective sudo users.
 
 '
+
+ssh-keygen -t rsa -b 4096 -f "/home/thor/.ssh/id_rsa" -q -N ""
