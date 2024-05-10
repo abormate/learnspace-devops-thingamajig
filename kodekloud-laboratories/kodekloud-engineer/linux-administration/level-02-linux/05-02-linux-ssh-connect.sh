@@ -12,5 +12,7 @@ To make these scripts work properly we need to make sure the thor user on jump h
 password-less SSH access to all app servers through their respective sudo users 
 (i.e tony for app server 1). Based on the requirements, perform the following:
 
+Set up a password-less authentication from user thor on jump host to all app servers 
+through their respective sudo users.
 
 '
