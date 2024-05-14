@@ -25,3 +25,5 @@ c. Please make sure not to copy the entire /var/www/html/beta directory content.
 
 cat /etc/os-release
 
+ssh steve@stapp02
+
