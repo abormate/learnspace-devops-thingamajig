@@ -61,3 +61,5 @@ touch /var/www/html/sigma
         remote_src: yes
         src: "{{ item.path }}"
       with_items: "{{ found_files.files }}"
+
+# -- create hosts file and populate with hosts details and login credentials --
