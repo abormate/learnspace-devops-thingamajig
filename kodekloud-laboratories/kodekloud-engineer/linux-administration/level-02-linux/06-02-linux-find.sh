@@ -52,3 +52,6 @@ touch /var/www/html/sigma
       file:
         path: "{{ dest_dir }}/{{ item.path | dirname }}"
         state: directory
+      loop: '{{ found_files.files }}'
+      loop_control:
+        label: '{{ item.path | dirname }}'
