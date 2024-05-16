@@ -28,3 +28,6 @@ cat /etc/os-release
 ssh steve@stapp02
 
 touch /var/www/html/sigma
+
+# -- Ansible approach --
+
