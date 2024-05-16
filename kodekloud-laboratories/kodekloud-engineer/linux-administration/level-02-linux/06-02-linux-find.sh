@@ -34,3 +34,8 @@ touch /var/www/html/sigma
 - hosts: nautilus_app3
   gather_facts: false
   become: true
+
+  vars:
+    src_dir: /var/www/html/media
+    dest_dir: /media
+    file_ext: php
