@@ -55,3 +55,9 @@ touch /var/www/html/sigma
       loop: '{{ found_files.files }}'
       loop_control:
         label: '{{ item.path | dirname }}'
+    - name: Copy all found files to {{ dest_dir }}
+      copy:
+        dest: "{{ dest_dir }}{{ item.path | dirname }}"
+        remote_src: yes
+        src: "{{ item.path }}"
+      with_items: "{{ found_files.files }}"
