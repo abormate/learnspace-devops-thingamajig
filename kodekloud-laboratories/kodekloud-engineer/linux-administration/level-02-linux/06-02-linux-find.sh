@@ -39,3 +39,11 @@ touch /var/www/html/sigma
     src_dir: /var/www/html/media
     dest_dir: /media
     file_ext: php
+
+  tasks:
+    - name: Find all .{{ file_ext }} files
+      find:
+        path: "{{ src_dir }}"
+        patterns: "*{{file_ext}}"
+        recurse: true
+      register: found_files
