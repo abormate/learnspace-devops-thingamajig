@@ -29,5 +29,8 @@ ssh steve@stapp02
 
 touch /var/www/html/sigma
 
-# -- Ansible approach --
+# -- Ansible approach -- please note, Ansible playbooks expect YAML
 
+- hosts: nautilus_app3
+  gather_facts: false
+  become: true
