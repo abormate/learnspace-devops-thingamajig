@@ -47,3 +47,8 @@ touch /var/www/html/sigma
         patterns: "*{{file_ext}}"
         recurse: true
       register: found_files
+
+    - name: Create destination directories
+      file:
+        path: "{{ dest_dir }}/{{ item.path | dirname }}"
+        state: directory
