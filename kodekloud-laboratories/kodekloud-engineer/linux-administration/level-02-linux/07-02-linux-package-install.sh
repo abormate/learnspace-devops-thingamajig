@@ -13,3 +13,5 @@ Therefore, install the samba package on all app-servers.
 
 '
 
+ssh tony@stapp01
+
