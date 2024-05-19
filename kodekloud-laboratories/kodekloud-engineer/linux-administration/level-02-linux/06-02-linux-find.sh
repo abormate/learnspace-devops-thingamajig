@@ -63,3 +63,5 @@ touch /var/www/html/sigma
       with_items: "{{ found_files.files }}"
 
 # -- create hosts file and populate with hosts details and login credentials --
+
+ssh banner@stapp03
