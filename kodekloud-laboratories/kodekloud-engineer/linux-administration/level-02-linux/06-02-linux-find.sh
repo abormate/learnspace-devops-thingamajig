@@ -68,3 +68,4 @@ ssh banner@stapp03
 
 sudo su -
 
+find /var/www/html/blog -type f -name *.js -exec cp --parents {} /blog \;
