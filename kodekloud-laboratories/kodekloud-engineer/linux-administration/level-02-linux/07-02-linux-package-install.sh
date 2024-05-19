@@ -15,3 +15,8 @@ Therefore, install the samba package on all app-servers.
 
 ssh tony@stapp01
 
+sudo su -
+
+cat /etc/os-release
+
+yum install -y samba
