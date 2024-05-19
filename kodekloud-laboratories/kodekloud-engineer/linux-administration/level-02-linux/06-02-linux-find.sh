@@ -65,3 +65,6 @@ touch /var/www/html/sigma
 # -- create hosts file and populate with hosts details and login credentials --
 
 ssh banner@stapp03
+
+sudo su -
+
