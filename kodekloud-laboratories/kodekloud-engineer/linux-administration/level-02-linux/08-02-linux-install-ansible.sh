@@ -23,3 +23,5 @@ sudo su -
 
 pip3 install 'ansible==4.7.0'
 
+ansible --version
+
