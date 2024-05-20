@@ -16,3 +16,6 @@ available globally on this system, i.e all users on this system are able to run 
 commands.
 
 '
+
+cat /etc/os-release
+
