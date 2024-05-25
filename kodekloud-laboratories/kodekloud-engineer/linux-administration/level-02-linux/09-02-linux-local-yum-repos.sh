@@ -30,3 +30,13 @@ sudo su -
 cd /etc/yum.repos.d/
 
 cat > yum_local.repo
+
+: '
+        [yum_local]
+        name=yum_local
+        baseurl=file:///packages/downloaded_rpms/
+        gpgcheck=0
+        enabled=1
+
+'
+
