@@ -28,3 +28,5 @@ ssh clint@stbkp01
 sudo su -
 
 cd /etc/yum.repos.d/
+
+cat > yum_local.repo
