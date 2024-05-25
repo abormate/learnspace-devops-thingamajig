@@ -22,3 +22,6 @@ Configure it to use packages location /packages/downloaded_rpms/.
 c. Install package vim-enhanced from this newly created repo.
 
 '
+
+ssh clint@stbkp01
+
