@@ -50,3 +50,4 @@ whereis wget
 
 export PATH={whereis wget output path}:$PATH
 
+wget {url} # test functionality of newly installed app
