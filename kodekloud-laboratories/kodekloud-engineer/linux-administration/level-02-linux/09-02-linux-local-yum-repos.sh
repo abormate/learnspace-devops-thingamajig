@@ -48,3 +48,5 @@ yum install -y --enablerepo="yum_local" wget
 
 whereis wget
 
+export PATH={whereis wget output path}:$PATH
+
