@@ -25,3 +25,4 @@ c. Install package vim-enhanced from this newly created repo.
 
 ssh clint@stbkp01
 
+sudo su -
