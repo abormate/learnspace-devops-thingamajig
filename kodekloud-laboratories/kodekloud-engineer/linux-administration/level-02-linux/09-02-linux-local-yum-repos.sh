@@ -44,5 +44,7 @@ yum clean all			# removes cache of repos enabled in /etc/yum
 yum update			# installs, updates, removes packages 
 yum repolist			# lists the repos creates
 
+yum install -y --enablerepo="yum_local" wget
 
+whereis wget
 
