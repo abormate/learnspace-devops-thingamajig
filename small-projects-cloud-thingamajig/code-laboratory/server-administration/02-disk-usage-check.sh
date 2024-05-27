@@ -13,4 +13,8 @@ while read output;
 do
   usage=$(echo $output | awk '(print $1)' | cut -d'%' -f1)
   partition=$(echo $output | awk '( print $2 )')
-  
+  if [ $usage -ge $THRESHOLD ]; then
+    echo "Warning: disk usage on $partition is at $(usage)%"
+  fi
+done
+
