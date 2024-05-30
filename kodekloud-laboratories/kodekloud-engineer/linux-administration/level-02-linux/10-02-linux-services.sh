@@ -18,3 +18,4 @@ b. Once installed, make sure it is enabled to start during boot.
 
 cat /etc/os-release/
 
+ssh worker@stapp01
