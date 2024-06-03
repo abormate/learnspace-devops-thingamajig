@@ -20,3 +20,6 @@ cat /etc/os-release/
 
 ssh worker@stapp01
 
+
+
+
