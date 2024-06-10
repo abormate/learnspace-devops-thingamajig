@@ -20,5 +20,7 @@ cat /etc/os-release/
 
 ssh worker@stapp01
 
+sudo su - 
+
 yum install samba -y
 
