@@ -22,3 +22,5 @@ ssh worker@stapp01
 
 yum install samba -y
 
+
+
