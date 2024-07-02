@@ -27,6 +27,3 @@ yum install samba -y
 ls -l /etc/ | grep os-release
 
 
-
-
-
