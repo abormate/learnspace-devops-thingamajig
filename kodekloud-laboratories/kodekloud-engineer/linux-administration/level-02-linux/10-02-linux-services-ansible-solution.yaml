@@ -15,10 +15,3 @@
         name: "{{ package }}"
         state: started
         enabled: true
-
-
-
-
-      
-        
-        
