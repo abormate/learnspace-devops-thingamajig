@@ -31,3 +31,5 @@ systemctl enable samba; systemctl start samba; systemctl status samba
 ssh steve@stapp02
 
 ssh banner@stapp03
+
+sudo su -
