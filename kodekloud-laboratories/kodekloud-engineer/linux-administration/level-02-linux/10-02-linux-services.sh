@@ -26,4 +26,4 @@ yum install samba -y
 
 ls -l /etc/ | grep os-release
 
-systemctl enable samba; systemctl start samba
+systemctl enable samba; systemctl start samba; systemctl status samba
