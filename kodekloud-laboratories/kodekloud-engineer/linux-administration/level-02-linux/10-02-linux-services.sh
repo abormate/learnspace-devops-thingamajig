@@ -34,4 +34,3 @@ ssh banner@stapp03
 
 sudo su -
 
-
