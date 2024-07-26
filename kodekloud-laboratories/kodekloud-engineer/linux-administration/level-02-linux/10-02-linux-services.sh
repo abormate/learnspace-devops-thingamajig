@@ -39,3 +39,5 @@ ssh worker00@stapp01
 sudo su -
 
 yum install cups -y
+
+systemctl enable cups; systemctl start cups; systemctl status cups
