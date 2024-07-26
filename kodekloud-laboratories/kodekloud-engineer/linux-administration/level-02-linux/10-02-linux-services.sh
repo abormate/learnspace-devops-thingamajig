@@ -36,3 +36,4 @@ sudo su -
 
 ssh worker00@stapp01
 
+sudo su -
