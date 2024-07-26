@@ -33,3 +33,6 @@ ssh steve@stapp02
 ssh banner@stapp03
 
 sudo su -
+
+ssh worker00@stapp01
+
