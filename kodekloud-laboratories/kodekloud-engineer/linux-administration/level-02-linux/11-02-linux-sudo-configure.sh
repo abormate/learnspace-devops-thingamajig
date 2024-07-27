@@ -20,3 +20,5 @@ ssh worker00@stapp01
 
 sudo su -
 
+visudo
+
