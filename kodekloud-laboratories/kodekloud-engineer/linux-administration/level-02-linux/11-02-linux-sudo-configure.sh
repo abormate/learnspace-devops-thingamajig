@@ -26,3 +26,5 @@ su mark
 
 sudo su -
 
+ssh worker_steve@stapp02
+
