@@ -22,3 +22,5 @@ sudo su -
 
 visudo
 
+su mark
+
