@@ -18,3 +18,5 @@ b. Make sure you have set up password-less sudo for the user.
 
 ssh worker00@stapp01
 
+sudo su -
+
