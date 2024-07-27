@@ -24,3 +24,5 @@ visudo
 
 su mark
 
+sudo su -
+
