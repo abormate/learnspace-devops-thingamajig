@@ -15,3 +15,6 @@ a. Provide sudo access to user mark on all app servers.
 b. Make sure you have set up password-less sudo for the user.
 
 '
+
+ssh worker00@stapp01
+
