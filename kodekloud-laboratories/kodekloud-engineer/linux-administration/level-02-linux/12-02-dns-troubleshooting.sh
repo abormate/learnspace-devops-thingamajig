@@ -14,3 +14,8 @@ As a temporary fix we have decided to go with Google public DNS (ipv4).
 Please make appropriate changes on this server.
 
 '
+
+ssh worker00@stapp
+
+sudo su -
+
