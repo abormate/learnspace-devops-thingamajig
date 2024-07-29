@@ -19,3 +19,9 @@ ssh worker00@stapp
 
 sudo su -
 
+cat /etc/resolv.conf
+
+vi /etc/resolv.conf
+
+# enter google's public DNS --> 8.8.8.8 --> then save file
+
