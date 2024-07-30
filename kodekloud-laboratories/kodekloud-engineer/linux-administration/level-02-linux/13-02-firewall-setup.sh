@@ -20,5 +20,7 @@ b. Block all incoming connections on Apache port, i.e 8080.
 
 c. All rules must be permanent.
 
+d. Zone should be public.
+
 
 '
