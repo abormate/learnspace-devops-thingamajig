@@ -14,5 +14,6 @@ We might have more robust firewall
 settings in the future, but for now we have decided to go with the 
 given requirements listed below:
 
+a. Allow all incoming connections on Nginx port, i.e 80.
 
 '
