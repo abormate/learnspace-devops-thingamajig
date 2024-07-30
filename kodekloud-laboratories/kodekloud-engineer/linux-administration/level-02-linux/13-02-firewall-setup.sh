@@ -22,5 +22,7 @@ c. All rules must be permanent.
 
 d. Zone should be public.
 
+e. If Apache or Nginx services aren't running already, please make sure 
+to start them.
 
 '
