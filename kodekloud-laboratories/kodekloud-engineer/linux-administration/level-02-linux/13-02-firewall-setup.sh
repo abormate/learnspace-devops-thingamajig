@@ -26,3 +26,12 @@ e. If Apache or Nginx services aren't running already, please make sure
 to start them.
 
 '
+
+ssh worker00@stapp01
+
+sudo su -
+
+yum install firewalld -y
+
+systemctl enable nginx; systemctl start nginx; systemctl status
+
