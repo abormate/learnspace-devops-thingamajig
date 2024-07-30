@@ -18,5 +18,7 @@ a. Allow all incoming connections on Nginx port, i.e 80.
 
 b. Block all incoming connections on Apache port, i.e 8080.
 
+c. All rules must be permanent.
+
 
 '
