@@ -45,3 +45,4 @@ ssh worker02@stapp03
 
 sudo su -
 
+sudo firewall-cmd --reload
