@@ -56,3 +56,5 @@ sudo firewall-cmd --zone=public --list-ports
 # If port 8080 is open, remove it
 sudo firewall-cmd --zone=public --remove-port=8080/tcp --permanent
 
+# List all rules for the public zone to confirm
+sudo firewall-cmd --zone=public --list-all
