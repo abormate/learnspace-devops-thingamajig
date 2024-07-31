@@ -46,3 +46,8 @@ ssh worker02@stapp03
 sudo su -
 
 sudo firewall-cmd --reload
+
+# Add rule to allow incoming connections on port 80
+sudo firewall-cmd --zone=public --add-port=80/tcp --permanent
+
+
