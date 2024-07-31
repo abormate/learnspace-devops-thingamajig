@@ -35,3 +35,5 @@ yum install firewalld -y
 
 systemctl enable nginx; systemctl start nginx; systemctl status
 
+vi /etc/firewalld.conf
+
