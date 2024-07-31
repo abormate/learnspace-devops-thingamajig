@@ -39,3 +39,9 @@ vi /etc/firewalld.conf
 
 ssh worker01@stapp02
 
+sudo su - 
+
+ssh worker02@stapp03 
+
+sudo su -
+
