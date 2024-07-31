@@ -50,4 +50,5 @@ sudo firewall-cmd --reload
 # Add rule to allow incoming connections on port 80
 sudo firewall-cmd --zone=public --add-port=80/tcp --permanent
 
-
+# Check if port 8080 is open
+sudo firewall-cmd --zone=public --list-ports
