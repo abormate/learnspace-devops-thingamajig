@@ -37,3 +37,5 @@ systemctl enable nginx; systemctl start nginx; systemctl status
 
 vi /etc/firewalld.conf
 
+ssh worker01@stapp02
+
