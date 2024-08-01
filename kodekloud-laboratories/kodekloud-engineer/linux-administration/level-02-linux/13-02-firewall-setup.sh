@@ -67,3 +67,5 @@ exit
 exit
 
 exit
+
+# learn to install neovim
