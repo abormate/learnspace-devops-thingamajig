@@ -61,3 +61,9 @@ sudo firewall-cmd --zone=public --list-all
 sudo firewall-cmd --set-default-zone=public
 
 sudo firewall-cmd --reload
+
+exit
+
+exit
+
+exit
