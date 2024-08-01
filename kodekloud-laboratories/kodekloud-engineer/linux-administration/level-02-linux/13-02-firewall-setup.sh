@@ -27,3 +27,43 @@ to start them.
 
 '
 
+ssh worker00@stapp01
+
+sudo su -
+
+yum install firewalld -y
+
+systemctl enable nginx; systemctl start nginx; systemctl status
+
+vi /etc/firewalld.conf
+
+ssh worker01@stapp02
+
+sudo su - 
+
+ssh worker02@stapp03 
+
+sudo su -
+
+# Add rule to allow incoming connections on port 80
+sudo firewall-cmd --zone=public --add-port=80/tcp --permanent
+
+# Check if port 8080 is open
+sudo firewall-cmd --zone=public --list-ports
+
+# If port 8080 is open, remove it
+sudo firewall-cmd --zone=public --remove-port=8080/tcp --permanent
+
+# List all rules for the public zone to confirm
+sudo firewall-cmd --zone=public --list-all
+
+# Ensure that the public zone is the default
+sudo firewall-cmd --set-default-zone=public
+
+sudo firewall-cmd --reload
+
+exit
+
+exit
+
+exit
