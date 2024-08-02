@@ -64,4 +64,4 @@ sudo firewall-cmd --reload
 
 exit
 
-ex
+exit
