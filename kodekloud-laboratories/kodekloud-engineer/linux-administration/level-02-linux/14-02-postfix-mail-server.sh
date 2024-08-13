@@ -12,3 +12,16 @@ are using postfix mail transfer agent. Postfix service seems to fail.
 Try to identify the root cause and fix it.
 
 '
+
+ssh groot@stmail01 
+
+su -
+
+systemctl status postfix
+
+cat /etc/postfix/main.cf | grep inet_interfaces 
+vim /etc/postfix/main.cf
+
+# comment localhost entries with vim
+
+systemctl restart postfix; systemctl status postfix
