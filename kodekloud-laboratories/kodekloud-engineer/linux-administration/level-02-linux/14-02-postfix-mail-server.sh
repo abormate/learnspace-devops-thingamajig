@@ -25,3 +25,8 @@ vim /etc/postfix/main.cf
 # comment localhost entries with vim
 
 systemctl restart postfix; systemctl status postfix
+
+
+
+
+
