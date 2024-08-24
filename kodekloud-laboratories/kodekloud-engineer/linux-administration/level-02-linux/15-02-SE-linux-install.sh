@@ -34,3 +34,5 @@ sudo yum install policycoreutils policycoreutils-python selinux-policy selinux-p
 # To disable SELinux permanently, modify the SELinux configuration file. Run the following command with root privileges to open the SELinux configuration file in a text editor:
 
 sudo vi /etc/selinux/config
+
+SELINUX=disabled
