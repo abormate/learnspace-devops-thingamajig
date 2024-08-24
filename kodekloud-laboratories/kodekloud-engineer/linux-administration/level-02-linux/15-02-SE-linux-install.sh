@@ -27,4 +27,9 @@ ssh worker@stapp02
 
 sudo su -
 
+# Install SELinux packages: Run the following command with root privileges to install the required SELinux packages:
+
 sudo yum install policycoreutils policycoreutils-python selinux-policy selinux-policy-targeted
+
+
+
