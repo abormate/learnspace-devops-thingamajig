@@ -22,3 +22,6 @@ status of SElinux command line right now; the final status after
 reboot should be disabled.
 
 '
+
+ssh worker@stapp02
+
