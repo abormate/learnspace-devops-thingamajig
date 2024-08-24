@@ -26,3 +26,5 @@ reboot should be disabled.
 ssh worker@stapp02
 
 sudo su -
+
+sudo yum install policycoreutils policycoreutils-python selinux-policy selinux-policy-targeted
