@@ -25,3 +25,4 @@ reboot should be disabled.
 
 ssh worker@stapp02
 
+sudo su -
