@@ -7,3 +7,4 @@ ROLE_OUTPUT=$(aws sts assume-role --duration-second 28800 \
 
 # Extract credentials from output
 ACCESS_KEY_ID=$(echo $ROLE_OUTPUT | jq -r '.Credentials.AccessKeyId')
+SECRET_ACCESS_KEY=$(echo $ROLE_OUTPUT | jq -r '.Credentials.SecretAccessKey')
