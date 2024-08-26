@@ -6,3 +6,4 @@ ROLE_OUTPUT=$(aws sts assume-role --duration-second 28800 \
      -- role-session-name k8s-session)
 
 # Extract credentials from output
+ACCESS_KEY_ID=$(echo $ROLE_OUTPUT | jq -r '.Credentials.AccessKeyId')
