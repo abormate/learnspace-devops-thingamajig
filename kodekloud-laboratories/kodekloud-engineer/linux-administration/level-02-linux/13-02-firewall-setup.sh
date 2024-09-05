@@ -68,5 +68,5 @@ sudo firewall-cmd --zone=public --add-port=80/tcp --permanent
 sudo firewall-cmd --zone=public --list-ports
 sudo firewall-cmd --zone=public --remove-port=8080/tcp --permanent
 sudo firewall-cmd --zone=public --list-all
-
+sudo firewall-cmd --set-default-zone=public
 
