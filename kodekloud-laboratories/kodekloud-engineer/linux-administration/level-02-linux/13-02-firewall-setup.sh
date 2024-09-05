@@ -62,6 +62,7 @@ sudo firewall-cmd --set-default-zone=public
 
 sudo firewall-cmd --reload
 
+yum install firewalld -y
 systemctl enable nginx; systemctl start nginx; systemctl status
 systemctl enable firewalld; systemctl start firewalld; systemctl status
 sudo firewall-cmd --zone=public --add-port=80/tcp --permanent
