@@ -62,6 +62,8 @@ sudo firewall-cmd --set-default-zone=public
 
 sudo firewall-cmd --reload
 
+systemctl enable nginx; systemctl start nginx; systemctl status
+systemctl enable firewalld; systemctl start firewalld; systemctl status
 
 
 
