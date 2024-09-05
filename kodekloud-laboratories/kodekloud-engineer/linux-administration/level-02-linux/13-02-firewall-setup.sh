@@ -66,6 +66,7 @@ systemctl enable nginx; systemctl start nginx; systemctl status
 systemctl enable firewalld; systemctl start firewalld; systemctl status
 sudo firewall-cmd --zone=public --add-port=80/tcp --permanent
 sudo firewall-cmd --zone=public --list-ports
+sudo firewall-cmd --zone=public --remove-port=8080/tcp --permanent
 
 
 
