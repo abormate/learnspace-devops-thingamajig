@@ -26,7 +26,6 @@ vim /etc/postfix/main.cf
 
 systemctl restart postfix; systemctl status postfix
 
-
-
+ssh thor@jump_shot
 
 
