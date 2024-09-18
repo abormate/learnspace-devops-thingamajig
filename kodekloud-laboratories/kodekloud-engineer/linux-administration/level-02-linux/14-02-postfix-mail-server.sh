@@ -34,3 +34,10 @@ ssh thor@jump_shot
 #
 # ------------------------------------ #
 
+# systemctl status postfix -l
+
+// identify configuration file issue
+# cat /etc/postfix/main.cf |grep inet_interface           
+
+// issue is need to write # befor "inet_interfaces = localhost"  in configuration file
+
