@@ -17,5 +17,3 @@ aws configure set aws_session_token "$SESSION_TOKEN" --profile k8s-role
 
 
 
-
-
