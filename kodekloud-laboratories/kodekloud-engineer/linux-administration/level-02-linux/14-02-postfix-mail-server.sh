@@ -41,3 +41,12 @@ ssh thor@jump_shot
 
 // issue is need to write # befor "inet_interfaces = localhost"  in configuration file
 
+// edit file for changes
+# vi /etc/postfix/main.cf
+
+// check now
+# cat /etc/postfix/main.cf |grep inet_interface
+
+// run again to check
+# systemctl start postfix
+# systemctl status postfix -l
