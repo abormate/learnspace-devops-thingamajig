@@ -50,3 +50,4 @@ ssh thor@jump_shot
 // run again to check
 # systemctl start postfix
 # systemctl status postfix -l
+
