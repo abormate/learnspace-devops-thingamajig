@@ -51,3 +51,5 @@ ssh thor@jump_shot
 # systemctl start postfix
 # systemctl status postfix -l
 
+
+
