@@ -23,3 +23,13 @@ sudo su -
 
 cat /etc/os-release
 
+systemctl status postfix 
+
+vi /etc/postfix/main.cf
+
+# -- comment line with interface for localhost -- #
+
+systemctl start postfix 
+
+systemctl status postfix
+
