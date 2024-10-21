@@ -28,3 +28,4 @@ StaticApp button on the top bar.
 
 '
 
+cat /etc/os-release >> linux-dist.txt 
