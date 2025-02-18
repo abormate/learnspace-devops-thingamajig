@@ -26,3 +26,8 @@ block_app() {
     chmod -x "${APP_PATH}"
 }
 
+unblock_app() {
+    write_log "unblock OS-app"
+    chmod +x "${APP_PATH}"
+}
+
