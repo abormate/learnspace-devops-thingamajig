@@ -17,3 +17,9 @@ write_log() {
     echo $(date "+DATE: %Y-%m-%d%nTIME: %H:%M:%S"): "$@"
     echo $(date "+DATE: %Y-%m-%d%nTIME: %H:%M:%S"): "$@" >> "${UPDATE_LOG_PATH}"
 }
+
+block_app() {
+    write_log "block OS-app from running"
+    chmod -x "${APP_PATH}"
+}
+
