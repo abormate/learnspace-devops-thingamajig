@@ -8,6 +8,9 @@ OS_UPDATER_PATH="$( cd "$(dirname "${BASH_SOURCE[0]})" && pwd )"
 APP_NAME="OS-app"
 APP_BUNDLE_NAME="OS-app"
 APP_BUNDLE_CONTENTS_DIR="Contents"
+APP_DEFAULT_PATH="/Applications/${APP_BUNDLE_NAME}"
+UPDATE_WORK_PATH="${OS_UPDATER_PATH}"
+APP_PATH="${APP_DEFAULT_PATH}/Contents/OS/app"
 
 LSREGISTER_SERVICE="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister"
 
