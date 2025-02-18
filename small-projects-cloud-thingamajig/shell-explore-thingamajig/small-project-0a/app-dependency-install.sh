@@ -31,3 +31,9 @@ unblock_app() {
     chmod +x "${APP_PATH}"
 }
 
+write_error_log() {
+    ERROR_DETAILS="$@"
+    echo $(date "+DATE: %Y-%m-%d%nTIME: %H:%M:%S"): "$@"
+    echo $(date "+DATE: %Y-%m-%d%nTIME: %H:%M:%S"): "$@" >> "${UPDATE_ERROR_FILE}"
+    echo $(date "+DATE: %Y-%m-%d%nTIME: %H:%M:%S"): "$@" >> "${UPDATE_LOG_PATH}"
+}
