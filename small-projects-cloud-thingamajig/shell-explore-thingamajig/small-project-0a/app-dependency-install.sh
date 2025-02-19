@@ -37,3 +37,15 @@ write_error_log() {
     echo $(date "+DATE: %Y-%m-%d%nTIME: %H:%M:%S"): "$@" >> "${UPDATE_ERROR_FILE}"
     echo $(date "+DATE: %Y-%m-%d%nTIME: %H:%M:%S"): "$@" >> "${UPDATE_LOG_PATH}"
 }
+
+Exit() {
+    local _exit_code="${1}"
+
+    if [ "${_exit_code}" -eq 0 ]; then
+        write_log "update completed with exit code ${_exit_code}"
+    else
+        write_error_log "update has not been completed, exit code ${_exit_code}"
+    fi
+
+    exit ${_exit_code}
+}
