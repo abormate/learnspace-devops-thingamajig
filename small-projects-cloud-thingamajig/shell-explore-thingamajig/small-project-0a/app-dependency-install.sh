@@ -56,3 +56,6 @@ create_dir_if_need() {
         mkdir -p "${1}"
     fi
 }
+
+# ===================================================================
+# functions for initialize data section
