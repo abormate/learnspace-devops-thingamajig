@@ -49,3 +49,10 @@ Exit() {
 
     exit ${_exit_code}
 }
+
+create_dir_if_need() {
+    if [ ! -d "${1}" ]; then
+        write_log "creating dir ${1} ..."
+        mkdir -p "${1}"
+    fi
+}
