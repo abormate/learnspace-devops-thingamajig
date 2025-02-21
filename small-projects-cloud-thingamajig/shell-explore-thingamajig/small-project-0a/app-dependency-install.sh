@@ -70,3 +70,25 @@ create_dir_if_need() {
 # ===================================================================
 # functions for initialize data section
 
+# app_data array was declared after parse of the command line arguments as a overarching-scope var
+normalize_app_data() {
+    local _app_pid="${app_data[0]}"
+    local _app_install_path="${app_data[1]}"
+    
+    local _normalized_app_install_path="${APP_DEFAULT_PATH}"
+
+    if [ ! -z "${_app_pid}" ]; then
+        proc_id_list="${_app_pid}"
+    else
+        proc_id_list=$(ps -xf | grep "${APP_NAME}" | awk '{print $2}')
+    fi
+
+    if [ -z "${proc_id_list}" ]; then
+        if [ ! -z "${_app_install_path}" ]; then
+            _normalized_app_install_path="${_app_install_path}"
+        fi
+
+        app_data[0]=0
+        app_data[1]="${_normalized_app_install_path}"
+        return
+    fi
