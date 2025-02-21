@@ -20,6 +20,8 @@ UPDATE_LOG_FILENAME="update.log"
 UPDATE_ERROR_FILENAME="update.error.log"
 DEFAULT_UPDATE_LOG_PATH="${DATA_PATH}/Logs"
 
+MIN_SUPPORTED_OS_VERSION=5.3
+
 LSREGISTER_SERVICE="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister"
 
 # ------------------------------------------------ #
