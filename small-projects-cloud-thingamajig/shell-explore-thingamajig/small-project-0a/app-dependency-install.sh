@@ -92,3 +92,22 @@ normalize_app_data() {
         app_data[1]="${_normalized_app_install_path}"
         return
     fi
+
+    for proc_id in "${proc_id_list}"; do
+        local command=$(ps -o command= -p "${proc_id}")
+
+        if [ ! -z "${_app_install_path}" ]; then
+            _normalized_app_install_path="${_app_install_path}"
+        fi
+
+        if [[ "${command}" =~ "${_normalized_app_install_path}" ]]; then
+            app_data[0]=${proc_id}
+            app_data[1]="${_normalized_app_install_path}"
+        fi
+    done
+
+    if [ -z "${app_data}" ]; then
+        app_data[0]=0
+        app_data[1]="${_normalized_app_install_path}"
+    fi
+}
