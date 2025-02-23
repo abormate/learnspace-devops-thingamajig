@@ -111,3 +111,13 @@ normalize_app_data() {
         app_data[1]="${_normalized_app_install_path}"
     fi
 }
+
+# ===================================================================
+# functions for update section
+
+pause() {
+    local _sleep_time="${1}"
+
+    write_log "sleep ${_sleep_time} sec"
+    sleep "${_sleep_time}"
+}
