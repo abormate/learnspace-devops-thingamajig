@@ -128,3 +128,10 @@ delete_later() {
     TARGETS_TO_REMOVE[${#TARGETS_TO_REMOVE[@]}]="${_next_target}"
 }
 
+cleanup_all() {
+    for path in "${TARGETS_TO_REMOVE[@]}"
+    do
+        write_log "removing '${path}'"
+        rm -rf "${path}"
+    done
+}
