@@ -135,3 +135,14 @@ cleanup_all() {
         rm -rf "${path}"
     done
 }
+
+move_to() {
+    local _source_path="${1}"
+    local _destination_path="${2}"
+
+    write_log "move ${_source_path} to ${_destination_path}"
+    mv "${_source_path}" "${_destination_path}"
+    return $?
+}
+
+
