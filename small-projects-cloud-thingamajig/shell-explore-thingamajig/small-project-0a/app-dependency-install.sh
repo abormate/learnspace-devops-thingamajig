@@ -121,3 +121,10 @@ pause() {
     write_log "sleep ${_sleep_time} sec"
     sleep "${_sleep_time}"
 }
+
+delete_later() {
+    local _next_target="${1}"
+
+    TARGETS_TO_REMOVE[${#TARGETS_TO_REMOVE[@]}]="${_next_target}"
+}
+
