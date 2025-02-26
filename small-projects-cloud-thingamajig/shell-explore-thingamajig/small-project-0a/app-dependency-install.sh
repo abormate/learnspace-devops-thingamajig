@@ -158,3 +158,9 @@ restore_backup() {
     fi
 }
 
+schedule_backup_cleanup() {
+    if [ -d "${BACKUP_PATH}" ]; then
+        write_log "backup '${BACKUP_PATH}' will be removed..."
+        delete_later "${BACKUP_PATH}"
+    fi
+}
