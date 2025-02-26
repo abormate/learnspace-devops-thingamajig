@@ -173,3 +173,8 @@ schedule_update_cleanup() {
         delete_later "${_update_path}"
     fi
 }
+
+run_app() {
+    local _app_install_path="${1}"
+    local _launch_code="${2}"
+    local _exitcode=0
