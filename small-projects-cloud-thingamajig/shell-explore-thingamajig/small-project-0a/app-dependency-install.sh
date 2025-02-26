@@ -192,3 +192,8 @@ run_app() {
         write_log "${LSREGISTER_SERVICE} not found..."
         pause 2
     fi
+
+    if [ "${_launch_code}" -eq 0 ]; then
+        write_log "running ${_app_install_path} after update successful"
+        open -n -a "${_app_install_path}" --args AfterUpdate
+        _exitcode="$?"
