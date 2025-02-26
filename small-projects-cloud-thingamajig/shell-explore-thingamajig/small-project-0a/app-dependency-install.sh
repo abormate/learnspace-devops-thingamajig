@@ -200,3 +200,10 @@ run_app() {
 
         # fix for 17028: - Error dialog appears after update
 
+        if [ "${_exitcode}" -ne 0 ]; then
+            pause 2
+
+            write_log "rerunning ${_app_install_path} after an unsuccessful first opening"
+            open -n -a "${_app_install_path}" --args AfterUpdate
+            _exitcode="$?"
+        fi
