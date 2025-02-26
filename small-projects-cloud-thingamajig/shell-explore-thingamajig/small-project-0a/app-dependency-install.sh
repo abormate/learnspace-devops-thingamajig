@@ -186,3 +186,9 @@ run_app() {
     if [ -f "${LSREGISTER_SERVICE}" ]; then
         write_log "running ${LSREGISTER_SERVICE}..."
         ${LSREGISTER_SERVICE} -lazy 1 -v -f "${_app_install_path}" 2>> "${UPDATE_LOG_PATH}"
+
+    else
+        # workaround for DES-17028: [MAC Big Sur] - Error dialog appears after update
+        write_log "${LSREGISTER_SERVICE} not found..."
+        pause 2
+    fi
