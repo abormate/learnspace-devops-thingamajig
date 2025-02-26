@@ -145,4 +145,16 @@ move_to() {
     return $?
 }
 
+restore_backup() {
+    local _app_contents_path="${1}/${APP_BUNDLE_CONTENTS_DIR}"
+    local _backup_contents_path="${BACKUP_PATH}/${APP_BUNDLE_CONTENTS_DIR}"
+
+    write_log "restoring backup..."
+
+    if [[ ! -d "${_app_contents_path}" ]] && [[ -d "${_backup_contents_path}" ]]; then
+        move_to "${_backup_contents_path}" "$_app_contents_path"
+    else
+        write_log "nothing to restore"
+    fi
+}
 
