@@ -207,3 +207,15 @@ run_app() {
             open -n -a "${_app_install_path}" --args AfterUpdate
             _exitcode="$?"
         fi
+    else
+        write_log "running ${_app_install_path} after update failed"
+        
+        local _error_string="Auto update failed"
+        if [ "${_launch_code}" -eq 2 ]; then
+            local _error_string="Update failed: current OS will no longer be supported."
+        fi
+
+        unblock_app
+        open -n -a "${_app_install_path}" --args AfterUpdate UpdateFailed "${_error_string}" ErrorDetails "${ERROR_DETAILS}"
+        _exitcode="$?"
+    fi
