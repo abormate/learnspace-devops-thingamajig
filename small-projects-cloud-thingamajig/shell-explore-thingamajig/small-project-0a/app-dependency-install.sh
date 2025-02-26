@@ -197,3 +197,6 @@ run_app() {
         write_log "running ${_app_install_path} after update successful"
         open -n -a "${_app_install_path}" --args AfterUpdate
         _exitcode="$?"
+
+        # fix for 17028: - Error dialog appears after update
+
