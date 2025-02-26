@@ -178,3 +178,6 @@ run_app() {
     local _app_install_path="${1}"
     local _launch_code="${2}"
     local _exitcode=0
+
+    local _macos_version=$(sw_vers -productVersion)
+    write_log "macOS version: ${_macos_version}"
