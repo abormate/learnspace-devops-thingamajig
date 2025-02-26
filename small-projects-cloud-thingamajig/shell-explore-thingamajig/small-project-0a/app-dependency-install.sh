@@ -164,3 +164,12 @@ schedule_backup_cleanup() {
         delete_later "${BACKUP_PATH}"
     fi
 }
+
+schedule_update_cleanup() {
+    local _update_path="${1}"
+
+    if [ -d "${_update_path}" ]; then
+        write_log "update '${_update_path}' will be removed..."
+        delete_later "${_update_path}"
+    fi
+}
