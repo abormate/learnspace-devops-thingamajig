@@ -219,3 +219,7 @@ run_app() {
         open -n -a "${_app_install_path}" --args AfterUpdate UpdateFailed "${_error_string}" ErrorDetails "${ERROR_DETAILS}"
         _exitcode="$?"
     fi
+
+    write_log "app was run with code... = ${_exitcode}"
+    return $_exitcode
+}
