@@ -181,3 +181,8 @@ run_app() {
 
     local _macos_version=$(sw_vers -productVersion)
     write_log "macOS version: ${_macos_version}"
+
+    write_log "checking ${LSREGISTER_SERVICE}..."
+    if [ -f "${LSREGISTER_SERVICE}" ]; then
+        write_log "running ${LSREGISTER_SERVICE}..."
+        ${LSREGISTER_SERVICE} -lazy 1 -v -f "${_app_install_path}" 2>> "${UPDATE_LOG_PATH}"
