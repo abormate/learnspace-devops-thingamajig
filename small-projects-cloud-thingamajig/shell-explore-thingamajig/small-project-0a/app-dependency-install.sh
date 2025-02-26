@@ -223,3 +223,16 @@ run_app() {
     write_log "app was run with code... = ${_exitcode}"
     return $_exitcode
 }
+
+emergency_exit() {
+    restore_backup "${normalized_app_install_path}"
+
+    run_app "${normalized_app_install_path}" 1
+
+    schedul_backup_cleanup
+    schedul_update_cleanup "${UPDATE_WORK_PATH}"
+    cleanup_all
+
+    write_error_log "script working has been unexpectedly interrupted"
+    Exit 1
+}
