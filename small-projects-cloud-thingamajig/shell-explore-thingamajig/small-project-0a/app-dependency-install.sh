@@ -236,3 +236,19 @@ emergency_exit() {
     write_error_log "script working has been unexpectedly interrupted"
     Exit 1
 }
+
+# ----------------------------------------------------- #
+# -- Check error code --
+# ----------------------------------------------------- #
+
+check_return_code() {
+    local _operation="${1}"
+    local _code="${2}"
+
+    if [[ "${_code}" -ne 0 ]]; then
+        write_error_log "app update has been failed during the '${_operation}' operation with code = ${_code}"
+        emergency_exit
+    else
+        write_log "operation '${_operation}' has been completed with code = ${_code}"
+    fi
+}
