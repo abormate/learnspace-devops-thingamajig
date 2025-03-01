@@ -252,3 +252,20 @@ check_return_code() {
         write_log "operation '${_operation}' has been completed with code = ${_code}"
     fi
 }
+
+# ------------------------------------------------------- #
+# -- Terminate process to install os dependency
+# ------------------------------------------------------- #
+
+process_is_terminated() {
+    local _app_pid="${1}"
+
+    for pgrep_pid in $(ps -xf | grep "${APP_NAME}" | awk '{print $2}'); do
+        if [ "${pgrep_pid}" == "${_app_pid}" ]; then
+            false; return
+        fi
+    done
+
+    write_log "process with pid = ${_app_pid} was terminated"
+    true; return
+}
