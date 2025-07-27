@@ -271,6 +271,38 @@ process_is_terminated() {
 }
 
 # ------------------------------------------------------- #
-# -- 
+# -- Check and Finish Process -- 
 # ------------------------------------------------------- #
 
+check_and_finish_process() {
+    local _app_pid="${1}"
+    local _exitcode=0
+
+    for (( i=0; i<10; i++ )); do
+        if process_is_terminated "${_app_pid}"; then
+            return 0
+        else
+            write_log "process with pid = ${_app_pid} was not terminated"
+            pause 0.5
+        fi
+    done
+
+    if process_is_terminated "${_app_pid}"; then
+        return 0
+    else
+        write_log "force kill process with pid = ${_app_pid}"
+        kill -s KILL "${_app_pid}" # 'kill -9 $PROC_ID' is equal command
+
+        _exitcode="$?"
+        if [ "${_exitcode}" -eq 0 ]; then
+            write_log "process with pid = ${_app_pid} has been terminated"
+            return 0
+        else
+            return ${_exitcode}
+        fi
+    fi
+}
+
+# --------------------------------------------------------- #
+#
+# --------------------------------------------------------- #
